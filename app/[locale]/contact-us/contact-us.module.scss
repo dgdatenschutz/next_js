@@ -1,0 +1,33 @@
+.contact_us {
+  &_header {
+    background-image: url("/contact-us/contact-page-background.png");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+
+    @media only screen and (max-width: 1600px) {
+      height: 370px;
+    }
+    @media only screen and (max-width: 1300px) {
+      height: 350px;
+    }
+    @media only screen and (max-width: 610px) {
+      height: 280px;
+    }
+
+    &_section {
+      padding-top: 50px;
+
+      @media only screen and (max-width: 1600px) {
+        padding-top: 40px;
+      }
+    }
+  }
+  &_content {
+
+    &_form {
+        position: relative;
+        bottom: 60px;
+    }
+  }
+}

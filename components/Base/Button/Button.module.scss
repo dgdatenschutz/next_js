@@ -1,0 +1,145 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 13px 18px;
+  outline: unset;
+  border: unset;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  min-width: 140px;
+
+  @media only screen and (max-width: 1300px) {
+    font-size: 16px;
+    padding: 11px 16px;
+  }
+  @media only screen and (max-width: 1204px) {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+  @media only screen and (max-width: 860px) {
+    font-size: 12px;
+  }
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:disabled {
+  cursor: unset;
+  transform: unset;
+  background-color: gray;
+  &:hover {
+    background-color: gray;
+  }
+}
+
+.defaultBlue {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.defaultBlue:hover {
+  background-color: #145c95;
+}
+
+.defaultBlue:active {
+  background-color: #145c95;
+}
+
+.transparent {
+  background-color: unset;
+  color: #1c75bc;
+  border: 1px solid #1c75bc;
+}
+
+.transparent:hover {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.transparent:active {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.orange {
+  background-color: #f7a639;
+  color: white;
+}
+
+.orange:hover {
+  background-color: #f69b20;
+}
+
+.orange:active {
+  background-color: #f69b20;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #1c75bc;
+}
+
+.white:hover {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.white:active {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.lightBlue {
+  background-color: #1c75bc1a;
+  color: #1c75bc;
+}
+
+.lightBlue:hover {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.lightBlue:active {
+  background-color: #1c75bc;
+  color: white;
+}
+
+.file {
+  background-color: #f7a639;
+  color: white;
+  width: 177px;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 12px 18px;
+  height: 46px;
+
+  @media only screen and (max-width: 810px) {
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+.file:hover {
+  background-color: #f69b20;
+}
+
+.file:active {
+  background-color: #f69b20;
+}
+
+.attach_icon {
+  width: 20px;
+  height: 20px;
+
+  @media only screen and (max-width: 810px) {
+    width: 15px;
+    height: 15px;
+  }
+}

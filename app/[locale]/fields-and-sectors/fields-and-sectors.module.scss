@@ -1,0 +1,24 @@
+.fields_and_sectors {
+  background-image: url("/fields-and-sectors-image.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: top;
+
+  @media only screen and (max-width: 1600px) {
+    height: 370px;
+  }
+  @media only screen and (max-width: 1300px) {
+    height: 350px;
+  }
+  @media only screen and (max-width: 610px) {
+    height: 280px;
+  }
+  &_title {
+    padding-top: 60px;
+
+    @media only screen and (max-width: 1300px) {
+      padding-top: 50px;
+    }
+  }
+}

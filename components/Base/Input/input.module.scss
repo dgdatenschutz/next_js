@@ -1,0 +1,59 @@
+.fields {
+  &_name {
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 6px;
+  }
+  &_item {
+    border: 1px solid #3a3a3a38;
+    height: 38px;
+    width: 100%;
+    border-radius: 4px;
+    outline: unset;
+    padding: 0px 5px;
+    font-size: 14px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1650px) {
+      height: 30px;
+    }
+
+    &_checkbox {
+      width: 22px;
+      height: 22px;
+    }
+  }
+  &_text_area {
+    border: 1px solid #3a3a3a38;
+    min-height: 160px;
+    width: 100%;
+    border-radius: 4px;
+    outline: unset;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    resize: none;
+    overflow: auto;
+
+    @media only screen and (max-width: 1650px) {
+      min-height: 130px;
+    }
+    @media only screen and (max-width: 1550px) {
+      min-height: 120px;
+    }
+    @media only screen and (max-width: 800px) {
+      min-height: 100px;
+    }
+  }
+  &_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      color: #6d6d6d;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+File Location: https://cert-authority.com/pdf-files/footer-pdf-files/policy-of-impartiality.pdf
+Link Text: Policy of Impartiality
+Standard Domain (to place external links to): https://cert-authority.com/Policy-Of-Impartiality/. 
+
+File Location: https://cert-authority.com/pdf-files/footer-pdf-files/whistleblowing-hotline.pdf
+Link Text: Whistleblowing Hotline
+Standard Domain (to place external links to): https://cert-authority.com/Whistleblowing-Hotline/. 
+
+File Location: https://cert-authority.com/pdf-files/footer-pdf-files/transparency-document.pdf
+Link Text: Transparency Document
+Standard Domain (to place external links to): https://cert-authority.com/Transparency-Document/. 
+
+File Location: https://cert-authority.com/pdf-files/agreement-files/certification_agreement.pdf
+Link Text: Certification Agreement
+Standard Domain (to place external links to): https://cert-authority.com/Certification-Agreement/. 
+
+File Location: https://cert-authority.com/pdf-files/agreement-files/licensing_agreement.pdf
+Link Text: Trademark Licensing Agreement
+Standard Domain (to place external links to): https://cert-authority.com/Trademark-Licensing-Agreement/. 
+
+File Location: https://cert-authority.com/pdf-files/footer-pdf-files/code-of-conduct.pdf
+Link Text: Code of Conduct
+Standard Domain (to place external links to): https://cert-authority.com/Code-of-Conduct/. 
+
+File Location: https://cert-authority.com/pdf-files/footer-pdf-files/TermsAndConditionsForDataProtection.pdf
+Link Text: Terms and Conditions for Data Protection
+Standard Domain (to place external links to): https://cert-authority.com/Terms-and-Conditions-for-Data-Protection/. 

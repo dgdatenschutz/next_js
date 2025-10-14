@@ -1,0 +1,830 @@
+.pageOne {
+  padding: 60px 300px 100px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 60px 150px 90px 150px;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 1450px) {
+    padding: 60px 60px 30px 60px;
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1200px) {
+    padding: 60px 40px 30px 40px;
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 610px) {
+    padding: 60px 70px 50px 70px;
+    gap: 25px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 60px 20px 40px 20px;
+  }
+
+  .certification_content {
+    padding-top: 0;
+    align-items: start;
+    @media only screen and (max-width: 410px) {
+      padding-top: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &_image {
+      width: 406px;
+      height: 360px;
+      @media only screen and (max-width: 610px) {
+        width: 360px;
+        height: 300px;
+      }
+      @media only screen and (max-width: 510px) {
+        width: 300px;
+        height: 240px;
+      }
+      @media only screen and (max-width: 410px) {
+        width: 260px;
+        height: 200px;
+      }
+    }
+    &_text_block {
+      display: flex;
+      flex-direction: column;
+      gap: 65px;
+
+      @media only screen and (max-width: 17000px) {
+        gap: 30px;
+      }
+      @media only screen and (max-width: 1450px) {
+        gap: 45px;
+      }
+      @media only screen and (max-width: 1300px) {
+        gap: 40px;
+      }
+      @media only screen and (max-width: 1024px) {
+        gap: 30px;
+      }
+
+      &_first_row {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        margin-top: -260px;
+
+        @media only screen and (max-width: 1600px) {
+          margin-top: -265px;
+        }
+        @media only screen and (max-width: 1200px) {
+          gap: 120px;
+        }
+        @media only screen and (max-width: 1000px) {
+          margin-top: -320px;
+        }
+        @media only screen and (max-width: 950px) {
+          gap: 40px;
+          margin-top: -303px;
+          flex-direction: column;
+        }
+        @media only screen and (max-width: 900px) {
+          gap: 30px;
+          margin-top: -295px;
+          flex-direction: column;
+        }
+        @media only screen and (max-width: 610px) {
+          margin-top: -255px;
+        }
+        @media only screen and (max-width: 510px) {
+          margin-top: -180px;
+        }
+
+        .title_block {
+          display: flex;
+          flex-direction: column;
+          gap: 27px;
+          align-items: start;
+
+          @media only screen and (max-width: 1024px) {
+            align-items: start;
+            gap: 20px;
+          }
+          @media only screen and (max-width: 950px) {
+            align-items: center;
+            gap: 20px;
+          }
+
+          &_title {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 500;
+            color: #3a3a3a;
+            width: 340px;
+
+            @media only screen and (max-width: 1300px) {
+              font-size: 30px;
+              line-height: 48px;
+              width: 300px;
+            }
+            @media only screen and (max-width: 1024px) {
+              font-size: 26px;
+              line-height: 40px;
+              width: 300px;
+            }
+            @media only screen and (max-width: 950px) {
+              font-size: 26px;
+              line-height: 40px;
+              width: max-content;
+            }
+            @media only screen and (max-width: 610px) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+            @media only screen and (max-width: 500px) {
+              font-size: 20px;
+              line-height: 26px;
+            }
+            @media only screen and (max-width: 410px) {
+              font-size: 18px;
+              line-height: 24px;
+            }
+          }
+          hr {
+            width: 106px;
+            height: 8px;
+            background-color: #1c75bc;
+          }
+        }
+        .first_row_text_container {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          &_text {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #000000;
+
+            @media only screen and (max-width: 1300px) {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+    &_second_text {
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 400;
+      color: #000000;
+
+      @media only screen and (max-width: 1300px) {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.pageTwo {
+  padding: 60px 300px 24px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  @media only screen and (max-width: 1700px) {
+    padding: 60px 200px 60px 200px;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 1550px) {
+    padding: 60px 170px 90px 170px;
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1400px) {
+    padding: 40px 150px 50px 150px;
+    gap: 40px;
+  }
+  @media only screen and (max-width: 1200px) {
+    padding: 40px 100px 50px 100px;
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    padding: 30px 70px 70px 70px;
+  }
+  @media only screen and (max-width: 610px) {
+    padding: 60px 30px 50px 70px;
+    gap: 25px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 60px 20px 40px 20px;
+  }
+
+  .certification_content {
+    align-items: start;
+
+    @media only screen and (max-width: 950px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &_image {
+      width: 406px;
+      height: 360px;
+      @media only screen and (max-width: 610px) {
+        width: 360px;
+        height: 300px;
+      }
+      @media only screen and (max-width: 510px) {
+        width: 300px;
+        height: 240px;
+      }
+      @media only screen and (max-width: 410px) {
+        width: 260px;
+        height: 200px;
+      }
+    }
+    &_text_block {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      &_first_row {
+        display: flex;
+        flex-direction: row;
+        gap: 115px;
+        margin-top: -375px;
+
+        @media only screen and (max-width: 1450px) {
+          margin-top: -290px;
+        }
+        @media only screen and (max-width: 1600px) {
+          gap: 110px;
+          margin-top: -290px;
+        }
+        @media only screen and (max-width: 1600px) {
+          gap: 110px;
+          margin-top: -320px;
+          flex-direction: row;
+        }
+        @media only screen and (max-width: 950px) {
+          gap: 40px;
+          margin-top: -350px;
+          flex-direction: column;
+        }
+        @media only screen and (max-width: 610px) {
+          margin-top: -315px;
+        }
+        @media only screen and (max-width: 510px) {
+          margin-top: -230px;
+        }
+
+        .title_block {
+          display: flex;
+          flex-direction: column;
+          gap: 27px;
+
+          @media only screen and (max-width: 1024px) {
+            align-items: start;
+            gap: 20px;
+          }
+          @media only screen and (max-width: 950px) {
+            align-items: center;
+            gap: 20px;
+          }
+
+          &_title {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 500;
+            color: #3a3a3a;
+            width: 425px;
+
+            @media only screen and (max-width: 1300px) {
+              font-size: 30px;
+              line-height: 48px;
+              width: 320px;
+            }
+            @media only screen and (max-width: 950px) {
+              font-size: 30px;
+              line-height: 48px;
+              width: 404px;
+              text-align: center;
+            }
+            @media only screen and (max-width: 610px) {
+              font-size: 24px;
+              line-height: 32px;
+              width: 350px;
+            }
+            @media only screen and (max-width: 500px) {
+              font-size: 20px;
+              line-height: 26px;
+              width: 250px;
+            }
+            @media only screen and (max-width: 410px) {
+              font-size: 18px;
+              line-height: 24px;
+              width: 200px;
+            }
+          }
+          hr {
+            width: 106px;
+            height: 8px;
+            background-color: #1c75bc;
+          }
+        }
+        .first_row_text_container {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          &_text {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #000000;
+
+            @media only screen and (max-width: 1300px) {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+    &_second_text {
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 400;
+      color: #000000;
+
+      @media only screen and (max-width: 1300px) {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.pageThree {
+  padding: 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 0 250px;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 1450px) {
+    padding: 0 170px;
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1300px) {
+    padding: 0 150px;
+    gap: 40px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 0 100px;
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 610px) {
+    padding: 0 70px;
+    gap: 25px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 0 20px;
+  }
+
+  .certification_content {
+    @media only screen and (max-width: 1050px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &_image {
+      width: 406px;
+      height: 360px;
+      @media only screen and (max-width: 610px) {
+        width: 360px;
+        height: 300px;
+      }
+      @media only screen and (max-width: 510px) {
+        width: 260px;
+        height: 200px;
+      }
+    }
+    &_text_block {
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (max-width: 1300px) {
+        gap: 0;
+      }
+
+      &_first_row {
+        display: flex;
+        flex-direction: row;
+        gap: 110px;
+        margin-top: -325px;
+
+        @media only screen and (max-width: 1600px) {
+          gap: 110px;
+        }
+        @media only screen and (max-width: 1200px) {
+          gap: 90px;
+          flex-direction: row;
+        }
+        @media only screen and (max-width: 1050px) {
+          gap: 25px;
+          flex-direction: column;
+        }
+        @media only screen and (max-width: 610px) {
+          margin-top: -260px;
+        }
+        @media only screen and (max-width: 510px) {
+          margin-top: -210px;
+        }
+        @media only screen and (max-width: 410px) {
+          margin-top: -175px;
+        }
+        @media only screen and (max-width: 310px) {
+          margin-top: -185px;
+        }
+
+        .title_block {
+          display: flex;
+          flex-direction: column;
+          gap: 27px;
+
+          @media only screen and (max-width: 1050px) {
+            align-items: center;
+            gap: 20px;
+          }
+
+          &_title {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 500;
+            color: #3a3a3a;
+            width: 340px;
+            @media only screen and (max-width: 1300px) {
+              font-size: 30px;
+              line-height: 48px;
+              width: 300px;
+            }
+
+            @media only screen and (max-width: 1050px) {
+              font-size: 26px;
+              line-height: 40px;
+              width: max-content;
+            }
+            @media only screen and (max-width: 610px) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+            @media only screen and (max-width: 500px) {
+              font-size: 20px;
+              line-height: 26px;
+            }
+            @media only screen and (max-width: 410px) {
+              font-size: 18px;
+              line-height: 24px;
+            }
+          }
+          hr {
+            width: 106px;
+            height: 8px;
+            background-color: #1c75bc;
+          }
+        }
+        .first_row_text_container {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          &_text {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #000000;
+
+            @media only screen and (max-width: 1300px) {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+    &_second_text {
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 75px;
+
+      @media only screen and (max-width: 1300px) {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.pageFour {
+  padding: 10px 300px 55px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  @media only screen and (max-width: 1700px) {
+    padding: 10px 200px 50px 200px;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 1550px) {
+    padding: 10px 170px 50px 170px;
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1400px) {
+    padding: 10px 150px 50px 150px;
+    gap: 40px;
+  }
+  @media only screen and (max-width: 1200px) {
+    padding: 10px 100px 50px 100px;
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    padding: 30px 70px 70px 70px;
+  }
+  @media only screen and (max-width: 610px) {
+    padding: 60px 30px 50px 70px;
+    gap: 25px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 60px 20px 40px 20px;
+  }
+  .certification_content {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1200px) {
+      align-items: center;
+    }
+    &_image {
+      width: 406px;
+      height: 360px;
+      @media only screen and (max-width: 610px) {
+        width: 360px;
+        height: 300px;
+      }
+      @media only screen and (max-width: 510px) {
+        width: 240px;
+        height: 200px;
+      }
+    }
+    &_text_block {
+      display: flex;
+      flex-direction: column;
+      gap: 135px;
+
+      &_first_row {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: -315px;
+
+        @media only screen and (max-width: 1450px) {
+          margin-top: -290px;
+        }
+        @media only screen and (max-width: 1600px) {
+          margin-top: -290px;
+        }
+        @media only screen and (max-width: 1600px) {
+          margin-top: -320px;
+          flex-direction: row;
+        }
+        @media only screen and (max-width: 1200px) {
+          gap: 40px;
+          margin-top: -350px;
+          flex-direction: column;
+        }
+        @media only screen and (max-width: 610px) {
+          margin-top: -315px;
+        }
+        @media only screen and (max-width: 510px) {
+          margin-top: -230px;
+        }
+
+        .title_block {
+          display: flex;
+          flex-direction: column;
+          gap: 27px;
+
+          @media only screen and (max-width: 1200px) {
+            align-items: center;
+            gap: 20px;
+          }
+
+          &_title {
+            font-size: 32px;
+            line-height: 56px;
+            font-weight: 500;
+            color: #3a3a3a;
+            width: max-content;
+
+            @media only screen and (max-width: 1300px) {
+              font-size: 30px;
+              line-height: 48px;
+            }
+            @media only screen and (max-width: 1200px) {
+              font-size: 30px;
+              line-height: 48px;
+              text-align: center;
+            }
+            @media only screen and (max-width: 610px) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+            @media only screen and (max-width: 500px) {
+              font-size: 20px;
+              line-height: 26px;
+            }
+            @media only screen and (max-width: 410px) {
+              font-size: 18px;
+              line-height: 24px;
+            }
+          }
+          hr {
+            width: 106px;
+            height: 8px;
+            background-color: #1c75bc;
+          }
+        }
+        .first_row_text_container {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          &_text {
+            font-size: 15px;
+            line-height: 25px;
+            font-weight: 400;
+            color: #000000;
+
+            @media only screen and (max-width: 1600px) {
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.pageFive {
+  padding: 10px 300px 55px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 10px 250px 55px;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 1450px) {
+    padding: 10px 170px 55px;
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1300px) {
+    padding: 10px 150px 55px;
+    gap: 40px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 10px 100px 55px;
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 610px) {
+    padding: 10px 70px 55px;
+    gap: 25px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 10px 20px 40px 20px;
+  }
+
+  .certification_content {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1500px) {
+      align-items: center;
+    }
+    &_image {
+      width: 406px;
+      height: 360px;
+      @media only screen and (max-width: 610px) {
+        width: 360px;
+        height: 300px;
+      }
+      @media only screen and (max-width: 510px) {
+        width: 300px;
+        height: 240px;
+      }
+    }
+    &_text_block {
+      display: flex;
+      flex-direction: column;
+      gap: 135px;
+
+      &_first_row {
+        display: flex;
+        flex-direction: row;
+        margin-top: -325px;
+
+        @media only screen and (max-width: 620px) {
+          margin-top: -250px;
+        }
+        @media only screen and (max-width: 510px) {
+          margin-top: -220px;
+        }
+        .title_block {
+          display: flex;
+          flex-direction: column;
+          gap: 27px;
+
+          @media only screen and (max-width: 1500px) {
+            align-items: center;
+            gap: 20px;
+          }
+
+          &_title {
+            font-size: 32px;
+            line-height: 56px;
+            font-weight: 500;
+            color: #3a3a3a;
+
+            @media only screen and (max-width: 1500px) {
+              text-align: center;
+            }
+            @media only screen and (max-width: 1300px) {
+              font-size: 30px;
+              line-height: 48px;
+              text-align: center;
+            }
+            @media only screen and (max-width: 1024px) {
+              font-size: 26px;
+              line-height: 40px;
+            }
+            @media only screen and (max-width: 950px) {
+              font-size: 26px;
+              line-height: 40px;
+            }
+            @media only screen and (max-width: 610px) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+            @media only screen and (max-width: 500px) {
+              font-size: 20px;
+              line-height: 26px;
+            }
+            @media only screen and (max-width: 410px) {
+              font-size: 18px;
+              line-height: 24px;
+            }
+          }
+          hr {
+            width: 106px;
+            height: 8px;
+            background-color: #1c75bc;
+          }
+        }
+        .first_row_text_container {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          &_text {
+            font-size: 15px;
+            line-height: 25px;
+            font-weight: 400;
+            color: #000000;
+
+            @media only screen and (max-width: 1600px) {
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+.main {
+  background-image: url("/pricing/pricing-page-background.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+
+  @media only screen and (max-width: 1600px) {
+    height: 370px;
+  }
+  @media only screen and (max-width: 1300px) {
+    height: 350px;
+  }
+  @media only screen and (max-width: 610px) {
+    height: 280px;
+  }
+  .headerSection {
+    padding-top: 60px;
+
+    @media only screen and (max-width: 1300px) {
+      padding-top: 50px;
+    }
+  }
+}
+
+.pricing_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 300px 0px 300px;
+  gap: 12px;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 70px 250px;
+  }
+  @media only screen and (max-width: 1450px) {
+    padding: 65px 170px;
+  }
+  @media only screen and (max-width: 1300px) {
+    padding: 60px 150px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 50px 50px;
+  }
+
+  @media only screen and (max-width: 710px) {
+    padding: 30px 30px;
+  }
+
+  @media only screen and (max-width: 610px) {
+    padding: 30px 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3a3a3a;
+
+    @media only screen and (max-width: 1450px) {
+      font-size: 26px;
+    }
+    @media only screen and (max-width: 610px) {
+      font-size: 24px;
+    }
+    @media only screen and (max-width: 510px) {
+      font-size: 20px;
+    }
+  }
+  h3 {
+    color: #1c75bc;
+    font-size: 22px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1450px) {
+      font-size: 20px;
+    }
+    @media only screen and (max-width: 610px) {
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 510px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+    @media only screen and (max-width: 1450px) {
+      font-size: 14px;
+    }
+
+    @media only screen and (max-width: 510px) {
+      font-size: 12px;
+    }
+  }
+  &_title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 75%;
+
+    @media only screen and (max-width: 710px) {
+      gap: 15px;
+    }
+
+    @media only screen and (max-width: 510px) {
+      gap: 10px;
+    }
+  }
+}
+
+.pricing_info {
+  padding: 80px 300px;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 70px 150px;
+  }
+  @media only screen and (max-width: 1450px) {
+    padding: 65px 170px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 50px 100px;
+  }
+  @media only screen and (max-width: 610px) {
+    padding: 45px 40px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 30px 20px;
+  }
+
+  &_steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: fit-content;
+
+    @media only screen and (max-width: 1024px) {
+      align-items: start;
+      gap: 20px;
+    }
+    @media only screen and (max-width: 950px) {
+      align-items: center;
+      gap: 20px;
+    }
+
+    &_title {
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 500;
+      color: black;
+
+      @media only screen and (max-width: 1300px) {
+        font-size: 30px;
+        line-height: 48px;
+        width: 300px;
+      }
+      @media only screen and (max-width: 1024px) {
+        font-size: 26px;
+        line-height: 40px;
+        width: 300px;
+      }
+      @media only screen and (max-width: 950px) {
+        font-size: 26px;
+        line-height: 40px;
+        width: max-content;
+      }
+      @media only screen and (max-width: 610px) {
+        font-size: 24px;
+        line-height: 32px;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 20px;
+        line-height: 26px;
+      }
+      @media only screen and (max-width: 410px) {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+
+    &_outline {
+      width: 106px;
+      height: 8px;
+      background-color: #1c75bc;
+    }
+  }
+
+  &_list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 27px;
+    padding-top: 50px;
+    &_line {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      h2 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #1c639b;
+
+        @media only screen and (max-width: 1300px) {
+          font-size: 24px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+
+        @media only screen and (max-width: 1300px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.step_image {
+  background-color: #ecf0f3;
+  padding: 75px 300px;
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 70px 250px;
+  }
+  @media only screen and (max-width: 1450px) {
+    padding: 65px 170px;
+  }
+  @media only screen and (max-width: 1300px) {
+    padding: 60px 150px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 50px 100px;
+  }
+
+  @media only screen and (max-width: 610px) {
+    padding: 45px 40px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 30px 20px;
+  }
+}

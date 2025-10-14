@@ -1,0 +1,175 @@
+.footer {
+  width: 100%;
+  padding: 50px 80px 10px 80px;
+
+  @media only screen and (max-width: 1400px) {
+    padding: 30px 10px 30px 10px;
+  }
+  @media only screen and (max-width: 610px) {
+    padding: 30px 10px 30px 50px;
+  }
+  @media only screen and (max-width: 410px) {
+    padding: 30px 10px 30px 30px;
+  }
+  @media only screen and (max-width: 320px) {
+    padding: 30px 10px 30px 10px;
+  }
+
+  background: linear-gradient(
+    0deg,
+    rgba(11, 60, 93, 1) 7%,
+    rgba(28, 99, 155, 1) 90%
+  );
+}
+
+.footer_items {
+  display: flex;
+  align-items: end;
+  gap: 130px;
+
+  @media only screen and (max-width: 1800px) {
+    align-items: start;
+  }
+  @media only screen and (max-width: 1500px) {
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1100px) {
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  @media only screen and (max-width: 800px) {
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width: 610px) {
+    justify-content: start;
+  }
+
+  &_start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+
+    @media only screen and (max-width: 1800px) {
+      align-items: start;
+    }
+    @media only screen and (max-width: 1300px) {
+      gap: 22px;
+    }
+    @media only screen and (max-width: 800px) {
+      align-items: start;
+    }
+    @media only screen and (max-width: 610px) {
+      gap: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+
+      @media only screen and (max-width: 1800px) {
+        width: max-content;
+      }
+      @media only screen and (max-width: 1300px) {
+        font-size: 18px;
+      }
+      @media only screen and (max-width: 1050px) {
+        font-size: 16px;
+      }
+    }
+  }
+  &_links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 78%;
+    gap: 30px;
+    @media only screen and (max-width: 1300px) {
+      gap: 25px;
+    }
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+
+    &_lines {
+      display: flex;
+      align-items: start;
+      width: 100%;
+      flex-wrap: nowrap;
+
+      @media only screen and (max-width: 610px) {
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      &_item {
+        padding: 0px 30px;
+        border-right: 1px solid #ffffff75;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        transition: all 0.1s ease;
+        &:hover {
+          color: rgba(255, 255, 255, 0.534);
+          transition: all 0.1s ease;
+        }
+
+        @media only screen and (max-width: 1300px) {
+          padding: 0 20px;
+          font-size: 14px;
+        }
+        @media only screen and (max-width: 1050px) {
+          padding: 0 10px;
+          font-size: 12px;
+        }
+        @media only screen and (max-width: 610px) {
+          padding: 0;
+          font-size: 14px;
+          border: none;
+        }
+        @media only screen and (max-width: 410px) {
+          padding: 0;
+        }
+      }
+      &_item:last-child {
+        border-right: unset;
+      }
+    }
+  }
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+
+  @media only screen and (max-width: 1300px) {
+    font-size: 14px;
+    margin-top: 40px;
+  }
+
+  &_text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #ffffff;
+
+    @media only screen and (max-width: 1300px) {
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 1050px) {
+      font-size: 14px;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 12px;
+    }
+  }
+}

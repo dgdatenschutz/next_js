@@ -1,0 +1,99 @@
+.section {
+  padding: 50px 300px 100px 300px;
+
+  @media only screen and (max-width: 1700px) {
+    padding: 50px 200px 100px 200px;
+  }
+  @media only screen and (max-width: 1550px) {
+    padding: 50px 170px 100px 170px;
+  }
+  @media only screen and (max-width: 1400px) {
+    padding: 45px 150px 90px 150px;
+  }
+  @media only screen and (max-width: 1200px) {
+    padding: 40px 100px 80px 100px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 35px 70px 60px 70px;
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 30px 70px 50px 70px;
+  }
+  @media only screen and (max-width: 610px) {
+    padding: 25px 30px 50px 30px;
+  }
+  @media only screen and (max-width: 510px) {
+    padding: 25px 20px 40px 20px;
+  }
+
+  .sectionText {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 1300px) {
+      font-size: 14px;
+      line-height: 28px;
+    }
+    @media only screen and (max-width: 950px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    @media only screen and (max-width: 610px) {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .additionalContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .moreButton {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #1c75bc;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    @media only screen and (max-width: 1300px) {
+      font-size: 14px;
+      line-height: 28px;
+    }
+
+    .arrowIcon {
+      margin-left: 10px;
+    }
+  }
+  .lessButton {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #1c75bc;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    @media only screen and (max-width: 1300px) {
+      font-size: 14px;
+      line-height: 28px;
+    }
+
+    .arrowLessIcon {
+      margin-left: 10px;
+      rotate: 180deg;
+    }
+  }
+
+  .baseButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

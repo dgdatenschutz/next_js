@@ -1,0 +1,20 @@
+.privacy_policy {
+  background-image: url("/certification-shop-image.png");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &_title {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 166px;
+  }
+}
+.text_section {
+  padding: 50px 300px;
+}
