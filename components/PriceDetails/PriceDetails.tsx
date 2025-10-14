@@ -68,6 +68,30 @@ export default function PriceDetails() {
           title={main("price.fourth-bottom.title")}
           description={main("price.fourth-bottom.description")}
         />
+        <PriceBox
+          iso="ISO 27701"
+          boxTitle={main("price.box-title")}
+          imageUrl="/landing-pictures/price-box3.svg"
+          price={[
+            `€ 199 /  ${main("price.month")} `,
+            `€ 2388 /  ${main("price.year")} `,
+            `€ 7164 /  ${main("price.years")} `,
+          ]}
+          title={main("price.fifth-bottom.title")}
+          description={main("price.fifth-bottom.description")}
+        />
+        <PriceBox
+          iso="ISO 42001"
+          boxTitle={main("price.box-title")}
+          imageUrl="/landing-pictures/price-box2.svg"
+          price={[
+            `€ 199 /  ${main("price.month")} `,
+            `€ 2388 /  ${main("price.year")} `,
+            `€ 7164 /  ${main("price.years")} `,
+          ]}
+          title={main("price.sixth-bottom.title")}
+          description={main("price.sixth-bottom.description")}
+        />
       </div>
       <div className={styles.price_section_description}>
         <p>{main("price.description")}</p>

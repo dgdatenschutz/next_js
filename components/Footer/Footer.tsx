@@ -14,7 +14,6 @@ type PdfLinks = {
   certification_mark: string;
   privacy: string;
   impartiality: string;
-  technical_measures: string;
   code_of_conduct: string;
   imprint: string;
   transparency_document: string;
@@ -29,8 +28,6 @@ const pdfLinks: Record<string, PdfLinks> = {
       "/pdf-files/footer-pdf-files/certification-mark-policy.pdf",
     privacy: "/pdf-files/footer-pdf-files/privacy-policy.pdf",
     impartiality: "/pdf-files/footer-pdf-files/impartiality-policy.pdf",
-    technical_measures:
-      "/pdf-files/footer-pdf-files/technical-and-organizational-measures.pdf",
     code_of_conduct: "/pdf-files/footer-pdf-files/code-of-conduct.pdf",
     imprint: "/pdf-files/footer-pdf-files/imprint-footer.pdf",
     transparency_document:
@@ -45,8 +42,6 @@ const pdfLinks: Record<string, PdfLinks> = {
       "/pdf-files/footer-pdf-files/certification-mark-policy.pdf",
     privacy: "/pdf-files/footer-pdf-files/privacy-policy.pdf",
     impartiality: "/pdf-files/footer-pdf-files/impartiality-policy.pdf",
-    technical_measures:
-      "/pdf-files/footer-pdf-files/technical-and-organizational-measures.pdf",
     code_of_conduct: "/pdf-files/footer-pdf-files/code-of-conduct.pdf",
     imprint: "/pdf-files/footer-pdf-files/imprint-footer.pdf",
     transparency_document:
@@ -110,7 +105,6 @@ export default function Footer() {
     certification_mark,
     privacy,
     impartiality,
-    technical_measures,
     code_of_conduct,
     imprint,
     whistleblowing_hotline,
@@ -123,7 +117,6 @@ export default function Footer() {
     <div className={styles.footer}>
       <div className={styles.footer_items}>
         <div className={styles.footer_items_start}>
-          {pathname !== "/" && <p>{main("title")}</p>}
           <BaseButton
             text={buttons("manage-consent")}
             variant="orange"
@@ -165,23 +158,6 @@ export default function Footer() {
             >
               <a href={policy_of_impartiality} target="_blank" rel="noopener noreferrer">
                 {main("footerLinks.impartiality-policy")}
-              </a>
-            </div>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(
-              //     findDocumentByType("technical_measures"),
-              //     technical_measures
-              //   )
-              // }
-            >
-              <a
-                href={technical_measures}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {main("footerLinks.measures")}
               </a>
             </div>
             <div

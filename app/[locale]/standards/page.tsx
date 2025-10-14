@@ -96,6 +96,26 @@ export default function Standards() {
             <p className={styles.second_text}>{main("iso45001.bottom")}</p>
           </div>
         </AboutManagment>
+        <Managment
+          title={main("management.27701-title")}
+          subtitle={main("management.27701-description")}
+        />
+        <AboutManagment
+          content={main("iso27701.top")}
+          buttonText={main("management.27701-button")}
+        >
+          <p className={styles.text14001}>{main("iso27701.bottom")}</p>
+        </AboutManagment>
+        <Managment
+          title={main("management.42001-title")}
+          subtitle={main("management.42001-description")}
+        />
+        <AboutManagment
+          content={main("iso42001.top")}
+          buttonText={main("management.42001-button")}
+        >
+          <p className={styles.text14001}>{main("iso42001.bottom")}</p>
+        </AboutManagment>
       </div>
     </>
   );

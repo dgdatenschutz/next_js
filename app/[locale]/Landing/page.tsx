@@ -34,6 +34,8 @@ export default function Landing() {
     { code: "ISO 14001", description: main("boxes.14001"), imageUrl: "./landing-pictures/landing-box2Icon.svg" },
     { code: "ISO 27001", description: main("boxes.27001"), imageUrl: "./landing-pictures/landing-box3Icon.svg" },
     { code: "ISO 45001", description: main("boxes.45001"), imageUrl: "./landing-pictures/landing-box4Icon.svg" },
+    { code: "ISO 27701", description: main("boxes.27701"), imageUrl: "./landing-pictures/landing-box3Icon.svg" },
+    { code: "ISO 42001", description: main("boxes.42001"), imageUrl: "./landing-pictures/landing-box2Icon.svg" },
   ];
 
   const areaBoxesData = [

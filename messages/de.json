@@ -9,15 +9,12 @@
       "contact": "Kontaktieren Sie uns"
     }
   },
-
   "Footer": {
-    "title": "ISO-ZERTIFIZIERUNGSBLOG",
     "copyright": "Copyright © 2024 Alle Rechte vorbehalten.",
     "footerLinks": {
       "certification-policy": "Prüfzeichenrichtlinie",
       "privacy-policy": "Datenschutzrichtlinie",
       "impartiality-policy": "Politik der Unparteilichkeit",
-      "measures": "Technische und organisatorische Maßnahmen",
       "agreements": "Vereinbarungen",
       "imprint": "Impressum",
       "transparency": "Transparenzdokument",
@@ -34,7 +31,7 @@
       "14001": "Umweltmanagementstandard",
       "27001": "Standard für Informationssicherheits management",
       "45001": "Arbeitssicherheits- und Gesundheitsschutz management",
-      "27701": "Datenschutz-Informations-Management-Systeme",
+      "27701": "Managementsysteme für Datenschutzinformationen",
       "42001": "Managementsysteme für künstliche Intelligenz"
     },
     "certification": {
@@ -68,6 +65,14 @@
       "fourth-bottom": {
         "title": "Arbeitssicherheits- und Gesundheitsschutzmanagement standard",
         "description": "Enthält Empfehlungen zur Förderung sicherer und gesunder Arbeitsplätze durch die Vermeidung arbeitsbedingter Verletzungen und Erkrankungen."
+      },
+      "fifth-bottom": {
+        "title": "Datenschutz-Informations-Management-Standard",
+        "description": "ISO 27701 ist eine internationale Norm zur Einrichtung eines Datenschutz-Informationsmanagementsystems zum Schutz personenbezogener Informationen in Übereinstimmung mit Datenschutzgesetzen."
+      },
+      "sixth-bottom": {
+        "title": "Künstliche-Intelligenz-Management-Standard",
+        "description": "ISO 42001 ist eine internationale Norm, die einen Managementrahmen für die verantwortungsvolle Steuerung, Entwicklung und Nutzung von Künstlicher Intelligenz (KI) bietet."
       }
     },
     "fields": {
@@ -102,7 +107,13 @@
       "27001-button": "Ich möchte nach ISO 27001 zertifiziert werden",
       "45001-title": "ISO 45001 – Arbeitsschutzmanagementnorm",
       "45001-description": "Vorteile der ISO 45001",
-      "45001-button": "Ich möchte nach ISO 45001 zertifiziert werden"
+      "45001-button": "Ich möchte nach ISO 45001 zertifiziert werden",
+      "27701-title": "ISO 27701 – Managementsysteme für den Datenschutz",
+      "27701-description": "Datenschutz-Informations-Management-Standard",
+      "27701-button": "Ich möchte nach ISO 27701 zertifiziert werden",
+      "42001-title": "ISO 42001 – Managementsysteme für künstliche Intelligenz",
+      "42001-description": "Künstliche-Intelligenz-Management-Standard",
+      "42001-button": "Ich möchte nach ISO 42001 zertifiziert werden"
     },
     "iso9001": {
       "top": "Ursprünglich wurde die Norm ISO 9001 im Jahr 1987 herausgegeben. Im September 2015 wurde die neueste Ausgabe der ISO 9001 veröffentlicht. ISO 9001 ist eine globale Norm, die die Anforderungen an ein Qualitätsmanagementsystem (QMS) umreißt und von Unternehmen verwendet wird, um nachzuweisen, dass sie durchgängig Produkte und Dienstleistungen liefern können, die die Verbraucher- und Regulierungskriterien erfüllen. Es ist die am weitesten verbreitete Norm der ISO 9000-Reihe und die einzige, für die sich Organisationen zertifizieren lassen können. ISO 9001:2015 gilt für alle Unternehmen, unabhängig von ihrer Größe oder Branche. Allen ISO 9001-zertifizierten Unternehmen wird empfohlen, auf ISO 9001:2015 aufzurüsten, was Organisationen aller Art und Größe dabei hilft, Abläufe zu verwalten, die Systemleistung zu verbessern und sich stetig weiterzuentwickeln. ISO 9001 ist eine prozessorientierte Methode zur Aufzeichnung und Bewertung der Organisation, ihrer Aufgaben und Praktiken, die darauf abzielen, eine erfolgreiche Produktqualität im Unternehmen zu erreichen. Im Mittelpunkt steht die Strategie „Planen-Ausführen-Prüfen-Handeln“. Viele Themen werden in bestimmten Teilen der Norm ausführlich behandelt, darunter:",
@@ -114,7 +125,6 @@
       },
       "second-li": {
         "title": "Ein Unternehmen, das ein ISO 9001:2015-Zertifikat erhalten hat, hat nachgewiesen, dass:",
-
         "item1": "Es implementiert die Kriterien der Norm ISO 9001,",
         "item2": "Es implementiert die Kriterien der Norm ISO 9001,",
         "item3": "Es koordiniert und kategorisiert Dokumentationen."
@@ -143,6 +153,14 @@
         "item8": "Fähigkeit, gesetzliche Verpflichtungen zu erfüllen."
       },
       "bottom": "ISO 45001 schlägt ein Modell zur Erhöhung der Sicherheit am Arbeitsplatz, zur Reduzierung von Gefahren am Arbeitsplatz und zur Verbesserung des Wohlbefindens und der Gesundheit der Mitarbeiter vor, mit dem ein Unternehmen seine Betriebseffizienz dynamisch steigern kann. Darüber hinaus gewährleistet es die weltweite Einhaltung bestehender Gesetze. Alle diese Schritte zusammen helfen einem Unternehmen, das Image eines „geschützten Arbeitsplatzes“ zu entwickeln, was eine Reihe von Vorteilen mit sich bringt, die von geringeren Gesundheitskosten bis hin zu höherer Mitarbeiterzufriedenheit reichen – und das alles, während Sie Ihren politischen Interessen treu bleiben. Unsere Spezialisten verfügen über umfassende Kenntnisse sowohl zu Managementsystemen als auch zu effektivem und langfristigem Arbeits- und Gesundheitsschutz. Wir prüfen und zertifizieren Ihr Unternehmen gemäß ISO 45001."
+    },
+    "iso27701": {
+      "top": "ISO 27701 ist eine internationale Norm zur Bewältigung der wachsenden weltweiten Nachfrage nach standardisiertem Datenschutzmanagement. Ihre Entwicklung wurde durch die rasche Expansion digitaler Dienste, internationale Datenströme und die Einführung strenger Datenschutzgesetze wie der Datenschutz-Grundverordnung (DSGVO) oder des California Consumer Privacy Act (CCPA) vorangetrieben. Die Norm wurde entwickelt, um einen strukturierten Rahmen für die Verwaltung personenbezogener Daten (PII) innerhalb einer Organisation zu schaffen, und führt datenschutzspezifische Kontrollen, Anforderungen und Anleitungen für Datenverantwortliche und Datenverarbeiter ein. ISO 27701 schließt die Lücke zwischen Informationssicherheit und Datenschutzkonformität, indem es operative Maßnahmen hinzufügt, die mit mehreren rechtlichen Rahmenbedingungen übereinstimmen, was es zu einem weltweit anerkannten Datenschutzzertifizierungsstandard macht.",
+      "bottom": "Für Organisationen sind die Vorteile von ISO 27701 erheblich. Es bietet eine klare, prüffähige Methodik zum Nachweis der Einhaltung von Datenschutzgesetzen und -anforderungen, was das Vertrauen von Kunden, Aufsichtsbehörden und Geschäftspartnern stärkt. Durch die Implementierung von ISO 27701 können Organisationen konsistente Prozesse für die Datenerhebung, -nutzung, -speicherung und -löschung etablieren und so eine rechtmäßige, transparente und sichere Handhabung personenbezogener Daten gewährleisten. Dies reduziert nicht nur das Risiko von Verstößen und gesetzlichen Strafen, sondern bietet auch einen Wettbewerbsvorteil, indem die Organisation als datenschutzbewusstes und vertrauenswürdiges Unternehmen positioniert wird. Darüber hinaus hilft die Norm, Datenschutz- und Sicherheitspraktiken unter einem einzigen Managementsystem zu vereinen, was die Compliance-Anstrengungen über Gerichtsbarkeiten hinweg rationalisiert und die Kosten und Komplexität der Erfüllung unterschiedlicher regulatorischer Anforderungen reduziert. In einer Ära, in der der Datenschutz ein entscheidender Wettbewerbsfaktor ist, unterstützt ISO 27701 die langfristige betriebliche Widerstandsfähigkeit, stärkt das Vertrauen der Stakeholder und erleichtert sicherere grenzüberschreitende Datenübertragungen."
+    },
+    "iso42001": {
+      "top": "ISO 42001 ist ein international anerkanntes Managementsystem für künstliche Intelligenz (AIMS). Seine Schaffung war eine Reaktion auf den rasanten Aufstieg von KI-Technologien in allen Branchen und den wachsenden globalen Konsens, dass KI einen strukturierten Governance-Rahmen benötigt, um sicherzustellen, dass sie verantwortungsvoll entwickelt, eingesetzt und gewartet wird. Die Norm wurde von einem Ausschuss für künstliche Intelligenz entwickelt, unter Einbeziehung von Beiträgen von Technologieexperten, Regulierungsbehörden und Branchenführern. Ihr Ziel ist es, Organisationen einen systematischen Ansatz zur Verwaltung von KI-Risiken, Ethik, Transparenz und Leistung zu bieten – im Einklang mit sich entwickelnden KI-Vorschriften wie dem EU AI Act und ähnlichen KI-Gesetzen. ISO 42001 enthält Grundsätze aus etablierten Managementsystemstandards wie ISO 9001 und ISO 27001, passt diese jedoch speziell an, um die einzigartigen Herausforderungen der KI-Governance, einschließlich algorithmischer Voreingenommenheit, Rechenschaftspflicht und Lebenszyklusmanagement, zu bewältigen.",
+      "bottom": "Für Organisationen bietet ISO 42001 erhebliche strategische und operative Vorteile. Es ermöglicht ihnen, Vertrauenswürdigkeit und Konformität in einer zunehmend regulierten KI-Landschaft nachzuweisen, was für das Gewinnen von Kundenvertrauen, die Erfüllung der Erwartungen von Stakeholdern und die Vermeidung von regulatorischen Strafen unerlässlich ist. Durch die Implementierung von ISO 42001 können Unternehmen klare Prozesse für das KI-Lebenszyklusmanagement etablieren – vom Design und der Entwicklung bis hin zum Einsatz, der Überwachung und der Außerbetriebnahme – und so sicherstellen, dass KI-Systeme sicher, zuverlässig und im Einklang mit ethischen Richtlinien bleiben. Die Norm fördert auch die Integration von KI-Risikobewertungen, Datenqualitätskontrollen und Leistungsüberwachung in den täglichen Betrieb, was dazu beiträgt, die Wahrscheinlichkeit von unbeabsichtigtem Schaden, Voreingenommenheit oder Missbrauch zu verringern. Über die Konformität hinaus bietet ISO 42001 einen Wettbewerbsvorteil, indem es zeigt, dass sich die Organisation zu verantwortungsvoller KI verpflichtet hat, was einen reibungsloseren Markteintritt, erfolgreichere Partnerschaften und eine stärkere Positionierung in Beschaffungsprozessen ermöglicht, bei denen KI-Governance ein Auswahlkriterium ist."
     }
   },
   "Sectors": {
