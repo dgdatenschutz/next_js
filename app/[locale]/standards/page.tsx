@@ -22,6 +22,16 @@ export default function Standards() {
       />
       <div>
         <Managment
+          title={main("management.27701-title")}
+          subtitle={main("management.27701-description")}
+        />
+        <AboutManagment
+          content={main("iso27701.top")}
+          buttonText={main("management.27701-button")}
+        >
+          <p className={styles.text14001}>{main("iso27701.bottom")}</p>
+        </AboutManagment>
+        <Managment
           title={main("management.9001-title")}
           subtitle={main("management.9001-description")}
           imageSrc="/managment-pictures/ISO9001-picture.png"
@@ -95,16 +105,6 @@ export default function Standards() {
             </ul>
             <p className={styles.second_text}>{main("iso45001.bottom")}</p>
           </div>
-        </AboutManagment>
-        <Managment
-          title={main("management.27701-title")}
-          subtitle={main("management.27701-description")}
-        />
-        <AboutManagment
-          content={main("iso27701.top")}
-          buttonText={main("management.27701-button")}
-        >
-          <p className={styles.text14001}>{main("iso27701.bottom")}</p>
         </AboutManagment>
         <Managment
           title={main("management.42001-title")}

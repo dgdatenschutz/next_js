@@ -18,7 +18,6 @@ type PdfLinks = {
   imprint: string;
   transparency_document: string;
   whistleblowing_hotline: string;
-  code_of_conduct_hy: string;
   policy_of_impartiality: string;
 };
 
@@ -34,21 +33,6 @@ const pdfLinks: Record<string, PdfLinks> = {
       "/pdf-files/footer-pdf-files/transparency-document.pdf",
     whistleblowing_hotline:
       "/pdf-files/footer-pdf-files/whistleblowing-hotline.pdf",
-    code_of_conduct_hy: "",
-    policy_of_impartiality: "/pdf-files/footer-pdf-files/policy-of-impartiality.pdf",
-  },
-  hy: {
-    certification_mark:
-      "/pdf-files/footer-pdf-files/certification-mark-policy.pdf",
-    privacy: "/pdf-files/footer-pdf-files/privacy-policy.pdf",
-    impartiality: "/pdf-files/footer-pdf-files/impartiality-policy.pdf",
-    code_of_conduct: "/pdf-files/footer-pdf-files/code-of-conduct.pdf",
-    imprint: "/pdf-files/footer-pdf-files/imprint-footer.pdf",
-    transparency_document:
-      "/pdf-files/footer-pdf-files/transparency-document.pdf",
-    whistleblowing_hotline:
-      "/pdf-files/footer-pdf-files/whistleblowing-hotline.pdf",
-    code_of_conduct_hy: "/pdf-files/footer-pdf-files/code-of-conduct-hy.pdf",
     policy_of_impartiality: "/pdf-files/footer-pdf-files/policy-of-impartiality.pdf",
   },
 };
@@ -109,7 +93,6 @@ export default function Footer() {
     imprint,
     whistleblowing_hotline,
     transparency_document,
-    code_of_conduct_hy,
     policy_of_impartiality
   } = pdfLinks[language];
 
@@ -160,6 +143,9 @@ export default function Footer() {
                 {main("footerLinks.impartiality-policy")}
               </a>
             </div>
+          </div>
+
+          <div className={styles.footer_items_links_lines}>
             <div
               className={styles.footer_items_links_lines_item}
               // onClick={() =>
@@ -170,16 +156,13 @@ export default function Footer() {
               // }
             >
               <a
-                href={language === "hy" ? code_of_conduct_hy : code_of_conduct}
+                href={code_of_conduct}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {main("footerLinks.code-of-conduct")}
               </a>
             </div>
-          </div>
-
-          <div className={styles.footer_items_links_lines}>
             <div className={styles.footer_items_links_lines_item}>
               <Link href="/agreements">{main("footerLinks.agreements")}</Link>
             </div>
@@ -193,6 +176,9 @@ export default function Footer() {
                 {main("footerLinks.imprint")}
               </a>
             </div>
+          </div>
+
+          <div className={styles.footer_items_links_lines}>
             <div
               className={styles.footer_items_links_lines_item}
               // onClick={() =>

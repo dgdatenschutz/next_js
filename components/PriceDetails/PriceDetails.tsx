@@ -21,6 +21,18 @@ export default function PriceDetails() {
     <div>
       <div className={styles.price_section_boxes}>
         <PriceBox
+          iso="ISO 27701"
+          boxTitle={main("price.box-title")}
+          imageUrl="/landing-pictures/price-box3.svg"
+          price={[
+            `€ 199 /  ${main("price.month")} `,
+            `€ 2388 /  ${main("price.year")} `,
+            `€ 7164 /  ${main("price.years")} `,
+          ]}
+          title={main("price.fifth-bottom.title")}
+          description={main("price.fifth-bottom.description")}
+        />
+        <PriceBox
           iso="ISO 9001"
           imageUrl="/landing-pictures/price-box1.svg"
           boxTitle={main("price.box-title")}
@@ -67,18 +79,6 @@ export default function PriceDetails() {
           ]}
           title={main("price.fourth-bottom.title")}
           description={main("price.fourth-bottom.description")}
-        />
-        <PriceBox
-          iso="ISO 27701"
-          boxTitle={main("price.box-title")}
-          imageUrl="/landing-pictures/price-box3.svg"
-          price={[
-            `€ 199 /  ${main("price.month")} `,
-            `€ 2388 /  ${main("price.year")} `,
-            `€ 7164 /  ${main("price.years")} `,
-          ]}
-          title={main("price.fifth-bottom.title")}
-          description={main("price.fifth-bottom.description")}
         />
         <PriceBox
           iso="ISO 42001"

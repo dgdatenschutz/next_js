@@ -37,7 +37,7 @@ export default function Header() {
 
   const isActivePath = (path: string) => {
     const pathSegments = pathname.split("/").filter(Boolean);
-    const locale = ["en", "de", "hy"].includes(pathSegments[0])
+    const locale = ["en", "de"].includes(pathSegments[0])
       ? pathSegments[0]
       : "";
     if (path === "/" && (pathname === `/${locale}` || pathname === "/")) {
@@ -148,13 +148,6 @@ export default function Header() {
                 className={styles.dropdown_item}
               >
                 <p onClick={toggleDropdown}>Deutsch</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"hy"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>Armenian</p>
               </Link>
             </div>
           )}

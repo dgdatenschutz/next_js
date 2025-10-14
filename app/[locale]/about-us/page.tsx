@@ -16,11 +16,6 @@ const pdfLinks: Record<string, PdfLinks> = {
     secondLink: "/pdf-files/en/complaints-en.pdf",
     thirdLink: "/pdf-files/en/use-of-logo-en.pdf",
   },
-  hy: {
-    firstLink: "/pdf-files/hy/audit-hy.pdf",
-    secondLink: "/pdf-files/hy/complaints-hy.pdf",
-    thirdLink: "/pdf-files/hy/use-of-logo-hy.pdf",
-  },
   de: {
     firstLink: "/pdf-files/de/audit-de.pdf",
     secondLink: "/pdf-files/de/complaints-de.pdf",
