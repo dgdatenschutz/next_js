@@ -6,6 +6,19 @@ import { useEffect, useRef, useState } from "react";
 import BaseButton from "../Base/Button/Button";
 import { useTranslations } from "next-intl";
 
+// Map locale codes to country names
+const localeToCountryName: Record<string, string> = {
+  "en": "Global",
+  "de": "Deutschland",
+  "de-de": "Deutschland",
+  "de-at": "Österreich",
+  "de-ch": "Schweiz",
+  "en-us": "United States",
+  "en-gb": "United Kingdom",
+  "en-ca": "Canada",
+  "en-au": "Australia",
+};
+
 export default function Header() {
   const pathname = usePathname();
   const t = useTranslations("Header");
@@ -140,63 +153,63 @@ export default function Header() {
                 locale={"en"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>EN</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["en"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"de"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>DE</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["de"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"de-de"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>DE-DE</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["de-de"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"de-at"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>DE-AT</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["de-at"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"de-ch"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>DE-CH</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["de-ch"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"en-us"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>EN-US</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["en-us"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"en-gb"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>EN-GB</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["en-gb"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"en-ca"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>EN-CA</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["en-ca"]}</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"en-au"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>EN-AU</p>
+                <p onClick={toggleDropdown}>{localeToCountryName["en-au"]}</p>
               </Link>
             </div>
           )}
