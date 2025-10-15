@@ -7,19 +7,37 @@
     padding: 50px 300px 0px 300px;
     box-sizing: border-box;
     flex-wrap: nowrap;
-
+    
+    @media only screen and (max-width: 2080px) {
+      transform: scale(0.95);
+      transform-origin: center top;
+    }
+    @media only screen and (max-width: 1900px) {
+      transform: scale(0.85);
+      transform-origin: center top;
+    }
+    @media only screen and (max-width: 1750px) {
+      transform: scale(0.78);
+      transform-origin: center top;
+      padding: 50px 200px 0px 200px;
+    }
     @media only screen and (max-width: 1600px) {
+      transform: scale(0.72);
+      transform-origin: center top;
       padding: 50px 130px 0 130px;
     }
     @media only screen and (max-width: 1450px) {
+      transform: scale(0.68);
       padding: 45px 100px;
     }
     @media only screen and (max-width: 1300px) {
+      transform: scale(0.62);
       padding: 45px 90px;
       gap: 10px;
       flex-wrap: nowrap;
     }
     @media only screen and (max-width: 1050px) {
+      transform: scale(1);
       padding: 45px 90px;
       gap: 30px;
       flex-wrap: wrap;

@@ -7,20 +7,35 @@
   position: relative;
   overflow: visible;
 
+  @media only screen and (max-width: 1800px) {
+    height: 592px;
+  }
   @media only screen and (max-width: 1300px) {
     height: 520px;
   }
   @media only screen and (max-width: 1050px) {
     height: 480px;
   }
+  @media only screen and (max-width: 860px) {
+    height: 520px;
+  }
   @media only screen and (max-width: 800px) {
-    height: 440px;
+    height: 520px;
+  }
+  @media only screen and (max-width: 643px) {
+    height: 650px;
   }
   @media only screen and (max-width: 610px) {
-    height: 400px;
+    height: 480px;
   }
-  @media only screen and (max-width: 410px) {
-    height: 320px;
+  @media only screen and (max-width: 603px) {
+    height: 650px;
+  }
+  @media only screen and (max-width: 412px) {
+    height: 480px;
+  }
+  @media only screen and (max-width: 411px) {
+    height: 480px;
   }
 
   .headerSection {
@@ -38,7 +53,7 @@
       gap: 20px;
       padding-top: 60px;
     }
-    @media only screen and (max-width: 410px) {
+    @media only screen and (max-width: 411px) {
       padding-top: 30px;
     }
   }
@@ -49,7 +64,7 @@
     gap: 12px;
     align-items: center;
 
-    @media only screen and (max-width: 410px) {
+    @media only screen and (max-width: 411px) {
       flex-direction: column;
     }
   }
@@ -64,18 +79,54 @@
     transform: translateX(-50%) translateY(50%);
     flex-wrap: nowrap;
 
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: 1900px) {
+      transform: translateX(-50%) translateY(50%) scale(0.95);
+    }
+    @media only screen and (max-width: 1750px) {
+      transform: translateX(-50%) translateY(50%) scale(0.88);
+    }
+    @media only screen and (max-width: 1600px) {
+      transform: translateX(-50%) translateY(50%) scale(0.82);
+    }
+    @media only screen and (max-width: 1450px) {
+      transform: translateX(-50%) translateY(50%) scale(0.75);
+    }
+    @media only screen and (max-width: 1300px) {
+      transform: translateX(-50%) translateY(50%) scale(0.68);
+    }
+    @media only screen and (max-width: 1150px) {
+      transform: translateX(-50%) translateY(50%) scale(0.62);
+    }
+    @media only screen and (max-width: 1050px) {
+      transform: translateX(-50%) translateY(50%) scale(0.58);
+    }
+    @media only screen and (max-width: 960px) {
+      transform: translateX(-50%) translateY(50%) scale(0.54);
+    }
+    
+    @media only screen and (max-width: 900px) {
+      transform: translateX(-50%) translateY(50%) scale(1);
       flex-wrap: wrap;
       width: 100%;
       padding: 0 70px;
       justify-content: center;
-
-      @media only screen and (max-width: 610px) {
-        padding: 0 0;
-      }
-      @media only screen and (max-width: 410px) {
-        margin-bottom: -210px;
-      }
+    }
+    
+    @media only screen and (max-width: 704px) {
+      padding: 0 40px;
+    }
+    
+    @media only screen and (max-width: 610px) {
+      padding: 0 20px;
+    }
+    
+    @media only screen and (max-width: 411px) {
+      position: relative;
+      transform: none;
+      bottom: auto;
+      left: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 }
@@ -83,9 +134,34 @@
 .price_section {
   background-color: #f9f9f9;
   padding: 36px 0px 64px 0px;
+  margin-top: 80px;
 
+  @media only screen and (max-width: 900px) {
+    margin-top: 200px;
+  }
+  
+  // Taller header zones: header is 650px (+170px), boxes at bottom
+  // Need extra margin to compensate for taller header
+  @media only screen and (max-width: 643px) and (min-width: 611px) {
+    margin-top: 370px; // 200px base + 170px extra height
+  }
+  
   @media only screen and (max-width: 610px) {
-    padding: 26px 0 40px 0;
+    margin-top: 200px;
+  }
+  
+  @media only screen and (max-width: 603px) and (min-width: 413px) {
+    margin-top: 370px; // 200px base + 170px extra height
+  }
+  
+  // 412px: standard height header
+  @media only screen and (max-width: 412px) and (min-width: 412px) {
+    margin-top: 200px;
+  }
+  
+  // 411px and below: relative positioning, no overhang
+  @media only screen and (max-width: 411px) {
+    margin-top: 40px;
   }
 
   h3 {
@@ -133,7 +209,7 @@
   @media only screen and (max-width: 610px) {
     padding: 36px 35px 40px 35px;
   }
-  @media only screen and (max-width: 410px) {
+  @media only screen and (max-width: 411px) {
     padding: 20px 10px 20px 10px;
   }
 
@@ -194,7 +270,7 @@
     @media only screen and (max-width: 860px) {
       gap: 25px;
     }
-    @media only screen and (max-width: 410px) {
+    @media only screen and (max-width: 411px) {
       gap: 10px;
     }
   }
