@@ -30,12 +30,12 @@ export default function Landing() {
   };
 
   const boxesData = [
-    { code: "ISO 27701", description: main("boxes.27701"), imageUrl: "./landing-pictures/landing-box3Icon.svg" },
+    { code: "ISO 27701", description: main("boxes.27701"), imageUrl: "./landing-pictures/landing-box5Icon.svg" },
     { code: "ISO 9001", description: main("boxes.9001"), imageUrl: "./landing-pictures/landing-box1Icon.svg" },
     { code: "ISO 14001", description: main("boxes.14001"), imageUrl: "./landing-pictures/landing-box2Icon.svg" },
     { code: "ISO 27001", description: main("boxes.27001"), imageUrl: "./landing-pictures/landing-box3Icon.svg" },
     { code: "ISO 45001", description: main("boxes.45001"), imageUrl: "./landing-pictures/landing-box4Icon.svg" },
-    { code: "ISO 42001", description: main("boxes.42001"), imageUrl: "./landing-pictures/landing-box2Icon.svg" },
+    { code: "ISO 42001", description: main("boxes.42001"), imageUrl: "./landing-pictures/landing-box6Icon.svg" },
   ];
 
   const areaBoxesData = [

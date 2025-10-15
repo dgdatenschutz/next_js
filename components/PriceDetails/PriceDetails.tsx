@@ -23,7 +23,7 @@ export default function PriceDetails() {
         <PriceBox
           iso="ISO 27701"
           boxTitle={main("price.box-title")}
-          imageUrl="/landing-pictures/price-box3.svg"
+          imageUrl="/landing-pictures/landing-box5Icon.svg"
           price={[
             `€ 199 /  ${main("price.month")} `,
             `€ 2388 /  ${main("price.year")} `,
@@ -34,7 +34,7 @@ export default function PriceDetails() {
         />
         <PriceBox
           iso="ISO 9001"
-          imageUrl="/landing-pictures/price-box1.svg"
+          imageUrl="/landing-pictures/landing-box1Icon.svg"
           boxTitle={main("price.box-title")}
           price={[
             `€ 149 /  ${main("price.month")} `,
@@ -46,7 +46,7 @@ export default function PriceDetails() {
         />
         <PriceBox
           iso="ISO 14001"
-          imageUrl="/landing-pictures/price-box1.svg"
+          imageUrl="/landing-pictures/landing-box2Icon.svg"
           boxTitle={main("price.box-title")}
           price={[
             `€ 149 /  ${main("price.month")} `,
@@ -58,7 +58,7 @@ export default function PriceDetails() {
         />
         <PriceBox
           iso="ISO 27001"
-          imageUrl="/landing-pictures/price-box1.svg"
+          imageUrl="/landing-pictures/landing-box3Icon.svg"
           boxTitle={main("price.box-title")}
           price={[
             `€ 199 /  ${main("price.month")} `,
@@ -71,7 +71,7 @@ export default function PriceDetails() {
         <PriceBox
           iso="ISO 45001"
           boxTitle={main("price.box-title")}
-          imageUrl="/landing-pictures/price-box4.svg"
+          imageUrl="/landing-pictures/landing-box4Icon.svg"
           price={[
             `€ 199 /  ${main("price.month")} `,
             `€ 2388 /  ${main("price.year")} `,
@@ -83,7 +83,7 @@ export default function PriceDetails() {
         <PriceBox
           iso="ISO 42001"
           boxTitle={main("price.box-title")}
-          imageUrl="/landing-pictures/price-box2.svg"
+          imageUrl="/landing-pictures/landing-box6Icon.svg"
           price={[
             `€ 199 /  ${main("price.month")} `,
             `€ 2388 /  ${main("price.year")} `,

@@ -1,0 +1,69 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_ai_icon)">
+<!-- Central processor/brain core -->
+<path d="M20 10C14.4772 10 10 14.4772 10 20C10 25.5228 14.4772 30 20 30C25.5228 30 30 25.5228 30 20C30 14.4772 25.5228 10 20 10ZM20 11.5C24.6944 11.5 28.5 15.3056 28.5 20C28.5 24.6944 24.6944 28.5 20 28.5C15.3056 28.5 11.5 24.6944 11.5 20C11.5 15.3056 15.3056 11.5 20 11.5Z" fill="#1C75BC"/>
+
+<!-- Neural network nodes (outer layer) -->
+<circle cx="20" cy="5" r="1.5" fill="#1C75BC"/>
+<circle cx="20" cy="35" r="1.5" fill="#1C75BC"/>
+<circle cx="5" cy="20" r="1.5" fill="#1C75BC"/>
+<circle cx="35" cy="20" r="1.5" fill="#1C75BC"/>
+<circle cx="9.5" cy="9.5" r="1.5" fill="#1C75BC"/>
+<circle cx="30.5" cy="9.5" r="1.5" fill="#1C75BC"/>
+<circle cx="9.5" cy="30.5" r="1.5" fill="#1C75BC"/>
+<circle cx="30.5" cy="30.5" r="1.5" fill="#1C75BC"/>
+
+<!-- Neural network nodes (inner layer) -->
+<circle cx="20" cy="13" r="1.8" fill="#1C75BC"/>
+<circle cx="20" cy="27" r="1.8" fill="#1C75BC"/>
+<circle cx="13" cy="20" r="1.8" fill="#1C75BC"/>
+<circle cx="27" cy="20" r="1.8" fill="#1C75BC"/>
+<circle cx="14.5" cy="14.5" r="1.8" fill="#1C75BC"/>
+<circle cx="25.5" cy="14.5" r="1.8" fill="#1C75BC"/>
+<circle cx="14.5" cy="25.5" r="1.8" fill="#1C75BC"/>
+<circle cx="25.5" cy="25.5" r="1.8" fill="#1C75BC"/>
+
+<!-- Connection lines from outer to inner nodes -->
+<path d="M20 6.5L20 11.2" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M20 28.8L20 33.5" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M6.5 20L11.2 20" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M28.8 20L33.5 20" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M10.8 10.8L12.7 12.7" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M29.2 10.8L27.3 12.7" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M10.8 29.2L12.7 27.3" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M29.2 29.2L27.3 27.3" stroke="#1C75BC" stroke-width="0.8" stroke-linecap="round"/>
+
+<!-- Connection lines from inner nodes to center -->
+<path d="M20 14.8L20 18.2" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M20 21.8L20 25.2" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M14.8 20L18.2 20" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M21.8 20L25.2 20" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M15.9 15.9L18.3 18.3" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M24.1 15.9L21.7 18.3" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M15.9 24.1L18.3 21.7" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+<path d="M24.1 24.1L21.7 21.7" stroke="#1C75BC" stroke-width="1" stroke-linecap="round"/>
+
+<!-- Central AI brain core -->
+<circle cx="20" cy="20" r="2.5" fill="#1C75BC"/>
+
+<!-- AI circuit patterns inside main circle -->
+<path d="M16 16L17.5 17.5M23 16L21.5 17.5M16 24L17.5 22.5M23 24L21.5 22.5" stroke="#1C75BC" stroke-width="1.2" stroke-linecap="round"/>
+
+<!-- Chip-like corners for AI/digital theme -->
+<path d="M2 8V4C2 2.89543 2.89543 2 4 2H8" stroke="#1C75BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 2H36C37.1046 2 38 2.89543 38 4V8" stroke="#1C75BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38 32V36C38 37.1046 37.1046 38 36 38H32" stroke="#1C75BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 38H4C2.89543 38 2 37.1046 2 36V32" stroke="#1C75BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Circuit pins on edges -->
+<rect x="18.5" y="1" width="3" height="2" fill="#1C75BC"/>
+<rect x="18.5" y="37" width="3" height="2" fill="#1C75BC"/>
+<rect x="1" y="18.5" width="2" height="3" fill="#1C75BC"/>
+<rect x="37" y="18.5" width="2" height="3" fill="#1C75BC"/>
+</g>
+<defs>
+<clipPath id="clip0_ai_icon">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>
