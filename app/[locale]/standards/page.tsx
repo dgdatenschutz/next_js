@@ -24,6 +24,7 @@ export default function Standards() {
         <Managment
           title={main("management.27701-title")}
           subtitle={main("management.27701-description")}
+          imageSrc="/managment-pictures/ISO27701-picture.svg"
         />
         <AboutManagment
           content={main("iso27701.top")}
@@ -34,7 +35,7 @@ export default function Standards() {
         <Managment
           title={main("management.9001-title")}
           subtitle={main("management.9001-description")}
-          imageSrc="/managment-pictures/ISO9001-picture.png"
+          imageSrc="/managment-pictures/ISO9001-picture.svg"
         />
         <AboutManagment
           content={main("iso9001.top")}
@@ -61,7 +62,7 @@ export default function Standards() {
         <Managment
           title={main("management.14001-title")}
           subtitle={main("management.14001-description")}
-          imageSrc="/managment-pictures/ISO14001-picture.png"
+          imageSrc="/managment-pictures/ISO14001-picture.svg"
         />
         <AboutManagment
           content={main("iso14001.top")}
@@ -72,7 +73,7 @@ export default function Standards() {
         <Managment
           title={main("management.27001-title")}
           subtitle={main("management.27001-description")}
-          imageSrc="/managment-pictures/ISO27001-picture.png"
+          imageSrc="/managment-pictures/ISO27001-picture.svg"
         />
         <AboutManagment
           content={main("iso27001.top")}
@@ -83,7 +84,7 @@ export default function Standards() {
         <Managment
           title={main("management.45001-title")}
           subtitle={main("management.45001-description")}
-          imageSrc="/managment-pictures/ISO45001-picture.png"
+          imageSrc="/managment-pictures/ISO45001-picture.svg"
         />
         <AboutManagment
           content={main("iso45001.top")}
@@ -109,6 +110,7 @@ export default function Standards() {
         <Managment
           title={main("management.42001-title")}
           subtitle={main("management.42001-description")}
+          imageSrc="/managment-pictures/ISO42001-picture.svg"
         />
         <AboutManagment
           content={main("iso42001.top")}
