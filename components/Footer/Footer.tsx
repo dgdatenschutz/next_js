@@ -222,8 +222,9 @@ export default function Footer() {
           message={modal("cookieModal.message")}
           onClose={closeModal}
           withTwoButtons={true}
-          secondButtonText={buttons("accept")}
+          secondButtonText={buttons("accept-cookies")}
           onSecondButtonClick={acceptCookies}
+          isCookieModal={true}
         />
       )}
     </div>

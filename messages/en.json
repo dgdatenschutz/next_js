@@ -312,8 +312,8 @@
     },
     "cookieModal": {
       "title": "Cookie Consent (GDPR-Compliance)",
-      "message": "By my click I freely give consent to set or activate all cookies and external connections that are implemented on this website. I know and understand their functions because they are described in detail in the privacy policy. I am aware that I have the right to withdraw my consent at any time with effect for the future, for example by changing my cookie preferences or deleting my cookies. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Furthermore, I confirm that I have reviewed the privacy policy and the transparency document.",
-      "checkText": " Do not sell my personal information (CCPA-Compliance)."
+      "message": "By pressing the approving button, I voluntarily give my consent to set or activate cookies and external connections as well as to the transmission of advertising IDs and operating system advertising IDs, such as AdIDs (Android), IDFAs (Apple) or the Windows advertising ID. I know their functions because they are described in the Privacy Policy or explained in more detail in documents or external links implemented there. By pressing this button, I also voluntarily give my explicit consent pursuant to Article 49 (1) (1) (a) GDPR for personalized advertising, advertising ID transmissions and for other data transfers to third countries to the and by the companies mentioned in the Privacy Policy and purposes, in particular for such transfers to third countries for which an adequacy decision of the EU/EEA is absent or does exist, and to companies or other entities that are not subject to an existing adequacy decision on the basis of self-certification or other accession criteria, and that involve significant risks and no appropriate safeguards for the protection of my personal data (e.g., because of Section 702 FISA, Executive Order EO12333 and the CloudAct in the USA). When giving my voluntary and explicit consent, I was aware that an adequate level of data protection may not exist in third countries and that my data subjects' rights may not be enforceable. I have the right to withdraw my data protection consent at any time with effect for the future, e.g., by changing my cookie preferences or deleting my cookies. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. With a single action (pressing the approving button), several consents are granted. These are consents under EU/EEA data protection law as well as those under CCPA/CPRA, ePrivacy and telemedia law, and other international legislation, that are, among other things, necessary for storing and reading out information and are required as a legal basis for planned further processing of the data read out. Your consent includes, in particular, explicit consent to all downstream data processing by third-party providers, which may also take place in unsafe third countries, in particular for personalized and targeted advertising, by all companies named in our Privacy Policy, as well as their sub-processors and controllers who receive data or onward transfers from these third-party providers or us within a data processing chain. I am aware that I can refuse my consent by clicking on the other button or, if necessary, make individual settings. With my action I also confirm that I have read and taken note of the Privacy Policy and the Transparency Document.",
+      "checkText": "Do not sell or share my personal information otherwise (US state law, e.g. CCPA/CPRA)."
     }
   },
   "Imprint": {
@@ -340,6 +340,8 @@
     "manage-consent": "Manage Consent",
     "submit": "Submit",
     "close": "Close",
-    "accept": "Accept All"
+    "accept": "Accept All",
+    "accept-cookies": "ALLOW ALL COOKIES AND EXTERNAL CONNECTIONS",
+    "decline": "Decline"
   }
 }

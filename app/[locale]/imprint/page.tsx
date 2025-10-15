@@ -14,25 +14,36 @@ export default function Imprint() {
       </div>
       <div className={styles.imprint_content}>
         <div className={styles.imprint_content_details}>
-          <h2>{main("companyInfo")}</h2>
-          <div className={styles.company_info}>
-            <p className={styles.company_name}>{main("companyName")}</p>
-            <p>{main("addressLine1")}</p>
-            <p>{main("addressLine2")}</p>
-            <p>{main("addressLine3")}</p>
-            <p>{main("country")}</p>
+          {/* Left side - Main content */}
+          <div className={styles.imprint_info}>
+            <h2>{main("companyInfo")}</h2>
+            
+            <div className={styles.company_info}>
+              <p className={styles.company_name}>{main("companyName")}</p>
+              <p>{main("addressLine1")}</p>
+              <p>{main("addressLine2")}</p>
+              {main("addressLine3") && <p>{main("addressLine3")}</p>}
+              <p>{main("country")}</p>
+            </div>
+            
+            <div className={styles.contact_info}>
+              <p><strong>{main("contact")}</strong></p>
+              <p>{main("phone")}</p>
+              <p>{main("email")}</p>
+            </div>
+            
+            <div className={styles.management_info}>
+              <p><strong>{main("management")}</strong></p>
+              <p>{main("managingDirector")}</p>
+              <p>{main("identificationCode")}</p>
+            </div>
           </div>
-          
-          <div className={styles.contact_info}>
-            <p><strong>{main("contact")}</strong></p>
-            <p>{main("phone")}</p>
-            <p>{main("email")}</p>
-          </div>
-          
-          <div className={styles.management_info}>
-            <p><strong>{main("management")}</strong></p>
-            <p>{main("managingDirector")}</p>
-            <p>{main("identificationCode")}</p>
+
+          {/* Right side - Blue gradient panel */}
+          <div className={styles.imprint_side_panel}>
+            <p>
+              {main("companyName")}
+            </p>
           </div>
         </div>
       </div>

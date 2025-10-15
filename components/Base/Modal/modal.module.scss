@@ -19,18 +19,23 @@
   align-items: center;
   position: relative;
   width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
 
   @media only screen and (max-width: 1000px) {
     padding: 30px 80px 40px 80px;
     width: 500px;
+    max-height: 85vh;
   }
   @media only screen and (max-width: 800px) {
     padding: 20px 50px 30px 50px;
     width: 350px;
+    max-height: 85vh;
   }
   @media only screen and (max-width: 450px) {
     padding: 20px 40px 30px 40px;
     width: 250px;
+    max-height: 80vh;
   }
 
   .icon {
@@ -82,20 +87,32 @@
 
   .checkbox_container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     margin-bottom: 20px;
     width: 100%;
     justify-content: flex-start;
 
+    @media only screen and (max-width: 500px) {
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+
     input[type="checkbox"] {
       width: 22px;
       height: 22px;
       margin: 0;
+      flex-shrink: 0;
+      margin-top: 2px;
 
       @media only screen and (max-width: 1000px) {
-        width: 15px;
-        height: 15px;
+        width: 18px;
+        height: 18px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        width: 16px;
+        height: 16px;
       }
     }
 
@@ -105,9 +122,15 @@
       font-weight: 400;
       color: #00000099;
       margin: 0;
+      flex: 1;
 
       @media only screen and (max-width: 1000px) {
-        font-size: 12px;
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        font-size: 11px;
         line-height: 18px;
       }
     }
@@ -123,13 +146,21 @@
     @media only screen and (max-width: 1000px) {
       margin-top: 10px;
     }
+    
     .buttons_block {
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
+      justify-content: center;
+
+      @media only screen and (max-width: 800px) {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+      }
 
       @media only screen and (max-width: 500px) {
-        justify-content: center;
+        gap: 8px;
       }
     }
 
@@ -156,28 +187,94 @@
 
     @media only screen and (max-width: 1000px) {
       width: 550px;
+      padding: 25px 35px;
     }
     @media only screen and (max-width: 800px) {
       padding: 20px 30px;
       width: 400px;
     }
     @media only screen and (max-width: 500px) {
-      padding: 10px 20px;
-      width: 300px;
+      padding: 15px 20px;
+      width: 90vw;
+      max-width: 340px;
     }
     @media only screen and (max-width: 400px) {
-      width: 330px;
+      width: 90vw;
+      max-width: 330px;
+      padding: 12px 15px;
     }
 
     .buttonContainer {
       flex-direction: column;
       align-items: center;
-      width: auto;
+      width: 100%;
     }
 
     .message {
-      width: auto;
+      width: 100%;
       text-align: start;
+      font-size: 16px;
+      line-height: 24px;
+
+      @media only screen and (max-width: 1000px) {
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  &.cookieModal {
+    padding-top: 55px;
+
+    @media only screen and (max-width: 800px) {
+      padding-top: 50px;
+    }
+
+    @media only screen and (max-width: 500px) {
+      padding-top: 45px;
+    }
+
+    .title {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      max-height: 50vh;
+      overflow-y: auto;
+      padding-right: 10px;
+
+      @media only screen and (max-width: 800px) {
+        max-height: 45vh;
+      }
+
+      @media only screen and (max-width: 500px) {
+        max-height: 40vh;
+        padding-right: 5px;
+      }
+
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
     }
   }
 
@@ -191,13 +288,122 @@
 
     @media only screen and (max-width: 1000px) {
       font-size: 16px;
-      font-size: 20px;
+      line-height: 22px;
       margin-bottom: 20px;
     }
 
     @media only screen and (max-width: 500px) {
       font-size: 14px;
-      margin-bottom: 10px;
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .language_selector {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 4px;
+
+    @media only screen and (max-width: 800px) {
+      top: 12px;
+      right: 12px;
+      gap: 6px;
+      padding: 6px;
+    }
+
+    @media only screen and (max-width: 500px) {
+      top: 10px;
+      right: 10px;
+      gap: 5px;
+      padding: 5px;
+    }
+
+    .language_icon {
+      width: 28px;
+      height: 28px;
+      display: block;
+      filter: invert(35%) sepia(89%) saturate(1200%) hue-rotate(180deg) brightness(95%) contrast(90%);
+      /* This converts white to #1c75bc (CI blue) */
+
+      @media only screen and (max-width: 800px) {
+        width: 24px;
+        height: 24px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .language_arrow {
+      width: 14px;
+      height: 14px;
+      display: block;
+      filter: invert(35%) sepia(89%) saturate(1200%) hue-rotate(180deg) brightness(95%) contrast(90%);
+      /* This converts white to #1c75bc (CI blue) */
+
+      @media only screen and (max-width: 800px) {
+        width: 12px;
+        height: 12px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    .language_dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      margin-top: 8px;
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      min-width: 160px;
+      z-index: 1000;
+
+      @media only screen and (max-width: 500px) {
+        min-width: 140px;
+        margin-top: 6px;
+      }
+
+      .language_dropdown_item {
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        text-decoration: none;
+        display: block;
+
+        @media only screen and (max-width: 500px) {
+          padding: 8px 12px;
+        }
+
+        p {
+          margin: 0;
+          font-size: 14px;
+          color: #333;
+
+          @media only screen and (max-width: 500px) {
+            font-size: 12px;
+          }
+        }
+
+        &:hover {
+          background-color: #f5f5f5;
+        }
+      }
     }
   }
 }
