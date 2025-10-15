@@ -19,6 +19,19 @@ const localeToCountryName: Record<string, string> = {
   "en-au": "Australia",
 };
 
+// Only show country-specific locales in the dropdown to avoid duplication
+type CountryLocale = "en" | "de-de" | "de-at" | "de-ch" | "en-us" | "en-gb" | "en-ca" | "en-au";
+const countryLocales: CountryLocale[] = [
+  "en",
+  "de-de",
+  "de-at", 
+  "de-ch",
+  "en-us",
+  "en-gb",
+  "en-ca",
+  "en-au"
+];
+
 export default function Header() {
   const pathname = usePathname();
   const t = useTranslations("Header");
@@ -148,69 +161,16 @@ export default function Header() {
 
           {dropdownOpen && (
             <div className={styles.dropdown_menu}>
-              <Link
-                href={switchLanguage("")}
-                locale={"en"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["en"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"de"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["de"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"de-de"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["de-de"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"de-at"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["de-at"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"de-ch"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["de-ch"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"en-us"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["en-us"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"en-gb"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["en-gb"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"en-ca"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["en-ca"]}</p>
-              </Link>
-              <Link
-                href={switchLanguage("")}
-                locale={"en-au"}
-                className={styles.dropdown_item}
-              >
-                <p onClick={toggleDropdown}>{localeToCountryName["en-au"]}</p>
-              </Link>
+              {countryLocales.map((locale) => (
+                <Link
+                  key={locale}
+                  href={switchLanguage("")}
+                  locale={locale}
+                  className={styles.dropdown_item}
+                >
+                  <p onClick={toggleDropdown}>{localeToCountryName[locale]}</p>
+                </Link>
+              ))}
             </div>
           )}
           <img
