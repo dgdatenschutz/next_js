@@ -37,7 +37,7 @@ export default function Header() {
 
   const isActivePath = (path: string) => {
     const pathSegments = pathname.split("/").filter(Boolean);
-    const locale = ["en", "de"].includes(pathSegments[0])
+    const locale = ["en", "de", "de-de", "de-at", "de-ch", "en-us", "en-gb", "en-ca", "en-au"].includes(pathSegments[0])
       ? pathSegments[0]
       : "";
     if (path === "/" && (pathname === `/${locale}` || pathname === "/")) {
@@ -140,14 +140,63 @@ export default function Header() {
                 locale={"en"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>English</p>
+                <p onClick={toggleDropdown}>EN</p>
               </Link>
               <Link
                 href={switchLanguage("")}
                 locale={"de"}
                 className={styles.dropdown_item}
               >
-                <p onClick={toggleDropdown}>Deutsch</p>
+                <p onClick={toggleDropdown}>DE</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"de-de"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>DE-DE</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"de-at"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>DE-AT</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"de-ch"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>DE-CH</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"en-us"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>EN-US</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"en-gb"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>EN-GB</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"en-ca"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>EN-CA</p>
+              </Link>
+              <Link
+                href={switchLanguage("")}
+                locale={"en-au"}
+                className={styles.dropdown_item}
+              >
+                <p onClick={toggleDropdown}>EN-AU</p>
               </Link>
             </div>
           )}
