@@ -330,7 +330,16 @@
     "email": "E-Mail: info@cert-authority.com",
     "management": "Management",
     "managingDirector": "Managing Director: Prof. Dr. iur. Tinatin Erkvania, LL.B., LL.M.",
-    "identificationCode": "Identification Code: 445776866"
+    "identificationCode": "Identification Code: 445776866",
+    "editorialResponsibility": "Responsible for all editorial content",
+    "editorialPerson": "Levan Zedginidze",
+    "supervisoryAuthority": "Supervisory Authority",
+    "supervisoryName": "National Accreditation Center of Georgia (GAC)",
+    "supervisoryAddress": "1 Mindeli Street, 0186 Tbilisi, Georgia",
+    "disclaimer": "Disclaimer",
+    "disclaimerText": "Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.",
+    "copyright": "Copyright",
+    "copyrightText": "The content and works created by the site operators on these pages are subject to Georgian and international copyright law. Third-party contributions are identified as such. Reproduction, editing, distribution and any kind of exploitation outside the limits of copyright require the written consent of the respective rights holders."
   },
 
   "Buttons": {

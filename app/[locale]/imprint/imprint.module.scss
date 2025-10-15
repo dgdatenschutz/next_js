@@ -151,32 +151,12 @@
           }
         }
 
-        .contact_info {
+        .editorial_info,
+        .supervisory_info,
+        .disclaimer_info,
+        .copyright_info {
+          width: 100%;
           margin-bottom: 20px;
-          width: 100%;
-
-          p {
-            margin: 10px 0;
-            font-size: 16px;
-            line-height: 1.6;
-            color: #3a3a3a;
-
-            @media only screen and (max-width: 1650px) {
-              font-size: 15px;
-            }
-            @media only screen and (max-width: 1450px) {
-              font-size: 14px;
-            }
-
-            strong {
-              color: #1c75bc;
-              font-weight: 600;
-            }
-          }
-        }
-
-        .management_info {
-          width: 100%;
 
           p {
             margin: 10px 0;
@@ -213,9 +193,11 @@
         align-items: center;
         justify-content: center;
         border-radius: 0 5px 5px 0;
+        gap: 25px;
 
         @media only screen and (max-width: 1650px) {
           padding: 30px 20px;
+          gap: 20px;
         }
         @media only screen and (max-width: 820px) {
           width: 100%;
@@ -224,22 +206,61 @@
         }
         @media only screen and (max-width: 460px) {
           padding: 20px 15px;
+          gap: 15px;
         }
 
-        p {
-          color: white;
-          font-size: 18px;
-          font-weight: 400;
-          line-height: 28px;
+        .company_address,
+        .contact_info,
+        .management_info {
           text-align: center;
+          width: 100%;
 
-          @media only screen and (max-width: 1650px) {
+          p {
+            color: white;
             font-size: 16px;
-            line-height: 26px;
+            font-weight: 400;
+            line-height: 1.8;
+            margin: 8px 0;
+
+            @media only screen and (max-width: 1650px) {
+              font-size: 15px;
+              line-height: 1.7;
+            }
+            @media only screen and (max-width: 1450px) {
+              font-size: 14px;
+              line-height: 1.6;
+            }
+
+            strong {
+              color: white;
+              font-weight: 600;
+            }
           }
+
+          .company_name {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: white;
+
+            @media only screen and (max-width: 1650px) {
+              font-size: 17px;
+            }
+            @media only screen and (max-width: 1450px) {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .contact_info,
+        .management_info {
+          margin-top: 15px;
+          padding-top: 15px;
+          border-top: 1px solid rgba(255, 255, 255, 0.2);
+
           @media only screen and (max-width: 1450px) {
-            font-size: 14px;
-            line-height: 24px;
+            margin-top: 12px;
+            padding-top: 12px;
           }
         }
       }
