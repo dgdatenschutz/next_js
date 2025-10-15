@@ -22,7 +22,7 @@ export default function Landing() {
   };
 
   const handleContactPage = () => {
-    router.push(`${pathname}/contact-us`);
+    router.push(`${pathname}/imprint`);
   };
 
   const handleMore = () => {

@@ -131,9 +131,9 @@ export default function Header() {
               {t("navLinks.about")}
             </p>
           </Link>
-          <Link className={styles.header_links_item} href="/contact-us">
+          <Link className={styles.header_links_item} href="/imprint">
             <p
-              className={`${isActivePath("/contact-us") ? styles.active : ""}`}
+              className={`${isActivePath("/imprint") ? styles.active : ""}`}
             >
               {t("navLinks.contact")}
             </p>
@@ -240,12 +240,12 @@ export default function Header() {
             </Link>
             <Link
               className={styles.header_mobile_menu_links_item}
-              href="/contact-us"
+              href="/imprint"
               onClick={toggleMobileMenu}
             >
               <p
                 className={`${
-                  isActivePath("/contact-us") ? styles.active : ""
+                  isActivePath("/imprint") ? styles.active : ""
                 }`}
               >
                 {t("navLinks.contact")}

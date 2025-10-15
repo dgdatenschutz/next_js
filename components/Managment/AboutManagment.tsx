@@ -27,7 +27,7 @@ const AboutManagement: React.FC<AboutManagementProps> = ({
 
   const handleContactPage = () => {
     const language = pathname.split('/')[1]; 
-    router.push(`/${language}/contact-us`);
+    router.push(`/${language}/imprint`);
   };
 
   return (

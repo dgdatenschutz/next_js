@@ -14,7 +14,7 @@ export default function PriceDetails() {
   const pathname = usePathname();
   const handleContactPage = () => {
     const language = pathname.split('/')[1]; 
-    router.push(`/${language}/pricing`);
+    router.push(`/${language}/imprint`);
   };
 
   return (
