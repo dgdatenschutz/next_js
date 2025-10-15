@@ -58,6 +58,22 @@
     padding-top: 38px;
     align-items: center;
 
+    @media only screen and (max-width: 1900px) {
+      padding-top: 25px;
+    }
+    @media only screen and (max-width: 1600px) {
+      padding-top: 20px;
+    }
+    @media only screen and (max-width: 1300px) {
+      padding-top: 15px;
+    }
+    @media only screen and (max-width: 1150px) {
+      padding-top: 10px;
+    }
+    @media only screen and (max-width: 1050px) {
+      padding-top: 38px;
+    }
+
     @media only screen and (max-width: 610px) {
       gap: 15px;
       padding: 20px 70px;

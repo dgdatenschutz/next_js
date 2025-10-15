@@ -18,16 +18,31 @@
   }
 
   &_logo {
-    width: 230px;
+    width: 160px;
 
-    @media only screen and (max-width: 500px) {
-      width: 200px;
+    @media only screen and (max-width: 1800px) {
+      width: 155px;
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 1500px) {
       width: 150px;
     }
-    @media only screen and (max-width: 330px) {
+    @media only screen and (max-width: 1200px) {
+      width: 140px;
+    }
+    @media only screen and (max-width: 900px) {
       width: 120px;
+    }
+    @media only screen and (max-width: 700px) {
+      width: 100px;
+    }
+    @media only screen and (max-width: 500px) {
+      width: 90px;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 75px;
+    }
+    @media only screen and (max-width: 330px) {
+      width: 65px;
     }
   }
   &_left {
@@ -86,6 +101,16 @@
     display: flex;
     align-items: center;
     gap: 12px;
+
+    @media only screen and (max-width: 900px) {
+      margin-right: 20px;
+    }
+    @media only screen and (max-width: 500px) {
+      margin-right: 15px;
+    }
+    @media only screen and (max-width: 400px) {
+      margin-right: 10px;
+    }
 
     &_language {
       display: flex;

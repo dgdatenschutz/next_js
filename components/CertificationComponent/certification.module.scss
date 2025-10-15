@@ -30,7 +30,7 @@
 
   .certification_content {
     padding-top: 0;
-    align-items: start;
+    align-items: flex-start;
     @media only screen and (max-width: 410px) {
       padding-top: 0;
       display: flex;
