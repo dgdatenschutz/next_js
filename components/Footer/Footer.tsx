@@ -166,15 +166,8 @@ export default function Footer() {
             <div className={styles.footer_items_links_lines_item}>
               <Link href="/agreements">{main("footerLinks.agreements")}</Link>
             </div>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(findDocumentByType("imprint"), imprint)
-              // }
-            >
-              <a href={imprint} target="_blank" rel="noopener noreferrer">
-                {main("footerLinks.imprint")}
-              </a>
+            <div className={styles.footer_items_links_lines_item}>
+              <Link href="/imprint">{main("footerLinks.imprint")}</Link>
             </div>
           </div>
 

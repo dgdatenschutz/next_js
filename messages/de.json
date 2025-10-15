@@ -314,6 +314,22 @@
       "checkText": "Verkaufen Sie meine persönlichen Daten nicht (CCPA-Konformität)."
     }
   },
+  "Imprint": {
+    "title": "Impressum",
+    "subtitle": "Unternehmensinformationen",
+    "companyInfo": "Unternehmensinformationen",
+    "companyName": "ICB International Certification Body LLC",
+    "addressLine1": "Angisa Street 20-22, 5th Floor, App. 096",
+    "addressLine2": "6004 Batumi",
+    "addressLine3": "",
+    "country": "Republik Georgien",
+    "contact": "Kontakt",
+    "phone": "Telefon: +995 706 444 100",
+    "email": "E-Mail: info@cert-authority.com",
+    "management": "Geschäftsführung",
+    "managingDirector": "Geschäftsführer: Prof. Dr. iur. Tinatin Erkvania, LL.B., LL.M.",
+    "identificationCode": "Identifikationsnummer: 445776866"
+  },
   "Buttons": {
     "book": "Buchen Sie uns jetzt!",
     "auditor": "Wir stellen ein! Wirtschaftsprüfer",
