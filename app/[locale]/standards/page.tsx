@@ -54,7 +54,6 @@ export default function Standards() {
             <ul className={styles.unordered_list}>
               <li> {main("iso9001.second-li.item1")}</li>
               <li> {main("iso9001.second-li.item2")}</li>
-              <li> {main("iso9001.second-li.item3")}</li>
             </ul>
           </div>
           <p className={styles.second_text}>{main("iso9001.bottom")}</p>
@@ -79,7 +78,6 @@ export default function Standards() {
           content={main("iso27001.top")}
           buttonText={main("management.27001-button")}
         >
-          <p className={styles.text14001}>{main("iso27001.bottom")}</p>
         </AboutManagment>
         <Managment
           title={main("management.45001-title")}
@@ -117,6 +115,7 @@ export default function Standards() {
           buttonText={main("management.42001-button")}
         >
           <p className={styles.text14001}>{main("iso42001.bottom")}</p>
+          <p className={styles.text14001}>{main("iso42001.bottom-second")}</p>
         </AboutManagment>
       </div>
     </>
