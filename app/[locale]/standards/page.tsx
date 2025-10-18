@@ -22,17 +22,6 @@ export default function Standards() {
       />
       <div>
         <Managment
-          title={main("management.27701-title")}
-          subtitle={main("management.27701-description")}
-          imageSrc="/managment-pictures/ISO27701-picture.svg"
-        />
-        <AboutManagment
-          content={main("iso27701.top")}
-          buttonText={main("management.27701-button")}
-        >
-          <p className={styles.text14001}>{main("iso27701.bottom")}</p>
-        </AboutManagment>
-        <Managment
           title={main("management.9001-title")}
           subtitle={main("management.9001-description")}
           imageSrc="/managment-pictures/ISO9001-picture.svg"
@@ -80,6 +69,29 @@ export default function Standards() {
         >
         </AboutManagment>
         <Managment
+          title={main("management.27701-title")}
+          subtitle={main("management.27701-description")}
+          imageSrc="/managment-pictures/ISO27701-picture.svg"
+        />
+        <AboutManagment
+          content={main("iso27701.top")}
+          buttonText={main("management.27701-button")}
+        >
+          <p className={styles.text14001}>{main("iso27701.bottom")}</p>
+        </AboutManagment>
+        <Managment
+          title={main("management.42001-title")}
+          subtitle={main("management.42001-description")}
+          imageSrc="/managment-pictures/ISO42001-picture.svg"
+        />
+        <AboutManagment
+          content={main("iso42001.top")}
+          buttonText={main("management.42001-button")}
+        >
+          <p className={styles.text14001}>{main("iso42001.bottom")}</p>
+          <p className={styles.text14001}>{main("iso42001.bottom-second")}</p>
+        </AboutManagment>
+        <Managment
           title={main("management.45001-title")}
           subtitle={main("management.45001-description")}
           imageSrc="/managment-pictures/ISO45001-picture.svg"
@@ -104,18 +116,6 @@ export default function Standards() {
             </ul>
             <p className={styles.second_text}>{main("iso45001.bottom")}</p>
           </div>
-        </AboutManagment>
-        <Managment
-          title={main("management.42001-title")}
-          subtitle={main("management.42001-description")}
-          imageSrc="/managment-pictures/ISO42001-picture.svg"
-        />
-        <AboutManagment
-          content={main("iso42001.top")}
-          buttonText={main("management.42001-button")}
-        >
-          <p className={styles.text14001}>{main("iso42001.bottom")}</p>
-          <p className={styles.text14001}>{main("iso42001.bottom-second")}</p>
         </AboutManagment>
       </div>
     </>
