@@ -19,6 +19,9 @@ type PdfLinks = {
   transparency_document: string;
   whistleblowing_hotline: string;
   policy_of_impartiality: string;
+  appeals_policy: string;
+  complaints_policy: string;
+  complaint_and_appeals_form: string;
 };
 
 const pdfLinks: Record<string, PdfLinks> = {
@@ -34,6 +37,41 @@ const pdfLinks: Record<string, PdfLinks> = {
     whistleblowing_hotline:
       "/pdf-files/footer-pdf-files/whistleblowing-hotline.pdf",
     policy_of_impartiality: "/pdf-files/footer-pdf-files/policy-of-impartiality.pdf",
+    appeals_policy: "/pdf-files/footer-pdf-files/appeals-policy-en.pdf",
+    complaints_policy: "/pdf-files/footer-pdf-files/complaints-policy-en.pdf",
+    complaint_and_appeals_form: "/pdf-files/footer-pdf-files/complaint-and-appeals-form-en.docx",
+  },
+  de: {
+    certification_mark:
+      "/pdf-files/footer-pdf-files/certification-mark-policy.pdf",
+    privacy: "/pdf-files/footer-pdf-files/privacy-policy.pdf",
+    impartiality: "/pdf-files/footer-pdf-files/impartiality-policy.pdf",
+    code_of_conduct: "/pdf-files/footer-pdf-files/code-of-conduct.pdf",
+    imprint: "/pdf-files/footer-pdf-files/imprint-footer.pdf",
+    transparency_document:
+      "/pdf-files/footer-pdf-files/transparency-document.pdf",
+    whistleblowing_hotline:
+      "/pdf-files/footer-pdf-files/whistleblowing-hotline.pdf",
+    policy_of_impartiality: "/pdf-files/footer-pdf-files/policy-of-impartiality.pdf",
+    appeals_policy: "/pdf-files/footer-pdf-files/appeals-policy-en.pdf",
+    complaints_policy: "/pdf-files/footer-pdf-files/complaints-policy-en.pdf",
+    complaint_and_appeals_form: "/pdf-files/footer-pdf-files/complaint-and-appeals-form-de.docx",
+  },
+  ka: {
+    certification_mark:
+      "/pdf-files/footer-pdf-files/certification-mark-policy.pdf",
+    privacy: "/pdf-files/footer-pdf-files/privacy-policy.pdf",
+    impartiality: "/pdf-files/footer-pdf-files/impartiality-policy.pdf",
+    code_of_conduct: "/pdf-files/footer-pdf-files/code-of-conduct.pdf",
+    imprint: "/pdf-files/footer-pdf-files/imprint-footer.pdf",
+    transparency_document:
+      "/pdf-files/footer-pdf-files/transparency-document.pdf",
+    whistleblowing_hotline:
+      "/pdf-files/footer-pdf-files/whistleblowing-hotline.pdf",
+    policy_of_impartiality: "/pdf-files/footer-pdf-files/policy-of-impartiality.pdf",
+    appeals_policy: "/pdf-files/footer-pdf-files/appeals-policy-ka.pdf",
+    complaints_policy: "/pdf-files/footer-pdf-files/complaints-policy-ka.pdf",
+    complaint_and_appeals_form: "/pdf-files/footer-pdf-files/complaint-and-appeals-form-ka.docx",
   },
 };
 
@@ -93,7 +131,8 @@ export default function Footer() {
     imprint,
     whistleblowing_hotline,
     transparency_document,
-    policy_of_impartiality
+    policy_of_impartiality,
+    complaint_and_appeals_form
   } = pdfLinks[language];
 
   return (
@@ -109,52 +148,26 @@ export default function Footer() {
 
         <div className={styles.footer_items_links}>
           <div className={styles.footer_items_links_lines}>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(findDocumentByType("certification_mark"), certification_mark)
-              // }
-            >
-              <a
-                href={certification_mark}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <div className={styles.footer_items_links_lines_item}>
+              <Link href={`/pdf-viewer?url=${encodeURIComponent(certification_mark)}`}>
                 {main("footerLinks.certification-policy")}
-              </a>
+              </Link>
             </div>
             <div className={styles.footer_items_links_lines_item}>
               <Link href="/privacy-policy">{main("footerLinks.privacy-policy")}</Link>
             </div>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(findDocumentByType("impartiality"), impartiality)
-              // }
-            >
-              <a href={policy_of_impartiality} target="_blank" rel="noopener noreferrer">
+            <div className={styles.footer_items_links_lines_item}>
+              <Link href={`/pdf-viewer?url=${encodeURIComponent(policy_of_impartiality)}`}>
                 {main("footerLinks.impartiality-policy")}
-              </a>
+              </Link>
             </div>
           </div>
 
           <div className={styles.footer_items_links_lines}>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(
-              //     language === "hy" ? code_of_conduct_hy : code_of_conduct,
-              //     code_of_conduct
-              //   )
-              // }
-            >
-              <a
-                href={code_of_conduct}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <div className={styles.footer_items_links_lines_item}>
+              <Link href={`/pdf-viewer?url=${encodeURIComponent(code_of_conduct)}`}>
                 {main("footerLinks.code-of-conduct")}
-              </a>
+              </Link>
             </div>
             <div className={styles.footer_items_links_lines_item}>
               <Link href="/agreements">{main("footerLinks.agreements")}</Link>
@@ -165,42 +178,23 @@ export default function Footer() {
           </div>
 
           <div className={styles.footer_items_links_lines}>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(
-              //     findDocumentByType("transparency_document"),
-              //     transparency_document
-              //   )
-              // }
-            >
-              <a
-                href={transparency_document}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <div className={styles.footer_items_links_lines_item}>
+              <Link href={`/pdf-viewer?url=${encodeURIComponent(transparency_document)}`}>
                 {main("footerLinks.transparency")}
+              </Link>
+            </div>
+            <div className={styles.footer_items_links_lines_item}>
+              <a
+                href={complaint_and_appeals_form}
+                download
+              >
+                {main("footerLinks.appeals")}
               </a>
             </div>
             <div className={styles.footer_items_links_lines_item}>
-              <Link href="/report">{main("footerLinks.appeals")}</Link>
-            </div>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(
-              //     findDocumentByType("whistleblowing_hotline"),
-              //     whistleblowing_hotline
-              //   )
-              // }
-            >
-              <a
-                href={whistleblowing_hotline}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href={`/pdf-viewer?url=${encodeURIComponent(whistleblowing_hotline)}`}>
                 {main("footerLinks.whistleblowing-hotline")}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
