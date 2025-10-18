@@ -49,7 +49,7 @@ export default function page() {
         firstText={main("manufacturing.first-text")}
         imgSrc="/fields-and-sectors-images/manufacturing-image.png"
         imgAlt="manufacturing image"
-        secondText=""
+        secondText={main("manufacturing.second-text")}
       />
       <Block
         variant="variantB"
@@ -57,7 +57,7 @@ export default function page() {
         firstText={main("engineering.first-text")}
         imgSrc="/fields-and-sectors-images/engineering-image.png"
         imgAlt="engineering image"
-        secondText=""
+        secondText={main("engineering.second-text")}
       />
       <Block
         variant="variantA"
