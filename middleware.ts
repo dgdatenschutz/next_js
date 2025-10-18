@@ -9,5 +9,5 @@ export default createMiddleware(routing, {
 });
 
 export const config = {
-  matcher: ["/", "/(de|en|de-de|de-at|de-ch|en-us|en-gb|en-ca|en-au)/:path*"],
+  matcher: ["/", "/(de|en|ka|de-de|de-at|de-ch|en-us|en-gb|en-ca|en-au)/:path*"],
 };

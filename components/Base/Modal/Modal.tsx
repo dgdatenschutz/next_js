@@ -10,6 +10,7 @@ import { Link, usePathname } from "@/i18n/routing";
 const localeToCountryName: Record<string, string> = {
   "en": "Global",
   "de": "Deutschland",
+  "ka": "საქართველო",
   "de-de": "Deutschland",
   "de-at": "Österreich",
   "de-ch": "Schweiz",
@@ -20,9 +21,10 @@ const localeToCountryName: Record<string, string> = {
 };
 
 // Only show country-specific locales in the dropdown to avoid duplication
-type CountryLocale = "en" | "de-de" | "de-at" | "de-ch" | "en-us" | "en-gb" | "en-ca" | "en-au";
+type CountryLocale = "en" | "ka" | "de-de" | "de-at" | "de-ch" | "en-us" | "en-gb" | "en-ca" | "en-au";
 const countryLocales: CountryLocale[] = [
   "en",
+  "ka",
   "de-de",
   "de-at", 
   "de-ch",

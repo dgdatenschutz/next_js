@@ -2,276 +2,276 @@
   "Header": {
     "navLinks": {
       "home": "Startseite",
-      "standards": "ISO-Normen",
-      "sectors": "Bereiche und Sektoren",
+      "standards": "ISO-Standards",
+      "sectors": "Felder und Sektoren",
       "pricing": "Preise",
       "about": "Über uns",
       "contact": "Kontaktieren Sie uns"
     }
   },
   "Footer": {
+    "title": "ISO-Zertifizierungs-Blog",
     "copyright": "Copyright © 2024 Alle Rechte vorbehalten.",
     "footerLinks": {
-      "certification-policy": "Prüfzeichenrichtlinie",
+      "certification-policy": "Richtlinie für das Zertifizierungszeichen",
       "privacy-policy": "Datenschutzrichtlinie",
-      "impartiality-policy": "Politik der Unparteilichkeit",
+      "impartiality-policy": "Richtlinie der Unparteilichkeit",
       "agreements": "Vereinbarungen",
       "imprint": "Impressum",
       "transparency": "Transparenzdokument",
-      "appeals": "Beschwerden und Einsprüche",
+      "appeals": "Beschwerden und Berufungen",
       "code-of-conduct": "Verhaltenskodex",
       "whistleblowing-hotline": "Whistleblowing-Hotline"
     }
   },
   "Landing": {
     "title": "ISO-Zertifizierung",
-    "subtitle": "Einfach. Erschwinglich. Zugänglich.",
+    "subtitle": "Einfach. Günstig. Zugänglich.",
     "boxes": {
-      "9001": "Qualitätsmanagement-Standard",
-      "14001": "Umweltmanagementstandard",
-      "27001": "Standard für Informationssicherheits management",
-      "45001": "Arbeitssicherheits- und Gesundheitsschutz management",
-      "27701": "Managementsysteme für Datenschutzinformationen",
-      "42001": "Managementsysteme für künstliche Intelligenz"
+      "9001": "Qualitätsmanagementsystem-Standard",
+      "14001": "Umweltmanagementsystem-Standard",
+      "27001": "Informationssicherheitsmanagementsystem-Standard",
+      "45001": "Arbeitsschutzmanagementsystem",
+      "27701": "Datenschutzinformationsmanagementsysteme",
+      "42001": "Künstliche-Intelligenz-Managementsysteme"
     },
     "certification": {
       "title": "Warum brauche ich eine ISO-Zertifizierung?",
-      "description-bottom": "Organisationen werden nicht von der ISO selbst zertifiziert. Um zertifiziert zu werden, müssen Sie sich zunächst an einen externen Prüfer wenden, der die Prozesse, Waren und Dienstleistungen Ihrer Organisation bewertet, um festzustellen, ob sie den ISO-Standards entsprechen. Dieser externe Prüfer sind wir. Wenn Ihr Unternehmen ISO-zertifiziert wird, erhalten Sie ein Zertifikat, mit dem Sie bei Ausschreibungen oder in der Werbung für Kunden nachweisen können, dass Ihre Waren oder Dienstleistungen die strengen Kriterien der ISO erfüllen. Die Ziele Ihres Unternehmens können mit einer Vielzahl von Themen zusammenhängen, wie z. B. Kundenzufriedenheit, Produktionsleistung, Ressourceneffizienz, Arbeitsschutz und so weiter, aber für alle diese Themen sind Managementsystemstandards die Methode, mit der Sie die verschiedenen Aspekte der Abläufe im Einklang mit der Mission steuern können. Die Systemzertifizierung wird Ihrem Unternehmen dabei helfen, den entsprechenden Standard einzuhalten und das Vertrauen der Kunden zu gewinnen.",
-      "description-top": "ISO-Managementsysteme wurden von der Internationalen Organisation für Normung entwickelt, einer unabhängigen, gemeinnützigen Organisation, die Richtlinien und Anforderungen für verschiedene Prozesse und Abläufe festlegt. Diese Richtlinien kommen Organisationen aller Art zugute, von kleinen und mittleren Unternehmen bis hin zu globalen Konzernen. Sie können für eine Vielzahl von Unternehmensaktivitäten verwendet werden, und was am wichtigsten ist: ISO-Zertifikate werden von Kunden auf der ganzen Welt akzeptiert. ISO-Managementsystemnormen unterstützen Unternehmen bei der Steigerung ihrer Leistung, indem sie die Schritte definieren, die Organisationen aktiv unternehmen, um bestimmte Aufgaben auszuführen, und indem sie ein Unternehmensverhalten schaffen, das an einem kontinuierlichen Anpassungspfad teilnimmt.",
+      "description-bottom": "Organisationen werden nicht direkt von der ISO zertifiziert. Um zertifiziert zu werden, müssen Sie zunächst einen Drittanbieter-Auditor kontaktieren, der die Prozesse, Waren und Dienstleistungen Ihrer Organisation prüft, um festzustellen, ob sie den ISO-Standards entsprechen. Dieser Drittanbieter sind wir. Sobald Ihr Unternehmen ISO-zertifiziert ist, erhalten Sie ein Zertifikat, das Sie verwenden können, um nachzuweisen, dass Ihre Waren oder Dienstleistungen den strengen Kriterien der ISO entsprechen, wenn Sie an Ausschreibungen teilnehmen oder bei Kunden werben. Die Ziele Ihres Unternehmens können mit verschiedenen Themen zusammenhängen, wie Kundenzufriedenheit, Produktionsleistung, Ressourceneffizienz, Arbeitsschutz und so weiter. Für all diese bieten Managementsystemstandards die Mittel, mit denen Sie verschiedene Aspekte Ihrer Betriebsabläufe im Einklang mit Ihrer Mission steuern können. Die Systemzertifizierung hilft Ihrem Unternehmen, den zugehörigen Standard einzuhalten und das Vertrauen und die Zuversicht der Kunden zu gewinnen.",
+      "description-top": "ISO-Managementsysteme wurden von der Internationalen Organisation für Normung entwickelt, einer unabhängigen, gemeinnützigen Organisation, die Richtlinien und Anforderungen für verschiedene Prozesse und Abläufe festlegt. Diese Richtlinien kommen Organisationen aller Art zugute, von kleinen und mittelständischen Unternehmen bis hin zu globalen Konzernen. Sie können für eine Vielzahl von Unternehmensaktivitäten angewendet werden, und am wichtigsten ist, dass ISO-Zertifikate weltweit von Kunden anerkannt werden. ISO-Managementsystemstandards helfen Unternehmen, ihre Leistung zu verbessern, indem sie die Schritte definieren, die Organisationen unternehmen müssen, um bestimmte Aufgaben auszuführen, und eine Unternehmenskultur schaffen, die an einem kontinuierlichen Weg der Verbesserung teilnimmt.",
       "offer": {
-        "title": "Was bieten wir?",
-        "description": "Wir sind eine ISO-Zertifizierungsstelle. Wir bieten die Zertifizierungsdienste an, die Sie benötigen, um das Risiko in Ihrem Unternehmen zu senken, die soziale Verantwortung, Qualität und Markenkonformität zu verbessern und das Vertrauen Ihrer Mitarbeiter zu stärken. Wir unterstützen Sie bei der Entwicklung Ihrer Geschäftsleistung, indem wir Sie nach ISO-Normen zertifizieren."
+        "title": "Was bieten wir an?",
+        "description": "Wir sind eine ISO-Zertifizierungsstelle. Wir bieten die Zertifizierungsdienste, die Sie benötigen, um Risiken in Ihrem Unternehmen zu reduzieren, die soziale Verantwortung, Qualität und Markenkonformität zu verbessern und Vertrauen in Ihre Mitarbeiter zu wecken. Wir helfen Ihnen bei der Entwicklung der Unternehmensleistung, indem wir Sie gemäß ISO-Standards zertifizieren."
       }
     },
     "price": {
-      "title": "Wie erschwinglich sind wir?",
-      "description": "*Startpreis für Unternehmen mit weniger als 15 Mitarbeitern. Klicken Sie auf „Jetzt buchen“, um eine detailliertere Preisliste anzuzeigen.",
-      "box-title": "ZERTIFIZIERUNG",
-      "month": "monat*",
+      "title": "Wie günstig sind wir?",
+      "description": "*Startpreis für Unternehmen mit weniger als 15 Mitarbeitern. Klicken Sie auf ‘Jetzt buchen’ für eine detailliertere Preisliste.",
+      "box-title": "Zertifizierung",
+      "month": "Monat*",
       "year": "Jahr*",
       "years": "3 Jahre*",
       "first-bottom": {
-        "title": "Qualitätsmanagement-Standard",
-        "description": "Skizziert Strategien zur Verbesserung der Wettbewerbsfähigkeit, Bewertung, internen Zuverlässigkeit und des Service."
+        "title": "Qualitätsmanagementsystem-Standard",
+        "description": "Umrisst Strategien für verbesserte Wettbewerbsfähigkeit, Bewertung, interne Zuverlässigkeit und Dienstleistung."
       },
       "second-bottom": {
-        "title": "Umweltmanagementstandard",
-        "description": "Fördert den Wert von Nachhaltigkeit und Umweltengagement."
+        "title": "Umweltmanagementsystem-Standard",
+        "description": "Fördert den Wert der Nachhaltigkeit und umweltbezogener Verpflichtungen."
       },
       "third-bottom": {
-        "title": "Standard für Informationssicherheits management",
-        "description": "Entwirft, implementiert und wartet die Informationssicherheits-Managementsysteme des Unternehmens."
+        "title": "Informationssicherheitsmanagementsystem-Standard",
+        "description": "Entwirft, implementiert und pflegt die Informationssicherheitsmanagementsysteme des Unternehmens."
       },
       "fourth-bottom": {
-        "title": "Arbeitssicherheits- und Gesundheitsschutzmanagement standard",
-        "description": "Enthält Empfehlungen zur Förderung sicherer und gesunder Arbeitsplätze durch die Vermeidung arbeitsbedingter Verletzungen und Erkrankungen."
+        "title": "Arbeitsschutzmanagementsystem-Standard",
+        "description": "Bietet Empfehlungen zur Förderung sicherer und gesunder Arbeitsplätze durch Vermeidung arbeitsbedingter Verletzungen und Erkrankungen."
       },
       "fifth-bottom": {
-        "title": "Datenschutz-Informations-Management-Standard",
-        "description": "ISO 27701 ist eine internationale Norm zur Einrichtung eines Datenschutz-Informationsmanagementsystems zum Schutz personenbezogener Informationen in Übereinstimmung mit Datenschutzgesetzen."
+        "title": "Datenschutzinformationsmanagement-Standard",
+        "description": "ISO 27701 ist ein internationaler Standard zur Einrichtung eines Datenschutzinformationsmanagementsystems zum Schutz personenbezogener Daten in Übereinstimmung mit Datenschutzgesetzen."
       },
       "sixth-bottom": {
-        "title": "Künstliche-Intelligenz-Management-Standard",
-        "description": "ISO 42001 ist eine internationale Norm, die einen Managementrahmen für die verantwortungsvolle Steuerung, Entwicklung und Nutzung von Künstlicher Intelligenz (KI) bietet."
+        "title": "Künstliche-Intelligenz-Managementsystem-Standard",
+        "description": "ISO 42001 ist ein internationaler Standard, der ein Managementrahmen für die verantwortungsvolle Governance, Entwicklung und Nutzung Künstlicher Intelligenz (KI) bietet."
       }
     },
     "fields": {
-      "title": "Welche Bereiche benötigen eine ISO-Zertifizierung?",
-      "description": "In jeder Branche trägt die Entwicklung eines umfassenden Managementsystems, das an bestimmte Betriebsumgebungen angepasst werden kann, zur Verbesserung grundlegender Geschäftsfunktionen bei. ISO-Normen werden von einer Vielzahl von Unternehmen auf der ganzen Welt verwendet. Das Geschäftsziel, Risiken zu verringern und die Qualität zu verbessern, ist ein gemeinsamer Faktor bei der Einführung aller Managementsysteme und der ISO-Zertifizierung. Obwohl es keine Begrenzung für die Art der Unternehmen gibt, die sich zertifizieren lassen können, gibt es einige Branchen, die eine ISO-Zertifizierung am dringendsten benötigen.",
+      "title": "Welche Felder benötigen eine ISO-Zertifizierung?",
+      "description": "In jeder Branche hilft die Entwicklung eines umfassenden Managementsystems, das an spezifische Abläufe angepasst werden kann, Organisationen dabei, ihre Kernfunktionen zu stärken. ISO-Standards werden weltweit von Organisationen als vertrauenswürdiges Rahmenwerk zur Verbesserung der Leistung übernommen. Die übergeordneten Ziele der Risikoreduzierung und Qualitätssicherung stehen im Mittelpunkt der Umsetzung aller Managementsysteme und der Erlangung der ISO-Zertifizierung. Obwohl die Zertifizierung für Organisationen jeder Art offen ist, gibt es bestimmte Branchen, in denen ISO-Standards aufgrund regulatorischer Anforderungen, Kundenerwartungen oder der Notwendigkeit höherer Qualitätssicherung besonders wichtig sind.",
       "box1-description": "Technologie",
-      "box2-description": "Herstellung",
-      "box3-description": "Maschinenbau",
-      "box4-description": "Konstruktion",
-      "box5-description": "Gemeinschaftliche Dienste",
+      "box2-description": "Fertigung",
+      "box3-description": "Ingenieurwesen",
+      "box4-description": "Bauwesen",
+      "box5-description": "Gemeinschaftsdienste",
       "box6-description": "Gesundheit",
-      "box7-description": "Hotels und Gastgewerbe"
+      "box7-description": "Hotels & Gastgewerbe"
     }
   },
   "Standards": {
-    "title": "ISO-Normen",
+    "title": "ISO-Standards",
     "subtitle": "Erklärt.",
     "certification": {
-      "title": "Was Sie über diese Normen wissen sollten",
-      "description-bottom": "ICB International Certification Body kann Sie nach den Normen ISO 9001 (Qualitätsmanagementsysteme), ISO 14001 (Umweltmanagementsysteme), ISO 27001 (Informationssicherheitsmanagementsysteme), ISO 27701 (Datenschutz-Informationsmanagementsysteme), ISO 42001 (Managementsysteme für künstliche Intelligenz) (demnächst verfügbar) und ISO 45001 (Arbeitssicherheits- und Gesundheitsschutzmanagementsysteme) zertifizieren.",
-      "description-top": "ISO (Internationale Organisation für Normung) ist eine internationale Organisation, die aus nationalen Normungsorganisationen aus über 160 Ländern besteht und verschiedene Normen für eine Reihe von Branchen entwickelt hat. Es gibt bestimmte Bedingungen, die Ihr Unternehmen erfüllen muss, um eine ISO-Zertifizierung zu erhalten, sei es im Management, in der Produktion, im Handel oder in der Fertigung. Die ISO hat Managementstandards für Qualität, Umwelt, Gesundheit und Sicherheit, Energie, Lebensmittelsicherheit und Informationstechnologiesicherheit entwickelt, um Ihr Unternehmen bei der Einhaltung von Vorschriften und der Effizienz zu unterstützen."
+      "title": "Was Sie über diese Standards wissen sollten",
+      "description-bottom": "ICB International Certification Body kann Sie zertifizieren mit: ISO 9001 Qualitätsmanagementsystemen, ISO 14001 Umweltmanagementsystemen, ISO 27001 Informationssicherheitsmanagementsystemen, ISO 27701 Datenschutzinformationsmanagementsystemen, ISO 42001 Künstliche-Intelligenz-Managementsystemen (demnächst), und ISO 45001 Arbeitsschutzmanagementsystemen.",
+      "description-top": "ISO (Die Internationale Organisation für Normung) ist eine internationale Organisation, die aus nationalen Normungsgremien aus über 160 Ländern besteht und verschiedene Standards für eine Reihe von Branchen erstellt hat. Es gibt spezifische Bedingungen, die Ihr Unternehmen erfüllen muss, um ISO-zertifiziert zu werden, sei es im Management, in der Produktion, im Handel oder in der Fertigung. ISO hat Qualitäts-, Umwelt-, Gesundheits- und Sicherheits-, Energie-, Lebensmittelsicherheits- und Informationstechnologiesicherheits-Managementsystemstandards entwickelt, um Ihr Unternehmen in die Einhaltung und Effizienz zu führen."
     },
     "management": {
-      "9001-title": "ISO 9001 – Qualitätsmanagementnorm",
-      "9001-description": "Die 7 Prinzipien, die den Begriff ISO 9001 umrahmen",
-      "9001-button": "Ich möchte nach ISO 9001 zertifiziert werden",
-      "14001-title": "ISO 14001 – Umweltmanagementnorm",
+      "9001-title": "ISO 9001 — Qualitätsmanagementsystem-Standard",
+      "9001-description": "Die 7 Prinzipien, die sich um das Konzept von ISO 9001 drehen",
+      "9001-button": "Ich möchte ISO 9001 zertifiziert werden",
+      "14001-title": "ISO 14001 — Umweltmanagementsystem-Standard",
       "14001-description": "Die Vorteile der ISO 14001-Zertifizierung",
-      "14001-button": "Ich möchte nach ISO 140001 zertifiziert werden",
-      "27001-title": "ISO 27001 – Informationssicherheits-Managementstandard",
-      "27001-description": "Die Anforderungen an ISO 27001 sind",
-      "27001-button": "Ich möchte nach ISO 27001 zertifiziert werden",
-      "45001-title": "ISO 45001 – Arbeitsschutzmanagementnorm",
-      "45001-description": "Vorteile der ISO 45001",
-      "45001-button": "Ich möchte nach ISO 45001 zertifiziert werden",
-      "27701-title": "ISO 27701 – Managementsysteme für den Datenschutz",
-      "27701-description": "Datenschutz-Informations-Management-Standard",
-      "27701-button": "Ich möchte nach ISO 27701 zertifiziert werden",
-      "42001-title": "ISO 42001 – Managementsysteme für künstliche Intelligenz",
-      "42001-description": "Künstliche-Intelligenz-Management-Standard",
-      "42001-button": "Ich möchte nach ISO 42001 zertifiziert werden"
+      "14001-button": "Ich möchte ISO 14001 zertifiziert werden",
+      "27001-title": "ISO 27001 — Informationssicherheitsmanagementsystem-Standard",
+      "27001-description": "Die Anforderungen für ISO 27001",
+      "27001-button": "Ich möchte ISO 27001 zertifiziert werden",
+      "45001-title": "ISO 45001 — Arbeitsschutzmanagementsystem-Standard",
+      "45001-description": "Vorteile von ISO 45001",
+      "45001-button": "Ich möchte ISO 45001 zertifiziert werden",
+      "27701-title": "ISO 27701 — Datenschutzinformationsmanagementsysteme",
+      "27701-description": "Datenschutzinformationsmanagement-Standard",
+      "27701-button": "Ich möchte ISO 27701 zertifiziert werden",
+      "42001-title": "ISO 42001 — Künstliche-Intelligenz-Managementsysteme",
+      "42001-description": "Künstliche-Intelligenz-Managementsystem-Standard",
+      "42001-button": "Ich möchte ISO 42001 zertifiziert werden"
     },
     "iso9001": {
-      "top": "Ursprünglich wurde die Norm ISO 9001 im Jahr 1987 herausgegeben. Im September 2015 wurde die neueste Ausgabe der ISO 9001 veröffentlicht. ISO 9001 ist eine globale Norm, die die Anforderungen an ein Qualitätsmanagementsystem (QMS) umreißt und von Unternehmen verwendet wird, um nachzuweisen, dass sie durchgängig Produkte und Dienstleistungen liefern können, die die Verbraucher- und Regulierungskriterien erfüllen. Es ist die am weitesten verbreitete Norm der ISO 9000-Reihe und die einzige, für die sich Organisationen zertifizieren lassen können. ISO 9001:2015 gilt für alle Unternehmen, unabhängig von ihrer Größe oder Branche. Allen ISO 9001-zertifizierten Unternehmen wird empfohlen, auf ISO 9001:2015 aufzurüsten, was Organisationen aller Art und Größe dabei hilft, Abläufe zu verwalten, die Systemleistung zu verbessern und sich stetig weiterzuentwickeln. ISO 9001 ist eine prozessorientierte Methode zur Aufzeichnung und Bewertung der Organisation, ihrer Aufgaben und Praktiken, die darauf abzielen, eine erfolgreiche Produktqualität im Unternehmen zu erreichen. Im Mittelpunkt steht die Strategie „Planen-Ausführen-Prüfen-Handeln“. Viele Themen werden in bestimmten Teilen der Norm ausführlich behandelt, darunter:",
+      "top": "Ursprünglich wurde der ISO 9001-Standard 1987 veröffentlicht. Im September 2015 wurde die neueste Ausgabe von ISO 9001 veröffentlicht. ISO 9001 ist ein globaler Standard, der die Anforderungen an ein Qualitätsmanagementsystem (QMS) umreißt und von Unternehmen verwendet wird, um zu zeigen, dass sie Produkte und Dienstleistungen konsistent liefern können, die Kunden- und regulatorischen Kriterien erfüllen. Es ist der am weitesten verbreitete Standard in der ISO 9000-Serie sowie der einzige, für den Organisationen zertifiziert werden können. ISO 9001:2015 gilt für alle Unternehmen, unabhängig von ihrer Größe oder Branche. Allen zu ISO 9001 zertifizierten Organisationen wird empfohlen, auf ISO 9001:2015 umzusteigen, was Organisationen aller Arten und Größen bei der Verwaltung von Abläufen, der Verbesserung der Systemleistung und der stetigen Entwicklung hilft. ISO 9001 verfolgt einen prozessorientierten Ansatz zur Dokumentation und Bewertung der Organisation, ihrer Verantwortlichkeiten und Praktiken, die darauf abzielen, eine erfolgreiche Produktqualität im Unternehmen zu erreichen. Es ist um die Plan-Do-Check-Act-Methode (PDCA) zentriert. Viele Themen werden in bestimmten Teilen des Standards detailliert behandelt, einschließlich:",
       "first-li": {
-        "item1": "Dokumentation, Terminierung und Definition von Prozessbeziehungen,",
-        "item2": "Führungsaufgaben,",
-        "item3": "Nutzung von Ressourcen, wie der Personalabteilung und der Betriebskultur der Organisation,",
-        "item4": "Leistungsbeurteilungen, vorgeschlagene Abhilfemaßnahmen und andere Verfahren zur Überwachung, Analyse und Verbesserung des Qualitätsmanagementsystems."
+        "item1": "Dokumentation, Planung und Definition von Prozessbeziehungen;",
+        "item2": "Verantwortlichkeiten des Managements;",
+        "item3": "Nutzung von Ressourcen, wie der Personalabteilung und der Betriebskultur der Organisation;",
+        "item4": "Leistungsüberprüfungen, vorgeschlagene Minderungsmaßnahmen und andere Verfahren zur Überwachung, Analyse und Verbesserung des Qualitätsmanagementsystems."
       },
       "second-li": {
-        "title": "Ein Unternehmen, das ein ISO 9001:2015-Zertifikat erhalten hat, hat nachgewiesen, dass:",
-
-        "item1": "Es implementiert die Kriterien der Norm ISO 9001,",
-        "item2": "Es koordiniert und kategorisiert Dokumentationen."
+        "title": "Ein Unternehmen, das ein ISO 9001-Zertifikat erhalten hat, beweist, dass:",
+        "item1": "Es die Kriterien des ISO 9001-Standards umsetzt;",
+        "item2": "Es Dokumentation koordiniert und kategorisiert."
       },
-      "bottom": "Unternehmen haben festgestellt, dass die Implementierung von ISO 9001, das die Grundsätze für einen erfolgreichen Qualitätsmanagementprozess festlegt, es ihnen ermöglicht hat, ein erfolgreiches Qualitätsmanagementsystem zu etablieren, die Zufriedenheit von Kunden, Verwaltung und Personal zu steigern und ihre Abläufe kontinuierlich zu optimieren. Durch die Zertifizierung Ihres Qualitätsmanagementprozesses verschaffen Sie sich einen strategischen Vorteil und verbessern Ihre Markteintrittschancen. Die Zertifizierung gibt Ihren Kunden und Geschäftspartnern ein wichtiges Entscheidungsinstrument an die Hand und sorgt für eine starke Kundenorientierung. Sie können auch die Verfahren und Strukturen Ihres Unternehmens verbessern, um die Effizienz zu steigern. Dadurch sparen Sie viel Geld und senken gleichzeitig Ihr Prozessrisiko. Die Produktivität der Mitarbeiter wird durch verbesserte Interaktion und leichter zugängliche Daten ebenfalls gesteigert. Wir bewerten und zertifizieren das Qualitätsmanagementsystem Ihres Unternehmens entsprechend Ihren spezifischen Anforderungen. Unsere Spezialisten verfügen über umfangreiches Fachwissen und haben unzählige erfolgreiche Projekte abgeschlossen."
+      "bottom": "Unternehmen haben festgestellt, dass die Umsetzung von ISO 9001, die die Prinzipien für einen erfolgreichen Qualitätsmanagementprozess festlegt, es ihnen ermöglicht hat, ein fruchtbares Qualitätsmanagementsystem aufzubauen, die Zufriedenheit von Kunden, Verwaltung und Personal zu steigern und ihre Abläufe kontinuierlich zu optimieren. Durch den Erwerb dieser Zertifizierung für Ihren Qualitätsmanagementprozess erhalten Sie einen strategischen Vorteil und verbessern Ihre Markteintrittschancen. Die Zertifizierung bietet Ihren Kunden und Geschäftspartnern ein wichtiges Entscheidungshilfsmittel und schafft einen starken Kundenfokus. Sie können auch die Verfahren und Strukturen Ihres Unternehmens verbessern, um die Effizienz zu steigern. Dies hilft Ihnen, erhebliche Kosten zu sparen und Ihr Prozessrisiko zu reduzieren. Die Produktivität der Mitarbeiter wird auch durch verbesserte Interaktion und leichter zugängliche Daten gesteigert. Wir bewerten und zertifizieren das Qualitätsmanagementsystem Ihrer Organisation entsprechend Ihren spezifischen Bedürfnissen. Unsere Spezialisten verfügen über umfangreiche Expertise und haben unzählige erfolgreiche Projekte abgeschlossen."
     },
     "iso14001": {
-      "top": "Die ISO 14001 ist der weltweit anerkannte Standard für Umweltmanagementsysteme. Er ist ein nützliches Verfahren zur Überwachung der Umweltverpflichtungen im Unternehmen. Beispiele hierfür sind Wasser- und Abwasserprobleme, Abfallentsorgung, Luftqualität und Smog, Milderung und Anpassung an den Klimawandel, Chemikalienunfälle, Ressourcenzuweisung und -optimierung. Er bezieht sich auf die Umweltfaktoren Ihrer Betriebsabläufe, Waren und Dienstleistungen und ist in allen Organisationen anwendbar, unabhängig von Größe, Art oder Charakter. Alle fünf Jahre werden ISO-Normen bewertet und bei Bedarf geändert, damit sie im heutigen Tempo des schnelllebigen Wirtschaftsumfelds weiterhin hilfreich und anwendbar bleiben. Die ISO 14001 wurde aktualisiert, um aktuelle Entwicklungen widerzuspiegeln und die Kompatibilität mit den anderen Managementsystemen zu gewährleisten. Verwaltung, Sicherheit und organisatorischer Wandel, Kommunikation und Bewusstsein sind allesamt wichtige Faktoren. Darüber hinaus müssen Sie in jedem Schritt des Lebenszyklus mehr Einfluss und Einfluss auf die ökologischen Folgen der Produktentwicklung ausüben. Dazu gehören die Beschaffung natürlicher Ressourcen, die Entwicklung, Herstellung, der Transport, die Nutzung, das Stilllegungsmanagement und sichere Entsorgungspraktiken. Zu den Vorteilen, die es bietet, gehört die Garantie, dass das Umweltmanagement richtig integriert und mit den Unternehmenszielen Ihres Unternehmens verknüpft ist, wobei das Ökosystem und kontinuierliche Innovation im Mittelpunkt der Geschäftstätigkeit stehen. Dies ist viel kosteneffizienter und trägt gleichzeitig zur Erhaltung der Umweltressourcen bei. Aufgrund der Standardisierung des Rahmens, der Terminologien und Konzepte ist es daher leicht in andere Managementlösungen zu integrieren.",
-      "bottom": "Die Deutsche Zertifizierungsstelle bietet ISO 14001-Zertifizierungsdienste für Unternehmen aller Größen und Branchen weltweit an. Um die lokalen Kriterien für gemeinsame Auditverfahren zu erfüllen, verfügen unsere Spezialisten über ausländische und inländische Akkreditierungen. Darüber hinaus unterliegen unsere Auditoren einem bestimmten Verhaltenskodex, der ihre absolute Unparteilichkeit gewährleistet. Darüber hinaus stellen wir Ihnen detaillierte Analysen und Berichte zur Verfügung, die Sie auf Ihrem Weg zum Erfolg unterstützen. Die Zertifizierung ist ein Mittel, um Ihren Käufern, Kunden, Lieferanten und anderen interessierten Parteien zu signalisieren, dass Sie die von einer unparteiischen Zertifizierungsstelle überprüften Richtlinien zu Standardisierungskriterien korrekt angewendet haben. Darüber hinaus hilft sie bestimmten Unternehmen dabei, die Einhaltung gesetzlicher und vertraglicher Verpflichtungen nachzuweisen. Organisationen, die die ISO 14001-Zertifizierung erhalten haben, haben ihr Engagement für kontinuierliche Entwicklung und verringerte Umweltauswirkungen unter Beweis gestellt. Wenn es um öffentliche und private Ausschreibungen für eine grüne Lieferkette geht, kann das Zertifikat Ihre Verhandlungsposition erheblich stärken. Die ISO 14001-Akkreditierung hilft Ihrem Unternehmen, sich als verantwortungsbewusster Lieferant hervorzuheben, da die Kunden sich der Umweltbelange immer stärker bewusst werden."
+      "top": "ISO 14001 ist der weltweit anerkannte Umweltmanagementsystem-Standard. Es ist ein nützlicher Ansatz zur Überwachung umweltbezogener Verpflichtungen im Unternehmen. Beispiele hierfür sind Wasser- und Abwasserprobleme, Abfallentsorgung, Luftqualität und Verschmutzung, Minderung und Anpassung an den Klimawandel, Chemikalienausläufe, Ressourcenzuweisung und -optimierung. Es bezieht sich auf die umweltbezogenen Faktoren Ihrer Abläufe, Produkte und Lösungen und gilt für alle Organisationen, unabhängig von Größe, Typ oder Charakter. Alle fünf Jahre werden ISO-Standards überprüft und bei Bedarf überarbeitet, um relevant und anwendbar in der heutigen schnelllebigen wirtschaftlichen Umwelt zu bleiben. ISO 14001 wurde aktualisiert, um aktuelle Entwicklungen widerzuspiegeln und die Kompatibilität mit anderen Managementsystemen zu gewährleisten. Führung, Planung und organisatorischer Wandel, Kommunikation und Bewusstsein sind wesentliche Faktoren. Darüber hinaus müssen Sie mehr Einfluss auf die ökologischen Auswirkungen der Produktentwicklung in jeder Phase des Lebenszyklus ausüben. Dies umfasst die Beschaffung natürlicher Ressourcen, Design, Fertigung, Transport, Nutzung, End-of-Life-Management und sichere Entsorgungspraktiken. Zu den Vorteilen gehört die Garantie, dass das Umweltmanagement ordnungsgemäß integriert und mit den Unternehmenszielen abgestimmt ist, wodurch das Ökosystem und kontinuierliche Innovation im Zentrum der Abläufe stehen. Dies wird weitaus kosteneffizienter sein und auch zur Erhaltung umweltbezogener Ressourcen beitragen. Aufgrund der Standardisierung seines Rahmens, seiner Terminologie und Konzepte ist es leicht in andere Managementlösungen zu integrieren.",
+      "bottom": "Die ICB International Certification Body bietet ISO 14001-Zertifizierungsdienste für Unternehmen aller Größen und Branchen weltweit an. Um lokale Kriterien für gemeinsame Auditverfahren zu erfüllen, verfügen unsere Spezialisten über internationale und nationale Akkreditierungen. Darüber hinaus sind unsere Auditoren an einen spezifischen Ethikkodex gebunden, der ihre vollständige Unparteilichkeit gewährleistet. Zusätzlich stellen wir Ihnen detaillierte Analysen und Berichte zur Verfügung, um Sie auf Ihrem Weg zum Erfolg zu unterstützen. Die Zertifizierung dient als Mittel, um Ihren Käufern, Kunden, Lieferanten und anderen interessierten Parteien zu signalisieren, dass Sie die Normungsrichtlinienkriterien korrekt umgesetzt haben, wie von einer unparteiischen Zertifizierungsorganisation bestätigt. Darüber hinaus hilft sie in einigen Unternehmen bei der Demonstration der Einhaltung rechtlicher und vertraglicher Verpflichtungen. Organisationen, die die ISO 14001-Zertifizierung erreicht haben, haben ihre Hingabe an kontinuierliche Verbesserung und reduzierte Umweltauswirkungen gezeigt. Bei öffentlichen und privaten Ausschreibungen für grüne Lieferketten kann das Zertifikat Ihren Verhandlungsspielraum erheblich stärken. Die ISO 14001-Akkreditierung hilft Ihrem Unternehmen, sich als verantwortungsvoller Lieferant hervorzuheben, da Kunden umweltbezogener Themen bewusster werden."
     },
     "iso27001": {
-      "top": "ISO 27001 legt die Anforderungen für die Einrichtung und Aufrechterhaltung eines erfolgreichen Informationssicherheits-Managementsystems (ISMS) fest. Die Internationale Organisation für Normung und die Internationale Elektrotechnische Kommission haben bei der Erstellung von ISO 27001 zusammengearbeitet. Der Standard wurde erstmals 2005 veröffentlicht und 2013 aktualisiert. Dieser weltweite Standard gilt für alle Unternehmen, unabhängig von Größe, Art oder Branche. Der Grund dafür ist die Grundlage, die er bietet, um Ihre Daten angemessen zu schützen, anstatt vorzuschreiben, welches Objekt gesichert werden soll. Jedem Unternehmen, das vertrauliche Informationen sendet, empfängt oder aufbewahrt, wird dringend empfohlen, sich nach ISO 27001 zertifizieren zu lassen. ISO 27001 legt 114 Maßnahmen fest, von denen sich die meisten auf die physische, technologische, rechtliche und administrative Sicherheit beziehen. Ziel der Kontrollmechanismen ist es, die in der Struktur festgelegten Kriterien zu erfüllen. Diese Maßnahmen sind Schutzmaßnahmen oder Lösungen, die verwendet werden, um Sicherheitsbedrohungen zu verhindern, zu identifizieren, zu mildern oder zu beseitigen."
+      "top": "ISO 27001 legt die Anforderungen für die Einrichtung und Aufrechterhaltung eines erfolgreichen Informationssicherheitsmanagementsystems (ISMS) fest. Die Internationale Organisation für Normung und die Internationale Elektrotechnische Kommission haben gemeinsam ISO 27001 entwickelt. Der Standard wurde erstmals 2005 veröffentlicht und 2013 aktualisiert. Dieser weltweite Standard gilt für alle Unternehmen, unabhängig von Größe, Typ oder Branche. Der Grund dafür ist die Grundlage, die er bietet, um Ihre Daten richtig zu schützen, anstatt zu diktieren, was geschützt werden soll. Jedes Unternehmen, das sensible Informationen sendet, empfängt oder speichert, wird dringend empfohlen, eine ISO 27001-Zertifizierung zu erlangen. ISO 27001 legt 114 Maßnahmen fest, von denen die meisten physische, technologische, rechtliche und administrative Sicherheit betreffen. Das Ziel der Kontrollmechanismen ist es, die in der Struktur festgelegten Kriterien zu erfüllen. Diese Maßnahmen sind Schutzmaßnahmen oder Lösungen, die verwendet werden, um Sicherheitsbedrohungen zu verhindern, zu erkennen, zu mildern oder zu beseitigen."
     },
     "iso45001": {
-      "top": "Die Norm ISO 45001 für Arbeitssicherheit und Gesundheitsschutz soll das Verletzungs- und Krankheitsrisiko am Arbeitsplatz verringern. Die Richtlinie betont die proaktive Sicherheit der Mitarbeiter und eine stärkere Beteiligung des Managements. Die Struktur der Norm ermöglicht eine einfache Integration in bestehende Managementsysteme. Unabhängig von Ihrer Branche oder Unternehmensgröße wird die ISO 45001-Zertifizierung die Zahl der Arbeitsunfälle erheblich reduzieren und gleichzeitig rechtliche und administrative Kriterien erfüllen. Sie soll in die aktuellen Organisationsabläufe einer Institution integriert werden und hat dasselbe System wie andere ISO-Managementsystemnormen. Unternehmen können ISO 45001 verwenden, um ein Arbeitssicherheits- und Gesundheitsschutzsystem zu erstellen. Durch die Erstellung und Umsetzung effizienter Richtlinien und Ziele sind sie in der Lage, die Gefahren im Bereich Arbeitssicherheit und Gesundheitsschutz zu bewältigen und die Produktivität ihrer Organisation zu steigern..",
+      "top": "Der ISO 45001-Standard für Arbeitsschutzmanagement ist darauf ausgelegt, das Risiko von Verletzungen und Erkrankungen am Arbeitsplatz zu reduzieren. Die Richtlinie betont proaktiven Mitarbeiterschutz und erhöhte Beteiligung des Managements. Die Struktur des Standards erleichtert die Integration in bestehende Managementsysteme. Unabhängig von Ihrer Branche oder Unternehmensgröße wird die ISO 45001-Zertifizierung die Anzahl berufsbedingter Verletzungen erheblich minimieren und rechtliche und administrative Kriterien erfüllen. Er ist so konzipiert, dass er in die bestehenden organisatorischen Abläufe einer Institution integriert werden kann und dieselbe Struktur wie andere ISO-Managementsystemstandards hat. Unternehmen können ISO 45001 nutzen, um ein Arbeitsschutzmanagementsystem zu erstellen. Durch die Erstellung und Umsetzung effektiver Richtlinien und Ziele können sie die OH&S-Risiken managen und die Produktivität ihrer Organisation verbessern.",
       "first-li": {
-        "title": "Zu den wichtigsten Vorteilen der Systemimplementierung zählen:",
-        "item1": "Minimierung von Unfällen auf der Baustelle",
-        "item2": "Höhere Produktivität durch geringere Fehlzeiten und Personalfluktuation",
-        "item3": "Günstigere Gesundheitskosten",
-        "item4": "Schaffung eines Kontrollumfelds, in dem die Arbeitnehmer aufgefordert sind, sich aktiv an ihrem eigenen Gesundheits- und Sicherheitsmanagement zu beteiligen",
-        "item5": "Bekräftigung der Bereitschaft des Managements, das Leistungsniveau kontinuierlich zu steigern",
-        "item6": "Verbesserte öffentliche Wahrnehmung",
-        "item7": "Verbesserte Mitarbeitermoral",
-        "item8": "Fähigkeit, gesetzliche Verpflichtungen zu erfüllen."
+        "title": "Zu den wichtigsten Vorteilen der Systemimplementierung gehören:",
+        "item1": "Minimierte Unfälle am Arbeitsplatz;",
+        "item2": "Erhöhte Produktivität durch geringere Abwesenheiten und Personalfluktuation;",
+        "item3": "Günstigere Gesundheitskosten;",
+        "item4": "Schaffung einer Kontrollumgebung, in der Mitarbeiter aktiv an ihrem eigenen Gesundheits- und Sicherheitsmanagement teilnehmen;",
+        "item5": "Bestätigte Managementverpflichtung zur kontinuierlichen Verbesserung der Leistungsstufen;",
+        "item6": "Verbesserte öffentliche Wahrnehmung;",
+        "item7": "Erhöhte Mitarbeitermoral;",
+        "item8": "Fähigkeit, rechtliche Verpflichtungen einzuhalten."
       },
-      "bottom": "ISO 45001 schlägt ein Modell zur Erhöhung der Sicherheit am Arbeitsplatz, zur Reduzierung von Gefahren am Arbeitsplatz und zur Verbesserung des Wohlbefindens und der Gesundheit der Mitarbeiter vor, mit dem ein Unternehmen seine Betriebseffizienz dynamisch steigern kann. Darüber hinaus gewährleistet es die weltweite Einhaltung bestehender Gesetze. Alle diese Schritte zusammen helfen einem Unternehmen, das Image eines „geschützten Arbeitsplatzes“ zu entwickeln, was eine Reihe von Vorteilen mit sich bringt, die von geringeren Gesundheitskosten bis hin zu höherer Mitarbeiterzufriedenheit reichen – und das alles, während Sie Ihren politischen Interessen treu bleiben. Unsere Spezialisten verfügen über umfassende Kenntnisse sowohl zu Managementsystemen als auch zu effektivem und langfristigem Arbeits- und Gesundheitsschutz. Wir prüfen und zertifizieren Ihr Unternehmen gemäß ISO 45001."
+      "bottom": "ISO 45001 schlägt ein Modell vor, um die Sicherheit am Arbeitsplatz zu erhöhen, Arbeitsplatzrisiken zu reduzieren und das Wohlbefinden und die Gesundheit der Mitarbeiter zu verbessern, sodass ein Unternehmen seine betriebliche Effizienz dynamisch steigern kann. Darüber hinaus gewährleistet es die globale Einhaltung bestehender Gesetze. All diese Schritte zusammen helfen einem Unternehmen, ein Image als 'geschützter Arbeitsplatz' aufzubauen, was zu einer Reihe von Vorteilen führt, von geringeren Gesundheitskosten bis hin zu höherer Mitarbeiterzufriedenheit – alles im Einklang mit Ihren Richtlinieninteressen. Unsere Spezialisten verfügen über umfassendes Wissen sowohl über Managementsysteme als auch über effektiven und langfristigen Arbeitsschutz. Wir prüfen und zertifizieren Ihr Unternehmen gemäß ISO 45001."
     },
     "iso27701": {
-      "top": "ISO 27701 ist eine internationale Norm zur Bewältigung der wachsenden weltweiten Nachfrage nach standardisiertem Datenschutzmanagement. Ihre Entwicklung wurde durch die rasche Expansion digitaler Dienste, internationale Datenströme und die Einführung strenger Datenschutzgesetze wie der Datenschutz-Grundverordnung (DSGVO) oder des California Consumer Privacy Act (CCPA) vorangetrieben. Die Norm wurde entwickelt, um einen strukturierten Rahmen für die Verwaltung personenbezogener Daten (PII) innerhalb einer Organisation zu schaffen, und führt datenschutzspezifische Kontrollen, Anforderungen und Anleitungen für Datenverantwortliche und Datenverarbeiter ein. ISO 27701 schließt die Lücke zwischen Informationssicherheit und Datenschutzkonformität, indem es operative Maßnahmen hinzufügt, die mit mehreren rechtlichen Rahmenbedingungen übereinstimmen, was es zu einem weltweit anerkannten Datenschutzzertifizierungsstandard macht.",
-      "bottom": "Für Organisationen sind die Vorteile von ISO 27701 erheblich. Es bietet eine klare, prüffähige Methodik zum Nachweis der Einhaltung von Datenschutzgesetzen und -anforderungen, was das Vertrauen von Kunden, Aufsichtsbehörden und Geschäftspartnern stärkt. Durch die Implementierung von ISO 27701 können Organisationen konsistente Prozesse für die Datenerhebung, -nutzung, -speicherung und -löschung etablieren und so eine rechtmäßige, transparente und sichere Handhabung personenbezogener Daten gewährleisten. Dies reduziert nicht nur das Risiko von Verstößen und gesetzlichen Strafen, sondern bietet auch einen Wettbewerbsvorteil, indem die Organisation als datenschutzbewusstes und vertrauenswürdiges Unternehmen positioniert wird. Darüber hinaus hilft die Norm, Datenschutz- und Sicherheitspraktiken unter einem einzigen Managementsystem zu vereinen, was die Compliance-Anstrengungen über Gerichtsbarkeiten hinweg rationalisiert und die Kosten und Komplexität der Erfüllung unterschiedlicher regulatorischer Anforderungen reduziert. In einer Ära, in der der Datenschutz ein entscheidender Wettbewerbsfaktor ist, unterstützt ISO 27701 die langfristige betriebliche Widerstandsfähigkeit, stärkt das Vertrauen der Stakeholder und erleichtert sicherere grenzüberschreitende Datenübertragungen."
+      "top": "ISO 27701 ist ein internationaler Standard, der der wachsenden globalen Nachfrage nach standardisiertem Datenschutzinformationsmanagement Rechnung trägt. Seine Entwicklung wurde durch die rasche Expansion digitaler Dienste, internationale Datenströme und die Einführung strenger Datenschutzgesetze wie der Datenschutz-Grundverordnung (DSGVO) oder dem California Consumer Privacy Act (CCPA) vorangetrieben. Der Standard wurde entwickelt, um ein strukturiertes Rahmenwerk für die Verwaltung personenbezogener identifizierbarer Informationen (PII) in einer Organisation zu bieten, indem datenschutzspezifische Kontrollen, Anforderungen und Leitlinien für Datenverantwortliche und Datenverarbeiter eingeführt werden. ISO 27701 schließt die Lücke zwischen Informationssicherheit und Datenschutzkonformität, indem operative Maßnahmen hinzugefügt werden, die mit mehreren rechtlichen Rahmenbedingungen übereinstimmen, was ihn zu einem global anerkannten Datenschutzzertifizierungsstandard macht.",
+      "bottom": "Für Organisationen sind die Vorteile von ISO 27701 erheblich. Er bietet eine klare, prüfbare Methodik zur Demonstration der Einhaltung von Datenschutzgesetzen und -anforderungen, was das Vertrauen von Kunden, Regulierungsbehörden und Geschäftspartnern stärkt. Durch die Implementierung von ISO 27701 können Organisationen konsistente Prozesse für die Datenerhebung, -nutzung, -speicherung und -löschung etablieren, um eine rechtmäßige, transparente und sichere Handhabung personenbezogener Daten zu gewährleisten. Dies reduziert nicht nur das Risiko von Verstößen und rechtlichen Strafen, sondern bietet auch einen Wettbewerbsvorteil, indem die Organisation als datenschutzbewusst und vertrauenswürdig positioniert wird. Darüber hinaus hilft der Standard, Datenschutz- und Sicherheitspraktiken unter einem einzigen Managementsystem zu vereinen, was die Konformitätsbemühungen über Jurisdiktionen hinweg rationalisiert und die Kosten und Komplexität der Erfüllung unterschiedlicher regulatorischer Anforderungen verringert. In einer Ära, in der Datenschutz ein Geschäftsdifferenzierer ist, unterstützt ISO 27701 die langfristige operative Widerstandsfähigkeit, stärkt das Vertrauen der Stakeholder und erleichtert sicherere grenzüberschreitende Datenübertragungen."
     },
     "iso42001": {
-      "top": "ISO 42001 ist ein international anerkanntes Managementsystem für künstliche Intelligenz (AIMS). Seine Schaffung war eine Reaktion auf den rasanten Aufstieg von KI-Technologien in allen Branchen und den wachsenden globalen Konsens, dass KI einen strukturierten Governance-Rahmen benötigt, um sicherzustellen, dass sie verantwortungsvoll entwickelt, eingesetzt und gewartet wird. Die Norm wurde von einem Ausschuss für künstliche Intelligenz entwickelt, unter Einbeziehung von Beiträgen von Technologieexperten, Regulierungsbehörden und Branchenführern. Ihr Ziel ist es, Organisationen einen systematischen Ansatz zur Verwaltung von KI-Risiken, Ethik, Transparenz und Leistung zu bieten – im Einklang mit sich entwickelnden KI-Vorschriften wie dem EU AI Act und ähnlichen KI-Gesetzen. ISO 42001 enthält Grundsätze aus etablierten Managementsystemstandards wie ISO 9001 und ISO 27001, passt diese jedoch speziell an, um die einzigartigen Herausforderungen der KI-Governance, einschließlich algorithmischer Voreingenommenheit, Rechenschaftspflicht und Lebenszyklusmanagement, zu bewältigen.",
-      "bottom": "Für Organisationen bietet ISO 42001 erhebliche strategische und operative Vorteile. Es ermöglicht ihnen, Vertrauenswürdigkeit und Konformität in einer zunehmend regulierten KI-Landschaft nachzuweisen, was für das Gewinnen von Kundenvertrauen, die Erfüllung der Erwartungen von Stakeholdern und die Vermeidung von regulatorischen Strafen unerlässlich ist. Durch die Implementierung von ISO 42001 können Unternehmen klare Prozesse für das KI-Lebenszyklusmanagement etablieren – vom Design und der Entwicklung bis hin zum Einsatz, der Überwachung und der Außerbetriebnahme – und so sicherstellen, dass KI-Systeme sicher, zuverlässig und im Einklang mit ethischen Richtlinien bleiben. Die Norm fördert auch die Integration von KI-Risikobewertungen, Datenqualitätskontrollen und Leistungsüberwachung in den täglichen Betrieb, was dazu beiträgt, die Wahrscheinlichkeit von unbeabsichtigtem Schaden, Voreingenommenheit oder Missbrauch zu verringern.",
-      "bottom-second": "Über die Konformität hinaus bietet ISO 42001 einen Wettbewerbsvorteil, indem es zeigt, dass sich die Organisation zu verantwortungsvoller KI verpflichtet hat, was einen reibungsloseren Markteintritt, erfolgreichere Partnerschaften und eine stärkere Positionierung in Beschaffungsprozessen ermöglicht, bei denen KI-Governance ein Auswahlkriterium ist."
+      "top": "ISO 42001 ist ein international anerkanntes Künstliche-Intelligenz-Managementsystem (AIMS). Seine Erstellung war eine Reaktion auf den raschen Aufstieg von KI-Technologien in verschiedenen Branchen und den wachsenden globalen Konsens, dass KI ein strukturiertes Governance-Rahmenwerk benötigt, um sicherzustellen, dass sie verantwortungsvoll entwickelt, eingesetzt und gepflegt wird. Der Standard wurde von einem Komitee für Künstliche Intelligenz entwickelt, das Beiträge von Technologieexperten, Regulierungsbehörden und Branchenführern einbezog. Sein Ziel ist es, Organisationen einen systematischen Ansatz zur Verwaltung von KI-Risiken, Ethik, Transparenz und Leistung zu bieten – im Einklang mit sich entwickelnden KI-Regulierungen wie dem EU-KI-Gesetz und ähnlichen KI-Gesetzen. ISO 42001 integriert Prinzipien aus etablierten Managementsystemstandards wie ISO 9001 und ISO 27001, passt sie jedoch speziell an, um die einzigartigen Herausforderungen der KI-Governance anzugehen, einschließlich algorithmischer Bias, Verantwortlichkeit und Lebenszyklusmanagement.",
+      "bottom": "Für Organisationen bietet ISO 42001 erhebliche strategische und operative Vorteile. Es ermöglicht ihnen, Vertrauenswürdigkeit und Konformität in einer zunehmend regulierten KI-Landschaft zu demonstrieren, was essenziell ist, um das Vertrauen der Kunden zu gewinnen, die Erwartungen der Stakeholder zu erfüllen und regulatorische Strafen zu vermeiden. Durch die Implementierung von ISO 42001 können Unternehmen klare Prozesse für das KI-Lebenszyklusmanagement etablieren – von Design und Entwicklung bis hin zu Einsatz, Überwachung und Stilllegung – und sicherstellen, dass KI-Systeme sicher, zuverlässig und mit ethischen Leitlinien im Einklang bleiben. Der Standard fördert auch die Integration von KI-Risikobewertungen, Datenqualitätskontrollen und Leistungsüberwachung in den täglichen Betrieb, was hilft, die Wahrscheinlichkeit unbeabsichtigter Schäden, Bias oder Missbrauchs zu reduzieren.",
+      "bottom-second": "Jenseits der Konformität bietet ISO 42001 einen Wettbewerbsvorteil, indem gezeigt wird, dass die Organisation verantwortungsvoller KI verpflichtet ist, was einen reibungsloseren Markteintritt, erfolgreichere Partnerschaften und eine stärkere Positionierung in Beschaffungsprozessen ermöglicht, in denen KI-Governance ein Auswahlkriterium ist."
     }
   },
   "Sectors": {
-    "title": "Was Branchen brauchen",
-    "subtitle": "ISO-Zertifizierung?",
+    "title": "Welche Sektoren benötigen",
+    "subtitle": "eine ISO-Zertifizierung?",
     "construction": {
-      "title": "Konstruktion",
-      "first-text": "Alle Parteien, insbesondere Architekten, Designer, Bauherren, Konstrukteure, Eigentümer, Produktentwickler, Inspektoren, Gesetzgeber und Kunden tragen zur Entwicklung von ISO-Baunormen bei. In einem Sektor, in dem ständig zeitliche und finanzielle Einschränkungen auferlegt werden, insbesondere durch eine Reihe externer Akteure und Drittmittelgeber, stehen Qualität und Zuverlässigkeit häufig im Widerspruch zueinander. Bauleiter, die sich an ISO-Normen halten, tragen dazu bei, Abfall zu minimieren, die Produktivität zu maximieren und ihren Mitarbeitern eine sicherere und gesündere Arbeitsumgebung zu bieten.",
-      "second-text": "Durch die Definition weltweit vereinbarter technischer und architektonischer Anforderungen und Verfahren machen ISO-Normen den Bausektor produktiver. Sie umfassen nahezu jeden Aspekt und Schritt des Bauprozesses, von Anfang bis Ende. ISO-Normen dienen als Grundlage für technologische Fortschritte und Ideen, die dem Markt dabei helfen, auf nationale und internationale Probleme wie Bevölkerungswachstum, ökologische Katastrophen, globale Erwärmung und andere Probleme zu reagieren."
+      "title": "Bauwesen",
+      "first-text": "Alle Parteien, insbesondere Architekten, Designer, Bauunternehmer, Konstrukteure, Eigentümer, Produktentwickler, Inspektoren, Gesetzgeber und Kunden tragen zur Entwicklung von ISO-Baustandards bei. In einem Sektor, in dem Zeit- und Finanzbeschränkungen kontinuierlich auferlegt werden, insbesondere durch eine Reihe externer Akteure und Drittanbieter-Finanzierer, werden Qualität und Zuverlässigkeit oft gegeneinander abgewogen. Bauvorstände, die ISO-Standards einhalten, helfen, Abfall zu minimieren, Produktivität zu maximieren und ein sichereres, gesünderes Arbeitsumfeld für ihre Mitarbeiter zu bieten.",
+      "second-text": "Durch die Definition global vereinbarter Ingenieur- und Architekturanforderungen und -verfahren machen ISO-Standards den Bausektor produktiver. Sie umfassen fast jeden Aspekt und jede Phase des Bauprozesses, von Anfang bis Ende. ISO-Standards dienen als Grundlage für technologische Fortschritte und Ideen, die dem Markt helfen, auf nationale und internationale Probleme wie Bevölkerungswachstum, ökologische Katastrophen, globale Erwärmung und andere Themen zu reagieren."
     },
     "hotels": {
-      "title": "Hotels und Gastgewerbe",
-      "first-text": "ISO für Hotels und Gaststätten wird in vielen Arten von Unternehmen verwendet, von Restaurants bis zu Hotelketten. Die ISO-Akkreditierung legt bestimmte Standards für ein Qualitätsmanagementsystem fest und verbessert die Fähigkeit, kontinuierlich eine Behandlung bereitzustellen, die den Anforderungen der Kunden entspricht. Kundenorientierte Unternehmen wie die Gaststättenbranche sind mit einer Reihe von Managementproblemen konfrontiert, insbesondere mit dem Mangel an Dokumentation von Verhaltenskodizes, was die Effektivität des Teams beeinträchtigen kann. Da Routineaufgaben so sichtbar im Vordergrund stehen, müssen die Mitarbeiter überprüfen können, ob die Vorschriften eingehalten werden.",
-      "second-text": "Standards verbessern die Bearbeitung von Beschwerden, das Qualitätsmanagement und die Verfolgung der Kundenzufriedenheit, was alles dazu beiträgt, die Kundenzufriedenheit aufrechtzuerhalten. Einer der wichtigsten Vorteile einer Zertifizierung ist die Verringerung von Kundenstreitigkeiten."
+      "title": "Hotels & Gastgewerbe",
+      "first-text": "ISO für Hotels und Gastgewerbe wird in vielen Arten von Unternehmen verwendet, von Restaurants bis hin zu Hotelketten. ISO-Akkreditierung legt bestimmte Standards für ein Qualitätsmanagementsystem fest und verbessert die Fähigkeit, kontinuierlich Behandlungen bereitzustellen, die den Anforderungen der Kunden entsprechen. Kundenorientierte Unternehmen wie das Gastgewerbe stehen vor einer Vielzahl von Managementproblemen, nämlich dem Mangel an Dokumentation zu Verhaltenskodizes, was die Effektivität des Teams beeinträchtigen kann. Da Routineaufgaben so sichtbar im Vordergrund stehen, benötigen Mitarbeiter ein Mittel, um sicherzustellen, dass Vorschriften eingehalten werden.",
+      "second-text": "Standards verbessern die Bearbeitung von Beschwerden, das Qualitätsmanagement und die Verfolgung der Kundenzufriedenheit, was alles hilft, Kunden zufrieden zu halten. Einer der bedeutendsten Vorteile der Zertifizierung ist die Reduzierung von Kundendisputen."
     },
     "health": {
       "title": "Gesundheit",
-      "first-text": "Die Zuverlässigkeit wird durch ISO-Gesundheitsnormen gewährleistet. Gesundheitsfachleute, Mitgliedsstaaten und Hersteller ziehen es vor, nicht verschiedene Marktanforderungen und Vorschriften erfüllen zu müssen, sondern stattdessen eine Verordnung zu haben, die alle Anforderungen zusammenfasst. Der Zweck dieser Norm besteht darin, die Risikominderung bei der Entwicklung und Installation pharmazeutischer Produkte anzuwenden.",
-      "second-text": "Für Gesundheitssysteme, insbesondere medizinische Zentren und Diagnosebedarf, ist die Verwaltung von Maschinenkomponenten für einen reibungslosen Arbeitsablauf von entscheidender Bedeutung. Um diese zahlreichen und miteinander verbundenen Aufgaben zu erfüllen, müssen Sie gut organisiert sein, und hier kommen die ISO-Normen ins Spiel."
+      "first-text": "Zuverlässigkeit wird durch ISO-Gesundheitsstandards gewährleistet. Gesundheitsfachkräfte, Mitgliedstaaten und Fertigungsunternehmen bevorzugen es, nicht verschiedene Marktanforderungen und Vorschriften erfüllen zu müssen, sondern stattdessen eine Regelung zu haben, die alle Anforderungen zusammenfasst. Der Zweck dieses Standards ist es, Risikominderung auf die Entwicklung und Installation pharmazeutischer Produkte anzuwenden.",
+      "second-text": "Für Gesundheitssysteme, insbesondere medizinische Zentren und diagnostische Versorgung, ist das Management von Maschinenkomponenten entscheidend für einen reibungslosen Arbeitsablauf. Um diese vielen und vernetzten Aufgaben zu erfüllen, müssen Sie gut organisiert sein, und hier kommen ISO-Standards ins Spiel."
     },
     "technology": {
       "title": "Technologie",
-      "first-text": "ISO-Normen helfen dabei, Kunden und Benutzer in IT-Unternehmen davon zu überzeugen, dass ihre Daten und Abläufe sicher und den Preis wert sind. Darüber hinaus können Hersteller und Händler von Geräten und Systemen der Informationstechnologie sicher sein, dass die von ihnen hergestellten Produkte oder Lösungen den Best Practices der Branche entsprechen und mit Systemen und Komponenten aus aller Welt kompatibel sind. Persönliche Konten, urheberrechtlich geschütztes Material, Mitarbeiterinformationen und Daten, die einem Unternehmen von Dritten zur Verfügung gestellt werden, fallen alle unter die ISO-Normen.",
-      "second-text": "Um in einer sich rasch entwickelnden Branche wettbewerbsfähig zu bleiben, müssen IT-Unternehmen sicherstellen, dass die Qualität ihrer Produkte die Kundenzufriedenheit erfüllt. Effektivität ist nicht nur in der IT von entscheidender Bedeutung; sie muss das gesamte Unternehmen durchdringen. IT-Unternehmen können diese Probleme angehen und die Kundenzufriedenheit verbessern, indem sie globale Managementstandards implementieren und registrieren."
+      "first-text": "ISO-Standards helfen, Kunden und Nutzer in IT-Unternehmen zu überzeugen, dass ihre Daten und Abläufe sicher und den Preis wert sind. Darüber hinaus können Hersteller und Händler von informationstechnologiebezogenen Geräten und Systemen sicher sein, dass die Produkte oder Lösungen, die sie herstellen, mit den besten Praktiken der Branche übereinstimmen und mit Systemen und Komponenten aus der ganzen Welt kompatibel sind. Persönliche Konten, urheberrechtlich geschütztes Material, Personaldaten und Daten, die einer Entität von Dritten zur Verfügung gestellt werden, werden alle von ISO-Standards abgedeckt.",
+      "second-text": "Um in einer schnell wachsenden Branche zu konkurrieren, müssen IT-Unternehmen sicherstellen, dass die Produktqualität die Kundenzufriedenheit erfüllt. Effektivität ist nicht nur in der IT entscheidend, sondern muss das gesamte Unternehmen durchdringen. IT-Unternehmen können diese Probleme angehen und die Kundenerfahrung verbessern, indem sie globale Managementsystemstandards implementieren und registrieren."
     },
     "manufacturing": {
-      "title": "Herstellung",
-      "first-text": "Hervorragende Qualität und Kundenzufriedenheit sind für jedes Unternehmen, das ein Produkt herstellt, wichtig. Dies ist besonders wichtig für Unternehmen, die komplizierte Produkte wie Autos oder Krankenhausausrüstung herstellen. Es ist viel schwieriger zu überprüfen, ob die Qualitätskontrollverfahren effektiv funktionieren, wenn Elemente und Teile für das fertige Produkt in verschiedenen Werken auf der ganzen Welt hergestellt werden. ISO-Standards ermöglichen es Herstellern, die Systeme, die Produktionseffizienz und -zuverlässigkeit gewährleisten, kontinuierlich zu testen, zu analysieren und zu verbessern."
+      "title": "Fertigung",
+      "first-text": "Hervorragende Qualität und Kundenzufriedenheit sind wichtig für jedes Unternehmen, das ein Produkt herstellt. Dies ist besonders essenziell für Unternehmen, die komplexe Artikel wie Automobile oder Krankenhausausrüstung herstellen. Es ist viel schwieriger zu überprüfen, ob Qualitätskontrollverfahren effektiv funktionieren, wenn Elemente und Teile für das Endprodukt in verschiedenen Einrichtungen auf der ganzen Welt hergestellt werden. ISO-Standards ermöglichen es Herstellern, die Systeme zu testen, zu analysieren und zu verbessern, die Produktionseffizienz und Zuverlässigkeit kontinuierlich gewährleisten."
     },
     "engineering": {
-      "title": "Maschinenbau",
-      "first-text": "Von Ihren Kunden aus dem Bau- und Ingenieurwesen als ISO-zertifiziertes Unternehmen anerkannt zu werden, ist sehr attraktiv, und das Zertifikat vermittelt ein Gefühl von Kompetenz, Können und Vertrauen. Obwohl die Sicherung von Projekten das oberste Ziel von Unternehmen ist, wird ihre Leistung tatsächlich von ihrer Fähigkeit bestimmt, starke und nachhaltige Beziehungen zu ihren Kunden aufzubauen, sowie von ihrer Fähigkeit, unter den verschiedensten Umständen kontinuierlich herausragende Missionen auszuführen. In diesem Geschäft können Sie mit einer ISO-Zertifizierung bei der Angebotsabgabe für Projekte der Konkurrenz einen Schritt voraus sein."
+      "title": "Ingenieurwesen",
+      "first-text": "Als ISO-zertifiziertes Unternehmen von Ihren Bau- und Ingenieurkunden anerkannt zu werden, ist sehr ansprechend, und das Zertifikat vermittelt ein Gefühl von Expertise, Fähigkeit und Vertrauen. Obwohl die Sicherung von Projekten ein ultimatives Ziel für Organisationen ist, wird ihre Fähigkeit, starke und nachhaltige Beziehungen zu ihren Kunden aufzubauen, sowie ihre Fähigkeit, kontinuierlich herausragende Missionen in einer Vielzahl von Umständen auszuführen, tatsächlich ihre Leistung bestimmen. In diesem Geschäft ermöglicht eine ISO-Zertifizierung, bei Ausschreibungen vor der Konkurrenz zu bleiben."
     },
     "services": {
-      "title": "Gemeinschaftliche Dienste",
-      "first-text": "Die ISO legt Standards und Richtlinien fest, um Gemeinden bei der Entwicklung eines Plans zu unterstützen, der ihnen zu mehr Stabilität verhilft. Sie legt keine Leistungsziele oder -maßstäbe fest. Obwohl das Thema nachhaltige Entwicklung weltweit ist, sind die Lösungen, um sie auf Gemeindeebene zu erreichen, größtenteils lokal und unterscheiden sich daher in Hintergrund und Inhalt von Ort zu Ort. Gemeindeinitiativen müssen die Umstände, Variablen, Interessen und Anforderungen berücksichtigen, insbesondere im sozialen Umfeld, wie Gleichheit, gemeinsame Kultur und Praktiken, Erbe, öffentliche Gesundheit, Sicherheit und Wohlbefinden sowie Infrastruktur.",
-      "second-text": "Das Ziel der ISO-Normen ist die Stärkung von Gemeinschaften. Dabei liegt der Schwerpunkt auf ökologischen und sozioökonomischen Nachteilen, wie etwa besseren Sozialdiensten, sowie auf der Förderung definierter Ziele für die Nachhaltigkeit von Gemeinschaften und geeigneter Managementprozesse zu deren Erreichung."
+      "title": "Gemeinschaftsdienste",
+      "first-text": "ISO legt Standards und Richtlinien fest, um Gemeinschaften bei der Entwicklung eines Plans zu unterstützen, der es ihnen ermöglicht, stabiler zu werden. Es legt keine Leistungsziele oder Metriken fest. Obwohl das Problem der nachhaltigen Entwicklung global ist, sind Lösungen für ihre Erreichung auf Gemeindeebene größtenteils lokal und variieren daher im Hintergrund und Inhalt von Ort zu Ort. Gemeinschaftsinitiativen müssen die Umstände, Variablen, Interessen und Bedürfnisse berücksichtigen, insbesondere im sozialen Kontext, wie Gleichheit, gemeinsame Kultur und Praktiken, Erbe, öffentliche Gesundheit, Sicherheit und Wohlbefinden sowie Infrastruktur.",
+      "second-text": "Das Ziel der ISO-Standards ist es, Gemeinschaften zu stärken. Es konzentriert sich auf umweltbezogene und sozioökonomische Nachteile, wie bessere soziale Pflegedienste, sowie die Förderung definierter Ziele für die Nachhaltigkeit der Gemeinschaft und angemessene Managementprozesse, um sie zu erreichen."
     }
   },
   "Pricing": {
-    "title": "Was kostet",
-    "subtitle": "Die Zertifizierung?",
+    "title": "Was kostet die",
+    "subtitle": "Zertifizierung?",
     "mission": {
       "title": "Unsere Mission!",
-      "description": "Wir bieten Ihnen hochwertige Zertifizierungsdienste zu beispiellos kosten- und zeiteffizienten Preisen, was unseren Preis für die ISO-Zertifizierung zum wettbewerbsfähigsten auf dem Markt macht. Sie haben die Möglichkeit, die Dienste monatlich, jährlich oder alle drei Jahre zu bezahlen. Die Kosten richten sich nach der Anzahl Ihrer Mitarbeiter. Wir bieten auch Zertifizierungen in mehreren Sprachen an. Mit uns verbessern Sie die Leistung Ihres Unternehmens, indem Sie sich nach ISO-Standards zertifizieren lassen. Wir helfen Ihnen beim Aufbau einer starken Arbeitsatmosphäre, die Ihnen den Erwerb Ihrer Qualifikation erheblich erleichtert. Auf jedem Schritt des Weges stehen Ihnen unsere Spezialisten zur Seite.",
-      "second-title": "Wir können Sie nach den folgenden Standards zertifizieren:"
+      "description": "Wir bieten Ihnen hochwertige Zertifizierungsdienste zu beispiellos kosteneffizienten und zeitsparenden Tarifen an, was unseren ISO-Zertifizierungspreis zum wettbewerbsfähigsten auf dem Markt macht. Sie haben die Möglichkeit, die Dienste monatlich, jährlich oder alle drei Jahre zu bezahlen, und die Kosten hängen von der Anzahl Ihrer Mitarbeiter ab. Wir bieten auch Zertifizierung in mehreren Sprachen an. Mit uns verbessern Sie die Leistung Ihres Unternehmens, indem Sie für ISO-Standards zertifiziert werden. Wir helfen dabei, eine starke Arbeitsatmosphäre aufzubauen, die den Erwerb Ihrer Qualifikation viel einfacher macht. Auf jedem Schritt des Weges stehen unsere Spezialisten hinter Ihnen.",
+      "second-title": "Wir können Sie für die folgenden Standards zertifizieren:"
     },
     "steps": {
       "title": "Wir arbeiten in 4 grundlegenden Schritten",
-      "first-step": "Unsere Auditoren beurteilen den aktuellen Stand Ihres Unternehmens und nehmen eine Vorbewertung vor. Dieser Schritt ist völlig optional und hängt von Ihren Wünschen ab.",
-      "second-step": "Im Rahmen eines Zertifizierungsaudits überprüfen wir die aktuelle Wirksamkeit Ihrer Managementsysteme.",
+      "first-step": "Unsere Auditoren bewerten den aktuellen Zustand Ihres Unternehmens und führen eine Vorab-Bewertung durch. Dieser Schritt ist vollständig optional und hängt von Ihrem Wunsch ab.",
+      "second-step": "Wir führen einen Zertifizierungsaudit durch, indem wir die aktuelle Effizienz Ihrer Managementsysteme prüfen.",
       "third-step": "Wir führen jährliche Audits durch, um den Fortschritt zu überwachen und bei Bedarf Änderungen zu empfehlen.",
-      "fourth-step": "Nach drei Jahren erfolgt eine Re-Zertifizierung und eine Ausweitung des kontinuierlichen Verbesserungsprozesses."
+      "fourth-step": "Sie werden in drei Jahren rezertifiziert, und das kontinuierliche Verbesserungsverfahren wird verlängert."
     }
   },
   "About": {
     "title": "Wer sind wir?",
     "first-text": {
-      "title": "Wir sind ICB International Certification Body und zertifizieren Organisationen nach ISO-Normen.",
-      "description": "Unsere Mission ist es, mit unserem Fachwissen Schutz, Zuverlässigkeit und Wirksamkeit zu gewährleisten. Da wir uns der Bedeutung von Technologie, digitaler Transformation und Kommunikation voll bewusst sind, streben wir danach, ein Spitzenreiter in den Bereichen Zertifizierungen, Audits und Schulungen zu sein."
+      "title": "Wir sind ICB International Certification Body und zertifizieren Organisationen gemäß ISO-Standards.",
+      "description": "Unsere Mission ist es, Expertise einzusetzen, um Schutz, Zuverlässigkeit und Effektivität zu etablieren. Vollkommen bewusst der Bedeutung von Technologie, digitaler Transformation und Kommunikation, streben wir danach, ein Führer der Exzellenz in den Bereichen Zertifizierungen, Audits und Schulungen zu sein."
     },
     "second-text": {
       "title": "Alles, was wir tun, basiert auf unserer Ehrlichkeit.",
-      "description": "Unter Compliance verstehen wir die Einhaltung aller geltenden Gesetze, Regeln, Normen und rechtlichen Verpflichtungen und sind motiviert durch das Vertrauen, das unsere Kunden uns entgegenbringen."
+      "description": "Wir definieren Compliance als Einhaltung aller anwendbaren Gesetze, Regeln, Normen und rechtlichen Verpflichtungen und werden durch das Vertrauen angetrieben, das uns unsere Kunden gewähren."
     },
     "third-text": {
-      "title": "Unsere Kunden stehen bei uns im Mittelpunkt.",
-      "description": "Sie erhalten Dienstleistungen, die auf sie ausgerichtet sind und gleichzeitig professionell, unvoreingenommen und objektiv sind. Wir fördern technologische und geschäftliche Fortschritte sowie Innovationen, indem wir Lösungen anbieten, die Sicherheit und Effizienz fördern. Dadurch ermöglichen wir unseren Kunden, produktiver zu werden und Vertrauen in Waren und Verfahren in internationalen Warenströmen aufzubauen. Durch unsere Erfolge in diesen Bereichen schaffen wir gemeinsam mit unseren Kunden einen besseren Lebensstandard. Es gibt immer Raum für Wachstum, deshalb können wir garantieren, dass alle Abläufe im Unternehmen kontinuierlich verbessert werden, um das Kundenerlebnis und ein gleichbleibendes Leistungs- und Betreuungsniveau zu verbessern. Angesichts der unerschütterlichen Professionalität und des unermüdlichen Engagements unserer Experten sowie der Erfolge unserer Kunden sind wir auf dem richtigen Weg."
+      "title": "Unsere Kunden stehen im Vordergrund unseres Denkens.",
+      "description": "Sie erhalten auf sie ausgerichtete Dienste, die professionell, unparteiisch und objektiv sind. Wir fördern technologische und geschäftliche Fortschritte sowie Innovation, indem wir Lösungen bereitstellen, die Sicherheit und Effizienz fördern. Dadurch ermöglichen wir unseren Kunden, produktiver zu werden, und bauen Vertrauen in Waren und Verfahren über internationale Warenströme hinweg auf. Als Ergebnis unserer Erfolge in diesen Bereichen schaffen wir zusammen mit unseren Kunden einen besseren Lebensstandard. Es gibt immer Raum für Wachstum; daher können wir garantieren, dass alle Abläufe im Unternehmen kontinuierlich verbessert werden, um die Kundenerfahrung und ein konsistentes Niveau an Leistung und Betreuung zu verbessern. Angesichts der unerschütterlichen Professionalität und der unerschütterlichen Hingabe unserer Experten sowie der Erfolge unserer Kunden sind wir auf dem richtigen Weg."
     },
     "additional": {
-      "firstLink": "Nichts, nichts, kein Problem",
+      "firstLink": "Der Auditprozess, die Ausstellung des Zertifikats, die Aussetzung oder Reduzierung des Zertifizierungsbereichs,",
       "firstText": "sowie",
-      "secondLink": "Beschwerden und Einsprüche",
-      "secondText": "Prozesse werden nach festgelegten Verfahren durchgeführt.",
-      "thirdText": "Die Verwendung des Namens der Zertifizierungsstelle und des Zertifizierungszeichens oder -logos (Logos) erfolgt durch CSIRO gemäß",
-      "thirdLink": "internes Verfahren."
+      "secondLink": "Beschwerden und Berufungen",
+      "secondText": "Prozesse werden gemäß festgelegten Verfahren durchgeführt.",
+      "thirdText": "Die Nutzung des Namens der Zertifizierungsstelle und des Zertifizierungszeichens oder Logos (Logo) wird von CSIRO gemäß",
+      "thirdLink": "internem Verfahren durchgeführt."
     }
   },
   "Contact": {
-    "title": "Bleiben wir dran",
-    "subtitle": "Berühren."
+    "title": "Lassen Sie uns in",
+    "subtitle": "Kontakt bleiben."
   },
   "Form": {
     "defaultForm": {
       "title": "Senden Sie uns eine Nachricht.",
       "name": "Name",
       "mail": "E-Mail",
-      "subject": "Thema",
+      "subject": "Betreff",
       "message": "Nachricht",
-      "description": "Durch Klicken auf die Schaltfläche „Absenden“ erteile ich der Deutschen Zertifizierungsstelle die Einwilligung, meine personenbezogenen Daten für Zwecke der Kommunikation und Unterstützung aller Art unter Verwendung aller Kommunikationsmethoden und -kanäle (z. B. E-Mail, Telefon, Fax usw.) zu verarbeiten. Mir ist bewusst, dass ich das Recht habe, meine Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Ich bin darüber informiert, dass der Widerruf der Einwilligung die Rechtmäßigkeit der Verarbeitung aufgrund der Einwilligung vor ihrem Widerruf nicht berührt. Die Deutsche Zertifizierungsstelle hat ihre Datenschutzrichtlinie und ihr Transparenzdokument, die alle in Artikel 13 und 14 der DSGVO genannten Informationen enthalten, online veröffentlicht und ich habe diese Veröffentlichungen gelesen. Mit dem Absenden dieser Anfrage bestätige ich, dass ich in meinem Wohnsitzland volljährig bin."
+      "description": "Durch Klicken auf die Schaltfläche „Senden“ erteile ich der ICB International Certification Body die Einwilligung, meine personenbezogenen Daten zu Zwecken der Kommunikation und Unterstützung aller Art unter Verwendung aller Methoden und Kommunikationskanäle (z. B. E-Mail, Telefon, Fax usw.) zu verarbeiten. Ich bin mir bewusst, dass ich das Recht habe, meine Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Ich bin informiert, dass der Widerruf der Einwilligung die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Die ICB International Certification Body hat ihre Datenschutzrichtlinie und ihr Transparenzdokument veröffentlicht, die alle in den Artikeln 13 und 14 DSGVO genannten Informationen online enthalten, und ich habe diese Veröffentlichungen gelesen. Durch das Einreichen dieser Anfrage bestätige ich, dass ich in meinem Wohnsitzland volljährig bin."
     },
     "auditorForm": {
-      "title": "Um Wirtschaftsprüfer zu werden, bewerben Sie sich hier:",
+      "title": "Um Auditor zu werden, bewerben Sie sich hier:",
       "name": "Name",
       "mail": "E-Mail",
-      "country-code": "Landesvorwahl",
+      "country-code": "Ländercode",
       "number": "Telefonnummer",
-      "residency": "Land des Wohnsitzes",
-      "linkedIn": "Link zum LinkedIn-Profil (optional)",
+      "residency": "Wohnsitzland",
+      "linkedIn": "LinkedIn-Profil-Link (optional)",
       "file": "Fügen Sie Ihren Lebenslauf bei",
-      "description": "Durch Klicken auf die Schaltfläche „Absenden“ erteile ich der Deutschen Zertifizierungsstelle die Einwilligung, meine personenbezogenen Daten für Zwecke der Kommunikation und Unterstützung aller Art unter Verwendung aller Kommunikationsmethoden und -kanäle (z. B. E-Mail, Telefon, Fax usw.) zu verarbeiten. Mir ist bewusst, dass ich das Recht habe, meine Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Ich bin darüber informiert, dass der Widerruf der Einwilligung die Rechtmäßigkeit der Verarbeitung aufgrund der Einwilligung vor ihrem Widerruf nicht berührt. Die Deutsche Zertifizierungsstelle hat ihre Datenschutzrichtlinie und ihr Transparenzdokument, die alle in Artikel 13 und 14 der DSGVO genannten Informationen enthalten, online veröffentlicht und ich habe diese Veröffentlichungen gelesen. Mit dem Absenden dieser Anfrage bestätige ich, dass ich in meinem Wohnsitzland volljährig bin."
+      "description": "Durch Klicken auf die Schaltfläche „Senden“ erteile ich der ICB International Certification Body die Einwilligung, meine personenbezogenen Daten zu Zwecken der Kommunikation und Unterstützung aller Art unter Verwendung aller Methoden und Kommunikationskanäle (z. B. E-Mail, Telefon, Fax usw.) zu verarbeiten. Ich bin mir bewusst, dass ich das Recht habe, meine Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Ich bin informiert, dass der Widerruf der Einwilligung die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Die ICB International Certification Body hat ihre Datenschutzrichtlinie und ihr Transparenzdokument veröffentlicht, die alle in den Artikeln 13 und 14 DSGVO genannten Informationen online enthalten, und ich habe diese Veröffentlichungen gelesen. Durch das Einreichen dieser Anfrage bestätige ich, dass ich in meinem Wohnsitzland volljährig bin."
     },
     "appealForm": {
       "name": "Name des Beschwerdeführers",
       "mail": "E-Mail des Beschwerdeführers",
-      "country-code": "Landesvorwahl",
+      "country-code": "Ländercode",
       "number": "Telefonnummer",
-      "incident-date": "Datum des Vorfalls, sofern relevant (optional)",
+      "incident-date": "Datum des Vorfalls, falls relevant (optional)",
       "about": "Die Beschwerde betrifft",
-      "details": "Die Beschwerdedetails",
-      "description": "Durch Klicken auf die Schaltfläche „Absenden“ erteile ich der Deutschen Zertifizierungsstelle die Einwilligung, meine personenbezogenen Daten für Zwecke der Kommunikation und Unterstützung aller Art unter Verwendung aller Kommunikationsmethoden und -kanäle (z. B. E-Mail, Telefon, Fax usw.) zu verarbeiten. Mir ist bewusst, dass ich das Recht habe, meine Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Ich bin darüber informiert, dass der Widerruf der Einwilligung die Rechtmäßigkeit der Verarbeitung aufgrund der Einwilligung vor ihrem Widerruf nicht berührt. Die Deutsche Zertifizierungsstelle hat ihre Datenschutzrichtlinie und ihr Transparenzdokument, die alle in Artikel 13 und 14 der DSGVO genannten Informationen enthalten, online veröffentlicht und ich habe diese Veröffentlichungen gelesen. Mit dem Absenden dieser Anfrage bestätige ich, dass ich in meinem Wohnsitzland volljährig bin."
+      "details": "Die Beschwerde-Details",
+      "description": "Durch Klicken auf die Schaltfläche „Senden“ erteile ich der ICB International Certification Body die Einwilligung, meine personenbezogenen Daten zu Zwecken der Kommunikation und Unterstützung aller Art unter Verwendung aller Methoden und Kommunikationskanäle (z. B. E-Mail, Telefon, Fax usw.) zu verarbeiten. Ich bin mir bewusst, dass ich das Recht habe, meine Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Ich bin informiert, dass der Widerruf der Einwilligung die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Die ICB International Certification Body hat ihre Datenschutzrichtlinie und ihr Transparenzdokument veröffentlicht, die alle in den Artikeln 13 und 14 DSGVO genannten Informationen online enthalten, und ich habe diese Veröffentlichungen gelesen. Durch das Einreichen dieser Anfrage bestätige ich, dass ich in meinem Wohnsitzland volljährig bin."
     },
     "details": {
       "title": "Kontaktdetails"
@@ -279,39 +279,39 @@
   },
   "Agreements": {
     "title": "Vereinbarungen",
-    "certification-title": "Alle Vereinbarungen, die Sie zu Beginn des Zertifizierungsprozesses unterzeichnen müssen, finden Sie hier und stehen zum kostenlosen Download bereit:",
+    "certification-title": "Alle Vereinbarungen, die Sie beim Start des Zertifizierungsprozesses unterschreiben müssen, sind hier und stehen zum kostenlosen Download zur Verfügung:",
     "transfer_agreement": "Datenverarbeitungs- und Übertragungsvereinbarungen.docx",
     "certification_agreement": "Zertifizierungsvereinbarung.docx",
-    "licensing_agreement": "Prüfzeichen-Lizenzvereinbarung.docx"
+    "licensing_agreement": "Lizenzvereinbarung für das Zertifizierungszeichen.docx"
   },
   "Report": {
-    "title": "Stimmt etwas nicht?",
-    "certification-title": "Beschwerde- und Einspruchsformular",
-    "certification-description-top": "Die Deutsche Zertifizierungsstelle ist sich ihrer Verantwortung bewusst, Beschwerden zu bearbeiten und mögliche Fehler zu korrigieren, da dies eine der grundlegendsten und effizientesten Möglichkeiten ist, sich ständig zu verbessern und in dem, was wir tun, besser zu werden.",
-    "certification-description-bottom": "Wir bestätigen alle Beschwerden innerhalb einer Arbeitswoche und versuchen, Beschwerden innerhalb eines Monats zu lösen. Sie haben das Recht, uns innerhalb einer Woche zu antworten, und wir werden den Fall möglicherweise erneut prüfen. Wir teilen Ihnen die Ergebnisse immer per E-Mail oder über einen anderen von Ihnen angegebenen Kanal mit. Wenn uns ein Fehler unterlaufen ist, erhalten Sie von uns eine schriftliche Entschuldigung. Ihre Privatsphäre ist bei uns geschützt."
+    "title": "Ist etwas falsch?",
+    "certification-title": "Beschwerde- und Berufungsformular",
+    "certification-description-top": "ICB International Certification Body versteht und erkennt die Verantwortung an, Beschwerden anzusprechen und mögliche Fehler zu korrigieren, da dies eine der fundamental effizientesten Wege ist, kontinuierlich zu verbessern und besser zu werden.",
+    "certification-description-bottom": "Wir bestätigen alle Beschwerden innerhalb einer Arbeitswoche und versuchen, Beschwerden innerhalb eines Monats zu lösen. Sie haben das Recht, uns innerhalb einer Woche zu antworten, und wir können den Fall überdenken. Wir kommunizieren die Ergebnisse immer per E-Mail oder über einen anderen Kanal, den Sie angegeben haben. Wenn wir einen Fehler gemacht haben, erhalten Sie eine schriftliche Entschuldigung von uns. Ihr Datenschutz ist bei uns geschützt."
   },
   "Auditor": {
-    "title": "Lassen Sie uns daran arbeiten",
-    "subtitle": "Zusammen:",
-    "certification-title": "Warum bei uns Wirtschaftsprüfer werden?",
-    "certification-description": "ISO-Audits untersuchen die Managementsysteme eines Unternehmens, um festzustellen, ob sie der Norm und ihren Kriterien entsprechen. Darüber hinaus erkennen sie aktuelle oder zukünftige Probleme in Managementprozessen und geben Empfehlungen zu deren Behebung. Audits gehen nicht nur auf Probleme ein, sondern helfen auch dabei, festzustellen, welche Anstrengungen unternommen werden, um die Unternehmensziele und -strategie des Unternehmens zu erfüllen, und nach Methoden zur Verbesserung des Netzwerks zu suchen. Audits bieten Ihnen die Möglichkeit zu verstehen, was effektiv ist und was nicht. Es ist eine Chance herauszufinden, wie Sie sich weiterentwickeln können, um bei dem, was Sie tun, effizienter zu werden. Wir von der Deutschen Zertifizierungsstelle bieten Ihnen die großartige Möglichkeit, bei uns Auditor zu werden und Teil der großartigen Projekte zu sein, die wir durchführen. Sie können jederzeit Ihre Kontaktinformationen unten angeben. Wir werden uns dann mit Ihnen in Verbindung setzen, um weitere Details zu besprechen."
+    "title": "Lassen Sie uns zusammen",
+    "subtitle": "arbeiten.",
+    "certification-title": "Warum Auditor bei uns werden?",
+    "certification-description": "ISO-Audits untersuchen die Managementsysteme eines Unternehmens, um festzustellen, ob sie dem Standard und seinen Kriterien entsprechen. Sie identifizieren auch aktuelle oder potenzielle Probleme in Managementprozessen und geben Empfehlungen, wie man sie behebt. Während sie Probleme ansprechen, helfen Audits auch dabei, festzustellen, welche Anstrengungen unternommen werden, um die Unternehmensziele und -strategie zu erfüllen, sowie Wege zur Verbesserung des Netzwerks zu finden. Audits geben Ihnen die Möglichkeit zu verstehen, was effektiv ist und was nicht. Es ist eine Chance, herauszufinden, wie Sie sich weiterentwickeln können, um effizienter in dem zu werden, was Sie tun. Wir bei ICB International Certification Body bieten Ihnen die großartige Gelegenheit, Auditor bei uns zu werden und Teil der beeindruckenden Projekte zu sein, die wir übernehmen. Sie können immer Ihre Kontaktdaten unten ausfüllen, und wir melden uns bei Ihnen, um weitere Details zu besprechen."
   },
   "Modals": {
     "defaultModal": {
-      "message": "Wir haben Ihre Nachricht erhalten und werden uns schnellstmöglich bei Ihnen melden!"
+      "message": "Wir haben Ihre Nachricht erhalten und melden uns so schnell wie möglich bei Ihnen!"
     },
     "auditorModal": {
       "title": "Vielen Dank für Ihre Bewerbung!",
-      "message": "Wir wissen, dass dies eine spannende Gelegenheit ist, und werden uns so schnell wie möglich bei Ihnen melden! In der Zwischenzeit können Sie sich auf unserer Website umsehen. Wir haben viele interessante Informationen für Sie."
+      "message": "Wir wissen, dass dies eine spannende Gelegenheit ist, und wir melden uns so schnell wie möglich bei Ihnen! In der Zwischenzeit können Sie sich auf unserer Website umsehen; wir haben viele interessante Informationen zu lesen."
     },
     "appealModal": {
-      "title": "Vielen Dank für Ihr Interesse!",
-      "message": "Wir haben Ihre Beschwerde erhalten und werden sie mit aller Ernsthaftigkeit behandeln. Sie werden so schnell wie möglich über die Ergebnisse informiert."
+      "title": "Vielen Dank für Ihre Bedenken!",
+      "message": "Wir haben Ihre Beschwerde erhalten und behandeln sie mit aller Ernsthaftigkeit. Sie werden so schnell wie möglich über die Ergebnisse informiert."
     },
     "cookieModal": {
       "title": "Cookie-Einwilligung (DSGVO-Konformität)",
-      "message": "Mit meinem Klick auf die zustimmende Schaltfläche willige ich freiwillig in das Setzen oder Aktivieren der jeweiligen Cookies und externen Verbindungen, sowie in die Übermittlung von Werbe-IDs und Betriebssystem-Werbe-IDs, etwa AdIDs (Android), IDFAs (Apple) oder die Windows-Werbe-ID, ein, deren Funktionen in der Datenschutzerklärung oder in dort verlinkten Dokumenten bzw. externen Links genauer erläutert werden und mir deshalb bekannt sind. In dem ich diese Schaltfläche betätige erteile ich auch freiwillig meine ausdrückliche Einwilligung gem. Art. 49 Abs. 1 Unterabs. 1 Buchst. a DS-GVO in personalisierte Werbung, Werbe-ID-Übermittlungen und für andere Datenübermittlungen in Drittländer zu den und durch die in der Datenschutzerklärung genannten Unternehmen und Zwecke, insbesondere für solche Übermittlungen an Drittländer für die ein oder kein Angemessenheitsbeschluss der EU/EWR vorliegt sowie an Unternehmen oder sonstige Stellen, die einem bestehenden Angemessenheitsbeschluss nicht aufgrund einer Selbstzertifizierung oder anderer Beitrittskriterien unterfallen, und in denen oder für die erhebliche Risiken und keine geeigneten Garantien für den Schutz meiner personenbezogenen Daten bestehen (z.B. wegen § 702 FISA, Executive Order EO12333 und dem CloudAct in den USA). Bei Abgabe meiner freiwilligen und ausdrücklichen Einwilligung war mir bekannt, dass in Drittländern unter Umständen kein angemessenes Datenschutzniveau gegeben ist und das meine Betroffenenrechte gegebenenfalls nicht durchgesetzt werden können. Ich kann die datenschutzrechtliche Einwilligung jederzeit mit Wirkung für die Zukunft, z.B. durch die Änderung meiner Cookie-Einstellungen oder das Löschen meiner Cookies, widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Mit einer einzelnen Handlung (dem Betätigen der zustimmenden Schaltfläche), erteile ich mehrere Einwilligungen. Dabei handelt es sich sowohl um Einwilligungen nach dem EU/EWR-Datenschutzrecht als auch um die des CCPA/CPRA, ePrivacy und Telemedienrechts, und anderer internationaler Rechtsvorschriften, die unter anderem zum Speichern und Auslesen von Informationen notwendig und als Rechtsgrundlage für eine geplante weitere Verarbeitung der ausgelesenen Daten erforderlich sind. Ihre Einwilligung umfasst insbesondere eine ausdrückliche Einwilligung in alle nachgelagerten Datenverarbeitungen durch Drittanbieter, die auch in unsicheren Drittländern erfolgen können, insbesondere für personalisierte und zielgerichtete Werbung, durch alle in unserer Datenschutzerklärung genannten Unternehmen, sowie deren Unterauftragsverarbeiter und Verantwortliche, die Daten von diesen Drittanbietern oder uns innerhalb einer Datenverarbeitungskette erhalten oder übermittelt bekommen. Mir ist bekannt, dass ich meine Einwilligung mit dem Klick auf die andere Schaltfläche verweigern oder ggf. individuelle Einstellungen vornehmen kann. Mit meiner Handlung bestätige ich ebenfalls, die Datenschutzerklärung und das Transparenzdokument gelesen und zur Kenntnis genommen zu haben.",
-      "checkText": "Verkaufen Sie meine personenbezogenen Daten nicht und geben Sie diese nicht anderweitig weiter (US Bundesstaaten-Recht: z.B. CCPA/CPRA)."
+      "message": "Durch Drücken der Zustimmungstaste erteile ich freiwillig meine Einwilligung, Cookies und externe Verbindungen zu setzen oder zu aktivieren sowie Werbe-IDs und Betriebssystem-Werbe-IDs zu übermitteln, wie AdIDs (Android), IDFAs (Apple) oder die Windows-Werbe-ID. Ich kenne ihre Funktionen, da sie in der Datenschutzrichtlinie beschrieben oder in dort implementierten Dokumenten oder externen Links detaillierter erklärt werden. Durch Drücken dieser Taste erteile ich auch freiwillig meine ausdrückliche Einwilligung gemäß Artikel 49 (1) (1) (a) DSGVO für personalisierte Werbung, Übermittlung von Werbe-IDs und andere Datenübertragungen an Drittländer an die in der Datenschutzrichtlinie genannten Unternehmen und Zwecke, insbesondere für solche Übertragungen an Drittländer, für die keine Angemessenheitsentscheidung der EU/EEA vorliegt oder vorliegt, und an Unternehmen oder andere Einheiten, die keiner bestehenden Angemessenheitsentscheidung auf Basis von Selbsteinschätzung oder anderen Beitrittskriterien unterliegen, und die erhebliche Risiken beinhalten und keine angemessenen Garantien für den Schutz meiner personenbezogenen Daten bieten (z. B. aufgrund von Section 702 FISA, Executive Order EO12333 und dem CloudAct in den USA). Bei Erteilung meiner freiwilligen und ausdrücklichen Einwilligung war ich mir bewusst, dass in Drittländern möglicherweise kein angemessenes Datenschutzniveau existiert und dass meine Rechte als Betroffener möglicherweise nicht durchsetzbar sind. Ich habe das Recht, meine datenschutzrechtliche Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen, z. B. durch Änderung meiner Cookie-Einstellungen oder Löschung meiner Cookies. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung. Mit einer einzigen Handlung (Drücken der Zustimmungstaste) werden mehrere Einwilligungen erteilt. Dies sind Einwilligungen nach EU/EEA-Datenschutzrecht sowie nach CCPA/CPRA, ePrivacy- und Telemedienrecht sowie anderer internationaler Gesetzgebung, die unter anderem für die Speicherung und das Auslesen von Informationen notwendig sind und als Rechtsgrundlage für die geplante weitere Verarbeitung der ausgelesenen Daten erforderlich sind. Ihre Einwilligung umfasst insbesondere die ausdrückliche Einwilligung zu allen nachgelagerten Datenverarbeitungen durch Drittanbieter, die auch in unsicheren Drittländern stattfinden können, insbesondere für personalisierte und zielgerichtete Werbung, durch alle in unserer Datenschutzrichtlinie genannten Unternehmen sowie deren Unterverarbeiter und Controller, die Daten oder Weiterübertragungen von diesen Drittanbietern oder uns in einer Datenverarbeitungskette erhalten. Ich bin mir bewusst, dass ich meine Einwilligung ablehnen kann, indem ich auf die andere Taste klicke oder bei Bedarf individuelle Einstellungen vornehme. Mit meiner Handlung bestätige ich auch, dass ich die Datenschutzrichtlinie und das Transparenzdokument gelesen und zur Kenntnis genommen habe.",
+      "checkText": "Verkaufen oder teilen Sie meine personenbezogenen Daten nicht anderweitig (US-Bundesstaatsrecht, z. B. CCPA/CPRA)."
     }
   },
   "Imprint": {
@@ -319,7 +319,7 @@
     "subtitle": "Unternehmensinformationen",
     "companyInfo": "Unternehmensinformationen",
     "companyName": "ICB International Certification Body LLC",
-    "addressLine1": "Angisa Street 20-22, 5th Floor, App. 096",
+    "addressLine1": "Angisa Street 20-22, 5. Stock, App. 096",
     "addressLine2": "6004 Batumi",
     "addressLine3": "",
     "country": "Republik Georgien",
@@ -328,26 +328,26 @@
     "email": "E-Mail: info@cert-authority.com",
     "management": "Geschäftsführung",
     "managingDirector": "Geschäftsführer: Prof. Dr. iur. Tinatin Erkvania, LL.B., LL.M.",
-    "identificationCode": "Identifikationsnummer: 445776866",
+    "identificationCode": "Identifikationscode: 445776866",
     "editorialResponsibility": "Verantwortlich für alle redaktionellen Inhalte",
     "editorialPerson": "Levan Zedginidze",
     "supervisoryAuthority": "Aufsichtsbehörde",
-    "supervisoryName": "National Accreditation Center of Georgia (GAC)",
-    "supervisoryAddress": "1 Mindeli Street, 0186 Tbilisi, Georgien",
+    "supervisoryName": "Nationales Akkreditierungszentrum Georgiens (GAC)",
+    "supervisoryAddress": "1 Mindeli Street, 0186 Tiflis, Georgien",
     "disclaimer": "Haftungsausschluss",
     "disclaimerText": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.",
     "copyright": "Urheberrecht",
-    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem georgischen und internationalen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung der jeweiligen Rechteinhaber."
+    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem georgischen und internationalen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung der jeweiligen Rechteinhaber."
   },
   "Buttons": {
     "book": "Buchen Sie uns jetzt!",
-    "auditor": "Wir stellen ein! Wirtschaftsprüfer",
+    "auditor": "Wir stellen ein! Auditor (m/w/d)",
     "more": "Mehr anzeigen",
     "manage-consent": "Einwilligung verwalten",
     "submit": "Senden",
     "close": "Schließen",
     "accept": "Alle akzeptieren",
-    "accept-cookies": "ALLE COOKIES UND EXTERNEN VERBINDUNGEN ERLAUBEN",
+    "accept-cookies": "ALLE COOKIES UND EXTERNE VERBINDUNGEN ERLAUBEN",
     "decline": "Ablehnen"
   }
 }

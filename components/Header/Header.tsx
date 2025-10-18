@@ -10,6 +10,7 @@ import { useTranslations } from "next-intl";
 const localeToCountryName: Record<string, string> = {
   "en": "Global",
   "de": "Deutschland",
+  "ka": "საქართველო",
   "de-de": "Deutschland",
   "de-at": "Österreich",
   "de-ch": "Schweiz",
@@ -20,9 +21,10 @@ const localeToCountryName: Record<string, string> = {
 };
 
 // Only show country-specific locales in the dropdown to avoid duplication
-type CountryLocale = "en" | "de-de" | "de-at" | "de-ch" | "en-us" | "en-gb" | "en-ca" | "en-au";
+type CountryLocale = "en" | "ka" | "de-de" | "de-at" | "de-ch" | "en-us" | "en-gb" | "en-ca" | "en-au";
 const countryLocales: CountryLocale[] = [
   "en",
+  "ka",
   "de-de",
   "de-at", 
   "de-ch",
@@ -63,7 +65,7 @@ export default function Header() {
 
   const isActivePath = (path: string) => {
     const pathSegments = pathname.split("/").filter(Boolean);
-    const locale = ["en", "de", "de-de", "de-at", "de-ch", "en-us", "en-gb", "en-ca", "en-au"].includes(pathSegments[0])
+    const locale = ["en", "de", "ka", "de-de", "de-at", "de-ch", "en-us", "en-gb", "en-ca", "en-au"].includes(pathSegments[0])
       ? pathSegments[0]
       : "";
     if (path === "/" && (pathname === `/${locale}` || pathname === "/")) {
