@@ -123,15 +123,8 @@ export default function Footer() {
                 {main("footerLinks.certification-policy")}
               </a>
             </div>
-            <div
-              className={styles.footer_items_links_lines_item}
-              // onClick={() =>
-              //   handleFileOpen(findDocumentByType("privacy"), privacy)
-              // }
-            >
-              <a href={privacy} target="_blank" rel="noopener noreferrer">
-                {main("footerLinks.privacy-policy")}
-              </a>
+            <div className={styles.footer_items_links_lines_item}>
+              <Link href="/privacy-policy">{main("footerLinks.privacy-policy")}</Link>
             </div>
             <div
               className={styles.footer_items_links_lines_item}

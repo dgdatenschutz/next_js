@@ -293,8 +293,16 @@
   "Auditor": {
     "title": "მოდით ვიმუშაოთ ამაზე",
     "subtitle": "ერთად.",
-    "certification-title": "რატომ გახდეთ აუდიტორი ჩვენთან?",
-    "certification-description": "ISO აუდიტები იკვლევენ კორპორაციის მართვის სისტემებს იმის დასადგენად, აკმაყოფილებენ თუ არა ისინი სტანდარტს და მის კრიტერიუმებს. ისინი ასევე გამოავლენენ მიმდინარე ან პოტენციურ პრობლემებს მართვის პროცესებში და გვთავაზობენ რეკომენდაციებს მათი გამოსწორების შესახებ. პრობლემების მოგვარებისას, აუდიტები ასევე ეხმარებიან იმის განსაზღვრაში, თუ რა ძალისხმევა იხარჯება კომპანიის კორპორაციული მიზნებისა და სტრატეგიის შესასრულებლად, ასევე ქსელის გაუმჯობესების მეთოდების გამოვლენაში. აუდიტები გაძლევთ შესაძლებლობას გაიგოთ რა არის ეფექტური და რა არა. ეს არის შანსი აღმოაჩინოთ, თუ როგორ შეგიძლიათ განვითარდეთ იმისთვის, რომ გახდეთ უფრო ეფექტური იმაში, რასაც აკეთებთ. ჩვენ ICB International Certification Body-ში გთავაზობთ შესანიშნავ შესაძლებლობას გახდეთ აუდიტორი ჩვენთან და იყოთ ნაწილი იმ საოცარი პროექტებისა, რომლებსაც ვახორციელებთ. თქვენ ყოველთვის შეგიძლიათ შეავსოთ თქვენი საკონტაქტო ინფორმაცია ქვემოთ და ჩვენ დაგიკავშირდებით დეტალების განსახილველად."
+    "greeting": "ძვირფასო აუდიტორო,",
+    "instruction": "გთხოვთ ჩამოტვირთოთ განაცხადის ფორმა, შეავსოთ იგი სრულად და გამოაგზავნოთ თქვენს ცვიფთან ერთად მისამართზე: hr@cert-authority.com",
+    "downloadLink": "ჩამოტვირთეთ განაცხადის ფორმა აქ",
+    "companyName": "ICB International Certification Body LLC",
+    "addressLine1": "ანგისას ქუჩა 20-22, მე-5 სართული, ბინა 096",
+    "addressLine2": "6004 ბათუმი",
+    "addressLine3": "",
+    "country": "საქართველოს რესპუბლიკა",
+    "phone": "+995 706 444 100",
+    "email": "hr@cert-authority.com"
   },
   "Modals": {
     "defaultModal": {
@@ -338,6 +346,30 @@
     "disclaimerText": "შინაარსის ფრთხილი კონტროლის მიუხედავად, ჩვენ არ ვიღებთ პასუხისმგებლობას გარე ბმულების შინაარსზე. დაკავშირებული გვერდების ოპერატორები ერთადერთი პასუხისმგებელნი არიან მათ შინაარსზე.",
     "copyright": "საავტორო უფლებები",
     "copyrightText": "ამ გვერდებზე საიტის ოპერატორების მიერ შექმნილი შინაარსი და ნამუშევრები ექვემდებარება საქართველოს და საერთაშორისო საავტორო უფლებების კანონს. მესამე მხარის წვლილები ასეთად არის იდენტიფიცირებული. რეპროდუქცია, რედაქტირება, განაწილება და ნებისმიერი სახის ექსპლუატაცია საავტორო უფლებების საზღვრებს გარეთ მოითხოვს შესაბამისი უფლებების მფლობელების წერილობით თანხმობას."
+  },
+  "PrivacyPolicy": {
+    "title": "კონფიდენციალურობის პოლიტიკა",
+    "subtitle": "მონაცემთა დაცვის ინფორმაცია",
+    "dataProtection": "მონაცემთა დაცვა",
+    "introductionTitle": "შესავალი",
+    "introductionText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "dataCollectionTitle": "მონაცემთა შეგროვება და დამუშავება",
+    "dataCollectionText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+    "cookiesTitle": "ქუქიების გამოყენება",
+    "cookiesText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id diam vel quam elementum pulvinar. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "rightsTitle": "თქვენი უფლებები",
+    "rightsText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.",
+    "contactTitle": "საკონტაქტო ინფორმაცია",
+    "companyName": "ICB International Certification Body LLC",
+    "addressLine1": "ანგისას ქუჩა 20-22, მე-5 სართული, ბინა 096",
+    "addressLine2": "6004 ბათუმი",
+    "addressLine3": "",
+    "country": "საქართველოს რესპუბლიკა",
+    "contact": "კონტაქტი",
+    "phone": "ტელეფონი: +995 706 444 100",
+    "email": "ელფოსტა: info@cert-authority.com",
+    "dataProtectionOfficer": "მონაცემთა დაცვის ოფიცერი",
+    "officerName": "პროფ. დოქტ. იურ. თინათინ ერქვანია, LL.B., LL.M."
   },
   "Buttons": {
     "book": "დაგვიჯავშნეთ ახლავე!",

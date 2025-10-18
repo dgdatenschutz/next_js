@@ -16,28 +16,50 @@ export default function Imprint() {
         <div className={styles.imprint_content_details}>
           {/* Left side - Main content */}
           <div className={styles.imprint_info}>
-            <h2>{main("companyInfo")}</h2>
-
-            <div className={styles.editorial_info}>
-              <p><strong>{main("editorialResponsibility")}</strong></p>
-              <p>{main("companyName")}</p>
-              <p>{main("editorialPerson")}</p>
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("contact")}</h3>
+              <p><strong className={styles.company_name_bold}>{main("companyName")}</strong></p>
+              <p>{main("phone")}</p>
+              <p>{main("email")}</p>
             </div>
 
-            <div className={styles.supervisory_info}>
-              <p><strong>{main("supervisoryAuthority")}</strong></p>
-              <p>{main("supervisoryName")}</p>
-              <p>{main("supervisoryAddress")}</p>
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("nonDiscrimination")}</h3>
+              <p>{main("nonDiscriminationText")}</p>
             </div>
 
-            <div className={styles.disclaimer_info}>
-              <p><strong>{main("disclaimer")}</strong></p>
-              <p>{main("disclaimerText")}</p>
-            </div>
-
-            <div className={styles.copyright_info}>
-              <p><strong>{main("copyright")}</strong></p>
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("copyright")}</h3>
               <p>{main("copyrightText")}</p>
+            </div>
+
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("exclusionOfLiability")}</h3>
+              <p>{main("exclusionOfLiabilityText")}</p>
+            </div>
+
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("liabilityForLinks")}</h3>
+              <p>{main("liabilityForLinksText")}</p>
+            </div>
+
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("antiSpamRules")}</h3>
+              <p>{main("antiSpamRulesText")}</p>
+            </div>
+
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("responsiblePerson")}</h3>
+              <p>{main("responsiblePersonName")}</p>
+            </div>
+
+            <div className={styles.section_block}>
+              <h3 className={styles.section_title}>{main("supervisoryAuthority")}</h3>
+              <p>{main("supervisoryName")}</p>
+            </div>
+
+            <div className={styles.copyright_footer}>
+              <p>{main("copyrightFooter")}</p>
             </div>
           </div>
 
